@@ -14,21 +14,20 @@ redirect_from:
 About me
 ======
 
-I'm a M.Sc. Computer Science student at [CicekLab](http://ciceklab.cs.bilkent.edu.tr/), Bilkent University. I work on the application of Machine Learning and Deep Learning in Bioinformatics and Computational Biology. My research interests include ML/DL, Computational Biology, Bioinformatics, and Biomedical Engineering.
+I'm a M.Sc. Computer Science student at [CicekLab](http://ciceklab.cs.bilkent.edu.tr/), Bilkent University. I work on the application of Machine Learning and Deep Learning in Bioinformatics and Computational Biology. 
 
 In CicekLab, we work on various problems including Generative Models, Sequence Optimization, and Variant Calling as well as Single Cell Genomics. My research has been focused Generative Models and sequence optimization, we worked on generating and optimizing 5' UTR sequences for higher mRNA and Protein expression, and piRNA sequences for targeting proteins. We currently work on Protein sequence design and optimization using various methods including transformers. 
 
 I finished my B.Sc. in Computer Engineering in 2021 from Shiraz University, Iran. I worked on recommendation systems in my B.Sc. thesis under supervision of Dr. Reza Boostani. I was a member of the Interdisciplinary Robotics Association of Shiraz University and the VP of the Association for 2 years. I and my team (Namira) participated in IranOpen and International Robocup Competitions in Tehran and Montreal (Remotely).
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+**Research Interests:** My research interests include ML/DL, Computational Biology, Bioinformatics, and Biomedical Engineering. More specifically, I am interested in the intersection of Machine Learning and Biology/Medicine. I am motivated to study methods with applications in medicine and synthetic biology.
 
-Site-wide configuration
+
+Publications:
+======
+
+UTRGAN: Learning to Generate 5' UTR Sequences for Optimized Translation Efficiency and Gene Expression
 ------
 
+RNAGEN: A generative adversarial network-based model to generate synthetic RNA sequences to target proteins
+------
