@@ -11,21 +11,20 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Sc. in Computer Engineering, Shiraz University, Shiraz-Iran, 2021
+* M.Sc. in Computer Science, Bilkent University, Ankara-Turkey, 2024 (expected)
 
-Work experience
+Research Experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2019 - 2020 : Research Assistant
+  * Shiraz University
+  * Project: EEG to MEG using Transformers
+  * Supervisor: Dr. Reza Boostani
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2021 - Present : Research Assistant
+  * Bilkent University University
+  * Research Topics: Generative models for biological sequence generation and optimization    
+  * Supervisor: Dr. A. Ercument Cicek
   
 Skills
 ======
