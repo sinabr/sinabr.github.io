@@ -22,12 +22,3 @@ I finished my B.Sc. in Computer Engineering in 2021 from Shiraz University, Iran
 
 **Research Interests:** My research interests include ML/DL, Computational Biology, Bioinformatics, and Biomedical Engineering. More specifically, I am interested in the intersection of Machine Learning and Biology/Medicine. I am motivated to study methods with applications in medicine and synthetic biology.
 
-
-Publications:
-======
-
-UTRGAN: Learning to Generate 5' UTR Sequences for Optimized Translation Efficiency and Gene Expression
-------
-
-RNAGEN: A generative adversarial network-based model to generate synthetic RNA sequences to target proteins
-------
