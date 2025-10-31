@@ -14,4 +14,4 @@ I am building agentic AI systems that combine reinforcement learning with large 
 
 ## Status
 
-Work in progress. Focusing on safety checks, tool reliability, and experiment bookkeeping for CMU Cloud Lab.
+Work in progress. Stay tuned for updates.

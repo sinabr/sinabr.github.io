@@ -6,7 +6,7 @@ categories: [reinforcement-learning, biomarkers, single-cell]
 
 ## Problem
 
-Identifying minimal gene panels that distinguish senescent cells from healthy cells is challenging due to high-dimensional data and complex cellular states.
+Identifying minimal gene panels that distinguish senescent cells from healthy cells is challenging due to high-dimensional data and complex cellular states in unlabeled data. 
 
 ## Approach
 

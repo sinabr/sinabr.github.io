@@ -6,11 +6,11 @@ categories: [protein-engineering, graph-methods, foundation-models]
 
 ## Problem
 
-Foundation models like ESM-2 provide powerful protein embeddings but lack explicit structural information and evolutionary signals that are critical for function prediction.
+Foundation models like ESM-2 provide powerful protein embeddings but do not include enough structural information and evolutionary signals that are critical for function prediction.
 
 ## Approach
 
-I developed graph-based protein representations using structural subgraph counts combined with evolutionary features. The method constructs protein graphs from structures and extracts interpretable features that capture local geometry and conservation patterns.
+We developed graph-based protein representations using structural subgraph counts combined with evolutionary features. The method constructs protein graphs from structures and extracts interpretable features that capture local geometry and conservation patterns.
 
 ## Results
 
@@ -18,4 +18,4 @@ Outperforms ESM-2 embeddings and GNN-based models on pathogenicity prediction ta
 
 ## Status
 
-Manuscript in preparation. Code includes baseline comparisons and evaluation protocols.
+Manuscript in preparation. Code includes baseline comparisons and evaluation protocols. Code and data will be released.
