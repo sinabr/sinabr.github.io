@@ -193,21 +193,21 @@
     "href": "projects/agentic_lab_automation.html#status",
     "title": "Agentic AI for Laboratory Automation",
     "section": "Status",
-    "text": "Status\nWork in progress. Focusing on safety checks, tool reliability, and experiment bookkeeping for CMU Cloud Lab."
+    "text": "Status\nWork in progress. Stay tuned for updates."
   },
   {
     "objectID": "projects/rl_biomarker.html",
     "href": "projects/rl_biomarker.html",
     "title": "Reinforcement Learning for Senescence Biomarker Discovery",
     "section": "",
-    "text": "Identifying minimal gene panels that distinguish senescent cells from healthy cells is challenging due to high-dimensional data and complex cellular states."
+    "text": "Identifying minimal gene panels that distinguish senescent cells from healthy cells is challenging due to high-dimensional data and complex cellular states in unlabeled data."
   },
   {
     "objectID": "projects/rl_biomarker.html#problem",
     "href": "projects/rl_biomarker.html#problem",
     "title": "Reinforcement Learning for Senescence Biomarker Discovery",
     "section": "",
-    "text": "Identifying minimal gene panels that distinguish senescent cells from healthy cells is challenging due to high-dimensional data and complex cellular states."
+    "text": "Identifying minimal gene panels that distinguish senescent cells from healthy cells is challenging due to high-dimensional data and complex cellular states in unlabeled data."
   },
   {
     "objectID": "projects/rl_biomarker.html#approach",
@@ -228,21 +228,21 @@
     "href": "projects/protein_subgraph.html",
     "title": "Evolution-Informed Structural Subgraph Protein Representations",
     "section": "",
-    "text": "Foundation models like ESM-2 provide powerful protein embeddings but lack explicit structural information and evolutionary signals that are critical for function prediction."
+    "text": "Foundation models like ESM-2 provide powerful protein embeddings but do not include enough structural information and evolutionary signals that are critical for function prediction."
   },
   {
     "objectID": "projects/protein_subgraph.html#problem",
     "href": "projects/protein_subgraph.html#problem",
     "title": "Evolution-Informed Structural Subgraph Protein Representations",
     "section": "",
-    "text": "Foundation models like ESM-2 provide powerful protein embeddings but lack explicit structural information and evolutionary signals that are critical for function prediction."
+    "text": "Foundation models like ESM-2 provide powerful protein embeddings but do not include enough structural information and evolutionary signals that are critical for function prediction."
   },
   {
     "objectID": "projects/protein_subgraph.html#approach",
     "href": "projects/protein_subgraph.html#approach",
     "title": "Evolution-Informed Structural Subgraph Protein Representations",
     "section": "Approach",
-    "text": "Approach\nI developed graph-based protein representations using structural subgraph counts combined with evolutionary features. The method constructs protein graphs from structures and extracts interpretable features that capture local geometry and conservation patterns."
+    "text": "Approach\nWe developed graph-based protein representations using structural subgraph counts combined with evolutionary features. The method constructs protein graphs from structures and extracts interpretable features that capture local geometry and conservation patterns."
   },
   {
     "objectID": "projects/protein_subgraph.html#results",
@@ -256,7 +256,7 @@
     "href": "projects/protein_subgraph.html#status",
     "title": "Evolution-Informed Structural Subgraph Protein Representations",
     "section": "Status",
-    "text": "Status\nManuscript in preparation. Code includes baseline comparisons and evaluation protocols."
+    "text": "Status\nManuscript in preparation. Code includes baseline comparisons and evaluation protocols. Code and data will be released."
   },
   {
     "objectID": "contact.html",

@@ -29,7 +29,7 @@
 </section>
 <section id="status" class="level2">
 <h2 class="anchored" data-anchor-id="status">Status</h2>
-<p>Work in progress. Focusing on safety checks, tool reliability, and experiment bookkeeping for CMU Cloud Lab.</p>
+<p>Work in progress. Stay tuned for updates.</p>
 
 
 </section>
@@ -51,11 +51,11 @@
 
 <section id="problem" class="level2">
 <h2 class="anchored" data-anchor-id="problem">Problem</h2>
-<p>Foundation models like ESM-2 provide powerful protein embeddings but lack explicit structural information and evolutionary signals that are critical for function prediction.</p>
+<p>Foundation models like ESM-2 provide powerful protein embeddings but do not include enough structural information and evolutionary signals that are critical for function prediction.</p>
 </section>
 <section id="approach" class="level2">
 <h2 class="anchored" data-anchor-id="approach">Approach</h2>
-<p>I developed graph-based protein representations using structural subgraph counts combined with evolutionary features. The method constructs protein graphs from structures and extracts interpretable features that capture local geometry and conservation patterns.</p>
+<p>We developed graph-based protein representations using structural subgraph counts combined with evolutionary features. The method constructs protein graphs from structures and extracts interpretable features that capture local geometry and conservation patterns.</p>
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
@@ -63,7 +63,7 @@
 </section>
 <section id="status" class="level2">
 <h2 class="anchored" data-anchor-id="status">Status</h2>
-<p>Manuscript in preparation. Code includes baseline comparisons and evaluation protocols.</p>
+<p>Manuscript in preparation. Code includes baseline comparisons and evaluation protocols. Code and data will be released.</p>
 
 
 </section>
@@ -85,7 +85,7 @@
 
 <section id="problem" class="level2">
 <h2 class="anchored" data-anchor-id="problem">Problem</h2>
-<p>Identifying minimal gene panels that distinguish senescent cells from healthy cells is challenging due to high-dimensional data and complex cellular states.</p>
+<p>Identifying minimal gene panels that distinguish senescent cells from healthy cells is challenging due to high-dimensional data and complex cellular states in unlabeled data.</p>
 </section>
 <section id="approach" class="level2">
 <h2 class="anchored" data-anchor-id="approach">Approach</h2>
