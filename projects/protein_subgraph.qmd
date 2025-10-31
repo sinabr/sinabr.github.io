@@ -2,7 +2,6 @@
 title: "Evolution-Informed Structural Subgraph Protein Representations"
 date: 2025-02-01
 categories: [protein-engineering, graph-methods, foundation-models]
-image: images/cards/project_protein.jpg
 ---
 
 ## Problem

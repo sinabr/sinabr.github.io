@@ -2,7 +2,6 @@
 title: "Reinforcement Learning for Senescence Biomarker Discovery"
 date: 2025-01-15
 categories: [reinforcement-learning, biomarkers, single-cell]
-image: images/cards/project_rl.jpg
 ---
 
 ## Problem
