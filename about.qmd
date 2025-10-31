@@ -1,0 +1,11 @@
+---
+title: "About"
+---
+
+I am a PhD student in Computational Biology at Carnegie Mellon University's School of Computer Science, advised by Dr. Jose Lugo-Martinez. My research applies machine learning to biological problems, with emphasis on generative models for sequence design, protein representation learning, and biomarker discovery.
+
+I value methods that are simple, strong, and reproducible. I aim to release code, data, and minimal examples whenever possible. My work spans foundation models, reinforcement learning, and graph-based representations for proteins and RNA.
+
+Before CMU, I completed my Master's at Bilkent University under Dr. A. Ercument Cicek, where I developed generative adversarial networks for biological sequence optimization. My work has been published in venues including PLOS Computational Biology and Bioinformatics Advances.
+
+My long-term goal is to build reliable computational tools and foundation models that are both effective and interpretable, bridging machine learning research with practical applications in drug discovery and precision medicine.

@@ -1,0 +1,13 @@
+---
+title: "RNAtranslator: Modeling protein-conditional RNA design as sequence-to-sequence natural language translation"
+authors: "Tabrizi, S.S., Barazandeh, S., Aghdam, H.H., Cicek, A.E."
+venue: "PLOS Computational Biology"
+year: 2025
+links:
+  - text: Paper
+    href: https://doi.org/10.1371/journal.pcbi.1013541
+  - text: bioRxiv
+    href: https://www.biorxiv.org/content/10.1101/2025.03.04.641375
+---
+
+We frame protein-conditional RNA design as a sequence-to-sequence translation problem, treating protein sequences as source language and RNA sequences as target language. This approach leverages transformer architectures to generate RNA sequences optimized for specific protein targets.

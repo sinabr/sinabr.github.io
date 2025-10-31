@@ -1,0 +1,28 @@
+---
+title: "Publications"
+---
+
+Below are selected publications. See my [Google Scholar](https://scholar.google.com/citations?user=A9R7HFoAAAAJ) for the complete list.
+
+## Peer-Reviewed Publications
+
+**2025**
+
+**Barazandeh, S.**, Ozden, F., Hincer, A., Seker, U.O.S., Cicek, A.E. (2025). UTRGAN: Learning to generate 5' UTR sequences for optimized translation efficiency and gene expression. *Bioinformatics Advances*, 5(1): vbaf134.  
+[[Paper]](https://academic.oup.com/bioinformaticsadvances/article/5/1/vbaf134/8160017) [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2023.01.30.526198) [[Code]](https://github.com/ciceklab/UTRGAN)
+
+Tabrizi, S.S., **Barazandeh, S.**, Aghdam, H.H., Cicek, A.E. (2025). RNAtranslator: Modeling protein-conditional RNA design as sequence-to-sequence natural language translation. *PLOS Computational Biology*, 21(10): e1013541.  
+[[Paper]](https://doi.org/10.1371/journal.pcbi.1013541) [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2025.03.04.641375) [[Code]](https://github.com/ciceklab/RNAtranslator) [[Model]](https://huggingface.co/SobhanShukueian/rnatranslator)
+
+## Preprints
+
+**2023**
+
+Ozden, F., **Barazandeh, S.**, Akboga, D., Tabrizi, S.S., Seker, U.O.S., Cicek, A.E. (2023). RNAGEN: A generative adversarial network-based model to generate synthetic RNA sequences to target proteins. *bioRxiv*.  
+[[Preprint]](https://doi.org/10.1101/2023.07.11.548246) [[github]](https://github.com/ciceklab/RNAGEN)
+
+## Other Publications
+
+**2018**
+
+Asali, E., Negahbani, F., Tafazzol, S., Maghareh, M.S., Bahmeie, S., **Barazandeh, S.**, Mirian, S., Moshkelgosha, M. (2018). Namira Soccer 2D Simulation Team Description Paper 2018. *RoboCup 2018*, Montreal, Canada.

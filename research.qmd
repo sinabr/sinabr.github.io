@@ -1,0 +1,23 @@
+---
+title: "Research"
+---
+
+My research applies machine learning to biological problems, with focus on three main areas:
+
+## Generative Models for Biological Sequences
+
+I design generative models for DNA, RNA, and protein sequences with controllable properties. This includes GANs for 5' UTR optimization, transformer-based seq2seq models for protein-conditional RNA design, and methods that balance biological validity with desired functional properties. My work emphasizes reproducible baselines and validation against held-out predictive models.
+
+## Protein Representation Learning
+
+I develop graph-based methods for protein representation that incorporate structural and evolutionary information. Current work focuses on subgraph-based features that outperform foundation model embeddings on downstream tasks like pathogenicity prediction. I aim to build representations that are both accurate and interpretable for domain experts.
+
+## Biomarker Discovery and Single-Cell Analysis
+
+I apply reinforcement learning to identify minimal gene panels that distinguish cellular states, particularly for senescence biomarkers. This involves positive-unlabeled learning objectives, structure-aware rewards, and robust evaluation protocols. The goal is to find parsimonious biomarker sets that generalize across datasets and experimental conditions.
+
+## Additional Interests
+
+I am also exploring agentic AI systems for laboratory automation, combining reinforcement learning with large language models to plan and execute experimental workflows autonomously.
+
+All projects emphasize reproducible code, strong baselines, and clear communication of methods and limitations.

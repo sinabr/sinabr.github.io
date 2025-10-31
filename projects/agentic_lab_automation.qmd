@@ -1,0 +1,18 @@
+---
+title: "Agentic AI for Laboratory Automation"
+date: 2025-03-01
+categories: [agents, automation, rl-llm]
+image: images/cards/project_automation.jpg
+---
+
+## Problem
+
+Automating scientific workflows requires systems that can plan experiments, interpret results, and adapt strategies based on outcomes. Traditional scripting is too rigid for exploratory research.
+
+## Approach
+
+I am building agentic AI systems that combine reinforcement learning with large language models to automate laboratory tasks. The system plans multi-step experiments, executes protocols on robotic platforms, and iteratively refines hypotheses based on results.
+
+## Status
+
+Work in progress. Focusing on safety checks, tool reliability, and experiment bookkeeping for CMU Cloud Lab.

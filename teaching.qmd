@@ -1,0 +1,29 @@
+---
+title: "Teaching"
+---
+
+I have served as a teaching assistant for courses in machine learning, artificial intelligence, and programming. I value clear explanations, reproducible examples, and helping students connect theory to practice.
+
+## Carnegie Mellon University
+
+**Fall 2023**  
+Computational Medicine  
+Instructor: Dr. Wei Wu
+
+## Bilkent University (Ankara, Turkey)
+
+**2023**  
+Programming and Algorithms  
+Instructor: Dr. Ugur Dogrusoz
+
+**2022**  
+Artificial Intelligence  
+Instructor: Dr. Özgür S. Öğüz
+
+**2021**  
+Introduction to Machine Learning  
+Instructors: Dr. A. Ercument Cicek, Dr. Aysegul Dundar
+
+## Teaching Philosophy
+
+I focus on helping students build intuition through concrete examples, encouraging them to implement methods from scratch before using libraries, and emphasizing the importance of validation and sanity checks in ML research.

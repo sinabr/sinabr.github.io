@@ -1,0 +1,37 @@
+---
+title: "Sina Barazandeh"
+page-layout: full
+---
+
+:::: {.grid}
+::: {.g-col-4}
+<img src="images/sina.jpg" alt="Sina Barazandeh" width="100%" style="border-radius:0; box-shadow: 0 0 8px rgba(0,0,0,0.1);">
+:::
+::: {.g-col-8}
+I am a PhD student in the **School of Computer Science** at **Carnegie Mellon University**, in the **Computational Biology Department**, advised by **Dr. Jose Lugo-Martinez**.
+
+I build machine learning methods for biology and medicine, with focus on **generative models for biological sequences**, **protein representation learning**, and **biomarker discovery**. My work spans foundation models, reinforcement learning, and graph-based approaches.
+
+I am seeking **Summer 2026 internships** in biotech and tech, where I can apply my expertise in ML for biology, sequence design, and computational drug discovery.
+
+::: {.callout-note}
+I value **robust baselines**, **reproducible code**, and **clear methods** that can be understood by both ML researchers and domain scientists.
+:::
+
+## Research Highlights
+
+- **Generative AI for Biology:** Sequence design using GANs, LLMs, and seq2seq models for optimizing translation efficiency and RNA targeting
+- **Reinforcement Learning for Biomarker Discovery:** Policy optimization for identifying senescence biomarkers with structure-aware rewards
+- **Graph-Based Protein Representation:** Evolution-informed subgraph features that outperform foundation model embeddings on downstream tasks
+- **Laboratory Automation:** Building agentic AI systems using RL and LLMs for autonomous experimental workflows
+
+## Recent News
+
+- Two publications in 2025: PLOS Computational Biology and Bioinformatics Advances
+- Attending SenNet Annual Meeting (Washington DC, 2025) and PathVisions (San Diego, 2025)
+- Now seeking Summer 2026 internships
+
+See my [projects](projects.qmd), [publications](publications.qmd), and [CV](cv.qmd) for more details.
+:::
+
+::::

@@ -1,0 +1,11 @@
+---
+title: "Projects"
+listing:
+  contents: projects
+  sort: "date desc"
+  type: default
+  categories: true
+  feed: true
+---
+
+Below are research projects with code, methods, and results. Each includes problem motivation, technical approach, and outcomes. Repositories are linked when available.

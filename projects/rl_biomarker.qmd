@@ -1,0 +1,18 @@
+---
+title: "Reinforcement Learning for Senescence Biomarker Discovery"
+date: 2025-01-15
+categories: [reinforcement-learning, biomarkers, single-cell]
+image: images/cards/project_rl.jpg
+---
+
+## Problem
+
+Identifying minimal gene panels that distinguish senescent cells from healthy cells is challenging due to high-dimensional data and complex cellular states.
+
+## Approach
+
+I built a reinforcement learning framework using proximal policy optimization to select informative gene subsets. The reward function balances cluster separation with panel parsimony, and the method handles positive-unlabeled scenarios common in biological data.
+
+## Status
+
+Manuscript in preparation. Code will be released with reproducible experiments and ablation studies.

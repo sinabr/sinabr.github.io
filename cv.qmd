@@ -1,0 +1,33 @@
+---
+title: "CV"
+---
+
+You can download my current CV as a PDF and view a short summary here.
+
+## Current Position
+PhD student, Carnegie Mellon University  
+School of Computer Science, Computational Biology Department  
+Advisor: Dr. Jose Lugo-Martinez
+
+## Research Interests
+- Foundation models for biology
+- Generative AI for sequence design
+- Single-cell data analysis
+- Reinforcement learning for biomarker discovery
+- Agentic AI for laboratory automation
+
+## Education
+- **PhD, Computational Biology** — Carnegie Mellon University (2024–2029)
+- **MSc, Computer Engineering** — Bilkent University (2021–2024, GPA: 3.9/4.0)
+- **BSc, Computer Engineering** — Shiraz University (2016–2021, GPA: 3.5/4.0)
+
+## Selected Publications
+- **Barazandeh, S.**, et al. (2025). UTRGAN: Learning to generate 5' UTR sequences for optimized translation efficiency. *Bioinformatics Advances*.
+- Tabrizi, S., **Barazandeh, S.**, et al. (2025). RNAtranslator: Protein-conditional RNA design as sequence-to-sequence translation. *PLOS Computational Biology*.
+
+## Seeking
+Summer 2026 internships in biotech and tech, focusing on ML for biology, drug discovery, or AI systems.
+
+[Download full CV (PDF)](files/Sina_Barazandeh_CV.pdf)
+
+[Download 1-page Resume (PDF)](files/Sina_Barazandeh_Resume.pdf)

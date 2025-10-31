@@ -1,0 +1,46 @@
+
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Sina Barazandeh"
+  description: "PhD student, CMU SCS CBD. Machine learning for Biology."
+  site-url: "https://sinabr.github.io"
+  navbar:
+    left:
+      - text: "About"
+        href: about.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Blog"
+        href: blog.qmd
+      - text: "CV"
+        href: cv.qmd
+    right:
+      - icon: github
+        href: https://github.com/sinabr
+      - icon: linkedin
+        href: https://www.linkedin.com/in/sina-barazandeh/
+      - icon: envelope
+        href: mailto:sbarazan@andrew.cmu.edu
+  page-footer:
+    left: "© 2025 Sina Barazandeh"
+    right: "Built with Quarto"
+
+format:
+  html:
+    theme: flatly
+    toc: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    code-fold: true
+
+lang: en
+output: true
