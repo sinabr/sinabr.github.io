@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Sina Barazandeh</title>
+<link>https://sinabr.github.io/blog.html</link>
+<atom:link href="https://sinabr.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+<description>PhD student, CMU SCS CBD. Machine learning for Biology.</description>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Sun, 26 Oct 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Now seeking Summer 2026 internships</title>
+  <link>https://sinabr.github.io/posts/2025-10-26-internships.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I am looking for Summer 2026 internships in biotech and tech companies. My research spans generative models for biological sequences, protein representation learning, and biomarker discovery using machine learning.</p>
+<p>I am particularly interested in roles involving:</p>
+<ul>
+<li>ML for drug discovery and protein design</li>
+<li>Foundation models for biology</li>
+<li>Computational methods for single-cell analysis</li>
+<li>AI systems for laboratory automation</li>
+<li>Sequence optimization and generative modeling</li>
+</ul>
+<p>I have experience building production-ready PyTorch code, running large-scale experiments on HPC clusters, and publishing in top venues. I value reproducible research, strong baselines, and clear communication.</p>
+<p>If your team works at the intersection of machine learning and biology, I would be happy to connect.</p>
+<p>Contact: sbarazan@andrew.cmu.edu</p>
+
+
+
+ ]]></description>
+  <category>career</category>
+  <guid>https://sinabr.github.io/posts/2025-10-26-internships.html</guid>
+  <pubDate>Sun, 26 Oct 2025 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

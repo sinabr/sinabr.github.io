@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/agentic_lab_automation.html",
+      "/projects/protein_subgraph.html",
+      "/projects/rl_biomarker.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/2025-10-26-internships.html"
+    ]
+  }
+]

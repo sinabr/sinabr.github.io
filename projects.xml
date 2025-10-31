@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Sina Barazandeh</title>
+<link>https://sinabr.github.io/projects.html</link>
+<atom:link href="https://sinabr.github.io/projects.xml" rel="self" type="application/rss+xml"/>
+<description>PhD student, CMU SCS CBD. Machine learning for Biology.</description>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Sat, 01 Mar 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Agentic AI for Laboratory Automation</title>
+  <link>https://sinabr.github.io/projects/agentic_lab_automation.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="problem" class="level2">
+<h2 class="anchored" data-anchor-id="problem">Problem</h2>
+<p>Automating scientific workflows requires systems that can plan experiments, interpret results, and adapt strategies based on outcomes. Traditional scripting is too rigid for exploratory research.</p>
+</section>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach</h2>
+<p>I am building agentic AI systems that combine reinforcement learning with large language models to automate laboratory tasks. The system plans multi-step experiments, executes protocols on robotic platforms, and iteratively refines hypotheses based on results.</p>
+</section>
+<section id="status" class="level2">
+<h2 class="anchored" data-anchor-id="status">Status</h2>
+<p>Work in progress. Focusing on safety checks, tool reliability, and experiment bookkeeping for CMU Cloud Lab.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>agents</category>
+  <category>automation</category>
+  <category>rl-llm</category>
+  <guid>https://sinabr.github.io/projects/agentic_lab_automation.html</guid>
+  <pubDate>Sat, 01 Mar 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://sinabr.github.io/projects/images/cards/project_automation.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Evolution-Informed Structural Subgraph Protein Representations</title>
+  <link>https://sinabr.github.io/projects/protein_subgraph.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="problem" class="level2">
+<h2 class="anchored" data-anchor-id="problem">Problem</h2>
+<p>Foundation models like ESM-2 provide powerful protein embeddings but lack explicit structural information and evolutionary signals that are critical for function prediction.</p>
+</section>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach</h2>
+<p>I developed graph-based protein representations using structural subgraph counts combined with evolutionary features. The method constructs protein graphs from structures and extracts interpretable features that capture local geometry and conservation patterns.</p>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>Outperforms ESM-2 embeddings and GNN-based models on pathogenicity prediction tasks. Provides interpretable features that domain experts can analyze.</p>
+</section>
+<section id="status" class="level2">
+<h2 class="anchored" data-anchor-id="status">Status</h2>
+<p>Manuscript in preparation. Code includes baseline comparisons and evaluation protocols.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>protein-engineering</category>
+  <category>graph-methods</category>
+  <category>foundation-models</category>
+  <guid>https://sinabr.github.io/projects/protein_subgraph.html</guid>
+  <pubDate>Sat, 01 Feb 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://sinabr.github.io/projects/images/cards/project_protein.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Reinforcement Learning for Senescence Biomarker Discovery</title>
+  <link>https://sinabr.github.io/projects/rl_biomarker.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="problem" class="level2">
+<h2 class="anchored" data-anchor-id="problem">Problem</h2>
+<p>Identifying minimal gene panels that distinguish senescent cells from healthy cells is challenging due to high-dimensional data and complex cellular states.</p>
+</section>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach</h2>
+<p>I built a reinforcement learning framework using proximal policy optimization to select informative gene subsets. The reward function balances cluster separation with panel parsimony, and the method handles positive-unlabeled scenarios common in biological data.</p>
+</section>
+<section id="status" class="level2">
+<h2 class="anchored" data-anchor-id="status">Status</h2>
+<p>Manuscript in preparation. Code will be released with reproducible experiments and ablation studies.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>reinforcement-learning</category>
+  <category>biomarkers</category>
+  <category>single-cell</category>
+  <guid>https://sinabr.github.io/projects/rl_biomarker.html</guid>
+  <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://sinabr.github.io/projects/images/cards/project_rl.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

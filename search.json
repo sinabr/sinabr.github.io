@@ -1,0 +1,303 @@
+[
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Below are research projects with code, methods, and results. Each includes problem motivation, technical approach, and outcomes. Repositories are linked when available.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAgentic AI for Laboratory Automation\n\n\n\nagents\n\nautomation\n\nrl-llm\n\n\n\n\n\n\n\n\n\nMar 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEvolution-Informed Structural Subgraph Protein Representations\n\n\n\nprotein-engineering\n\ngraph-methods\n\nfoundation-models\n\n\n\n\n\n\n\n\n\nFeb 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nReinforcement Learning for Senescence Biomarker Discovery\n\n\n\nreinforcement-learning\n\nbiomarkers\n\nsingle-cell\n\n\n\n\n\n\n\n\n\nJan 15, 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/utrgan.html",
+    "href": "publications/utrgan.html",
+    "title": "UTRGAN: Learning to generate 5’ UTR sequences for optimized translation efficiency",
+    "section": "",
+    "text": "We developed a generative adversarial network for designing 5’ untranslated region sequences that optimize translation efficiency and gene expression. The model learns to generate biologically valid UTR sequences with controllable properties for synthetic biology applications."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research applies machine learning to biological problems, with focus on three main areas:"
+  },
+  {
+    "objectID": "research.html#generative-models-for-biological-sequences",
+    "href": "research.html#generative-models-for-biological-sequences",
+    "title": "Research",
+    "section": "Generative Models for Biological Sequences",
+    "text": "Generative Models for Biological Sequences\nI design generative models for DNA, RNA, and protein sequences with controllable properties. This includes GANs for 5’ UTR optimization, transformer-based seq2seq models for protein-conditional RNA design, and methods that balance biological validity with desired functional properties. My work emphasizes reproducible baselines and validation against held-out predictive models."
+  },
+  {
+    "objectID": "research.html#protein-representation-learning",
+    "href": "research.html#protein-representation-learning",
+    "title": "Research",
+    "section": "Protein Representation Learning",
+    "text": "Protein Representation Learning\nI develop graph-based methods for protein representation that incorporate structural and evolutionary information. Current work focuses on subgraph-based features that outperform foundation model embeddings on downstream tasks like pathogenicity prediction. I aim to build representations that are both accurate and interpretable for domain experts."
+  },
+  {
+    "objectID": "research.html#biomarker-discovery-and-single-cell-analysis",
+    "href": "research.html#biomarker-discovery-and-single-cell-analysis",
+    "title": "Research",
+    "section": "Biomarker Discovery and Single-Cell Analysis",
+    "text": "Biomarker Discovery and Single-Cell Analysis\nI apply reinforcement learning to identify minimal gene panels that distinguish cellular states, particularly for senescence biomarkers. This involves positive-unlabeled learning objectives, structure-aware rewards, and robust evaluation protocols. The goal is to find parsimonious biomarker sets that generalize across datasets and experimental conditions."
+  },
+  {
+    "objectID": "research.html#additional-interests",
+    "href": "research.html#additional-interests",
+    "title": "Research",
+    "section": "Additional Interests",
+    "text": "Additional Interests\nI am also exploring agentic AI systems for laboratory automation, combining reinforcement learning with large language models to plan and execute experimental workflows autonomously.\nAll projects emphasize reproducible code, strong baselines, and clear communication of methods and limitations."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Below are selected publications. See my Google Scholar for the complete list."
+  },
+  {
+    "objectID": "publications.html#peer-reviewed-publications",
+    "href": "publications.html#peer-reviewed-publications",
+    "title": "Publications",
+    "section": "Peer-Reviewed Publications",
+    "text": "Peer-Reviewed Publications\n2025\nBarazandeh, S., Ozden, F., Hincer, A., Seker, U.O.S., Cicek, A.E. (2025). UTRGAN: Learning to generate 5’ UTR sequences for optimized translation efficiency and gene expression. Bioinformatics Advances, 5(1): vbaf134.\n[Paper] [bioRxiv] [Code]\nTabrizi, S.S., Barazandeh, S., Aghdam, H.H., Cicek, A.E. (2025). RNAtranslator: Modeling protein-conditional RNA design as sequence-to-sequence natural language translation. PLOS Computational Biology, 21(10): e1013541.\n[Paper] [bioRxiv] [Code] [Model]"
+  },
+  {
+    "objectID": "publications.html#preprints",
+    "href": "publications.html#preprints",
+    "title": "Publications",
+    "section": "Preprints",
+    "text": "Preprints\n2023\nOzden, F., Barazandeh, S., Akboga, D., Tabrizi, S.S., Seker, U.O.S., Cicek, A.E. (2023). RNAGEN: A generative adversarial network-based model to generate synthetic RNA sequences to target proteins. bioRxiv.\n[Preprint] [github]"
+  },
+  {
+    "objectID": "publications.html#other-publications",
+    "href": "publications.html#other-publications",
+    "title": "Publications",
+    "section": "Other Publications",
+    "text": "Other Publications\n2018\nAsali, E., Negahbani, F., Tafazzol, S., Maghareh, M.S., Bahmeie, S., Barazandeh, S., Mirian, S., Moshkelgosha, M. (2018). Namira Soccer 2D Simulation Team Description Paper 2018. RoboCup 2018, Montreal, Canada."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "You can download my current CV as a PDF and view a short summary here."
+  },
+  {
+    "objectID": "cv.html#current-position",
+    "href": "cv.html#current-position",
+    "title": "CV",
+    "section": "Current Position",
+    "text": "Current Position\nPhD student, Carnegie Mellon University\nSchool of Computer Science, Computational Biology Department\nAdvisor: Dr. Jose Lugo-Martinez"
+  },
+  {
+    "objectID": "cv.html#research-interests",
+    "href": "cv.html#research-interests",
+    "title": "CV",
+    "section": "Research Interests",
+    "text": "Research Interests\n\nFoundation models for biology\nGenerative AI for sequence design\nSingle-cell data analysis\nReinforcement learning for biomarker discovery\nAgentic AI for laboratory automation"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "Education",
+    "text": "Education\n\nPhD, Computational Biology — Carnegie Mellon University (2024–2029)\nMSc, Computer Engineering — Bilkent University (2021–2024, GPA: 3.9/4.0)\nBSc, Computer Engineering — Shiraz University (2016–2021, GPA: 3.5/4.0)"
+  },
+  {
+    "objectID": "cv.html#selected-publications",
+    "href": "cv.html#selected-publications",
+    "title": "CV",
+    "section": "Selected Publications",
+    "text": "Selected Publications\n\nBarazandeh, S., et al. (2025). UTRGAN: Learning to generate 5’ UTR sequences for optimized translation efficiency. Bioinformatics Advances.\nTabrizi, S., Barazandeh, S., et al. (2025). RNAtranslator: Protein-conditional RNA design as sequence-to-sequence translation. PLOS Computational Biology."
+  },
+  {
+    "objectID": "cv.html#seeking",
+    "href": "cv.html#seeking",
+    "title": "CV",
+    "section": "Seeking",
+    "text": "Seeking\nSummer 2026 internships in biotech and tech, focusing on ML for biology, drug discovery, or AI systems.\nDownload full CV (PDF)\nDownload 1-page Resume (PDF)"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I have served as a teaching assistant for courses in machine learning, artificial intelligence, and programming. I value clear explanations, reproducible examples, and helping students connect theory to practice."
+  },
+  {
+    "objectID": "teaching.html#carnegie-mellon-university",
+    "href": "teaching.html#carnegie-mellon-university",
+    "title": "Teaching",
+    "section": "Carnegie Mellon University",
+    "text": "Carnegie Mellon University\nFall 2023\nComputational Medicine\nInstructor: Dr. Wei Wu"
+  },
+  {
+    "objectID": "teaching.html#bilkent-university-ankara-turkey",
+    "href": "teaching.html#bilkent-university-ankara-turkey",
+    "title": "Teaching",
+    "section": "Bilkent University (Ankara, Turkey)",
+    "text": "Bilkent University (Ankara, Turkey)\n2023\nProgramming and Algorithms\nInstructor: Dr. Ugur Dogrusoz\n2022\nArtificial Intelligence\nInstructor: Dr. Özgür S. Öğüz\n2021\nIntroduction to Machine Learning\nInstructors: Dr. A. Ercument Cicek, Dr. Aysegul Dundar"
+  },
+  {
+    "objectID": "teaching.html#teaching-philosophy",
+    "href": "teaching.html#teaching-philosophy",
+    "title": "Teaching",
+    "section": "Teaching Philosophy",
+    "text": "Teaching Philosophy\nI focus on helping students build intuition through concrete examples, encouraging them to implement methods from scratch before using libraries, and emphasizing the importance of validation and sanity checks in ML research."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sina Barazandeh",
+    "section": "",
+    "text": "I am a PhD student in the School of Computer Science at Carnegie Mellon University, in the Computational Biology Department, advised by Dr. Jose Lugo-Martinez.\nI build machine learning methods for biology and medicine, with focus on generative models for biological sequences, protein representation learning, and biomarker discovery. My work spans foundation models, reinforcement learning, and graph-based approaches.\nI am seeking Summer 2026 internships in biotech and tech, where I can apply my expertise in ML for biology, sequence design, and computational drug discovery.\n\n\n\n\n\n\nNote\n\n\n\nI value robust baselines, reproducible code, and clear methods that can be understood by both ML researchers and domain scientists.\n\n\n\n\n\nGenerative AI for Biology: Sequence design using GANs, LLMs, and seq2seq models for optimizing translation efficiency and RNA targeting\nReinforcement Learning for Biomarker Discovery: Policy optimization for identifying senescence biomarkers with structure-aware rewards\nGraph-Based Protein Representation: Evolution-informed subgraph features that outperform foundation model embeddings on downstream tasks\nLaboratory Automation: Building agentic AI systems using RL and LLMs for autonomous experimental workflows\n\n\n\n\n\nTwo publications in 2025: PLOS Computational Biology and Bioinformatics Advances\nAttending SenNet Annual Meeting (Washington DC, 2025) and PathVisions (San Diego, 2025)\nNow seeking Summer 2026 internships\n\nSee my projects, publications, and CV for more details."
+  },
+  {
+    "objectID": "index.html#research-highlights",
+    "href": "index.html#research-highlights",
+    "title": "Sina Barazandeh",
+    "section": "",
+    "text": "Generative AI for Biology: Sequence design using GANs, LLMs, and seq2seq models for optimizing translation efficiency and RNA targeting\nReinforcement Learning for Biomarker Discovery: Policy optimization for identifying senescence biomarkers with structure-aware rewards\nGraph-Based Protein Representation: Evolution-informed subgraph features that outperform foundation model embeddings on downstream tasks\nLaboratory Automation: Building agentic AI systems using RL and LLMs for autonomous experimental workflows"
+  },
+  {
+    "objectID": "index.html#recent-news",
+    "href": "index.html#recent-news",
+    "title": "Sina Barazandeh",
+    "section": "",
+    "text": "Two publications in 2025: PLOS Computational Biology and Bioinformatics Advances\nAttending SenNet Annual Meeting (Washington DC, 2025) and PathVisions (San Diego, 2025)\nNow seeking Summer 2026 internships\n\nSee my projects, publications, and CV for more details."
+  },
+  {
+    "objectID": "projects/agentic_lab_automation.html",
+    "href": "projects/agentic_lab_automation.html",
+    "title": "Agentic AI for Laboratory Automation",
+    "section": "",
+    "text": "Automating scientific workflows requires systems that can plan experiments, interpret results, and adapt strategies based on outcomes. Traditional scripting is too rigid for exploratory research."
+  },
+  {
+    "objectID": "projects/agentic_lab_automation.html#problem",
+    "href": "projects/agentic_lab_automation.html#problem",
+    "title": "Agentic AI for Laboratory Automation",
+    "section": "",
+    "text": "Automating scientific workflows requires systems that can plan experiments, interpret results, and adapt strategies based on outcomes. Traditional scripting is too rigid for exploratory research."
+  },
+  {
+    "objectID": "projects/agentic_lab_automation.html#approach",
+    "href": "projects/agentic_lab_automation.html#approach",
+    "title": "Agentic AI for Laboratory Automation",
+    "section": "Approach",
+    "text": "Approach\nI am building agentic AI systems that combine reinforcement learning with large language models to automate laboratory tasks. The system plans multi-step experiments, executes protocols on robotic platforms, and iteratively refines hypotheses based on results."
+  },
+  {
+    "objectID": "projects/agentic_lab_automation.html#status",
+    "href": "projects/agentic_lab_automation.html#status",
+    "title": "Agentic AI for Laboratory Automation",
+    "section": "Status",
+    "text": "Status\nWork in progress. Focusing on safety checks, tool reliability, and experiment bookkeeping for CMU Cloud Lab."
+  },
+  {
+    "objectID": "projects/rl_biomarker.html",
+    "href": "projects/rl_biomarker.html",
+    "title": "Reinforcement Learning for Senescence Biomarker Discovery",
+    "section": "",
+    "text": "Identifying minimal gene panels that distinguish senescent cells from healthy cells is challenging due to high-dimensional data and complex cellular states."
+  },
+  {
+    "objectID": "projects/rl_biomarker.html#problem",
+    "href": "projects/rl_biomarker.html#problem",
+    "title": "Reinforcement Learning for Senescence Biomarker Discovery",
+    "section": "",
+    "text": "Identifying minimal gene panels that distinguish senescent cells from healthy cells is challenging due to high-dimensional data and complex cellular states."
+  },
+  {
+    "objectID": "projects/rl_biomarker.html#approach",
+    "href": "projects/rl_biomarker.html#approach",
+    "title": "Reinforcement Learning for Senescence Biomarker Discovery",
+    "section": "Approach",
+    "text": "Approach\nI built a reinforcement learning framework using proximal policy optimization to select informative gene subsets. The reward function balances cluster separation with panel parsimony, and the method handles positive-unlabeled scenarios common in biological data."
+  },
+  {
+    "objectID": "projects/rl_biomarker.html#status",
+    "href": "projects/rl_biomarker.html#status",
+    "title": "Reinforcement Learning for Senescence Biomarker Discovery",
+    "section": "Status",
+    "text": "Status\nManuscript in preparation. Code will be released with reproducible experiments and ablation studies."
+  },
+  {
+    "objectID": "projects/protein_subgraph.html",
+    "href": "projects/protein_subgraph.html",
+    "title": "Evolution-Informed Structural Subgraph Protein Representations",
+    "section": "",
+    "text": "Foundation models like ESM-2 provide powerful protein embeddings but lack explicit structural information and evolutionary signals that are critical for function prediction."
+  },
+  {
+    "objectID": "projects/protein_subgraph.html#problem",
+    "href": "projects/protein_subgraph.html#problem",
+    "title": "Evolution-Informed Structural Subgraph Protein Representations",
+    "section": "",
+    "text": "Foundation models like ESM-2 provide powerful protein embeddings but lack explicit structural information and evolutionary signals that are critical for function prediction."
+  },
+  {
+    "objectID": "projects/protein_subgraph.html#approach",
+    "href": "projects/protein_subgraph.html#approach",
+    "title": "Evolution-Informed Structural Subgraph Protein Representations",
+    "section": "Approach",
+    "text": "Approach\nI developed graph-based protein representations using structural subgraph counts combined with evolutionary features. The method constructs protein graphs from structures and extracts interpretable features that capture local geometry and conservation patterns."
+  },
+  {
+    "objectID": "projects/protein_subgraph.html#results",
+    "href": "projects/protein_subgraph.html#results",
+    "title": "Evolution-Informed Structural Subgraph Protein Representations",
+    "section": "Results",
+    "text": "Results\nOutperforms ESM-2 embeddings and GNN-based models on pathogenicity prediction tasks. Provides interpretable features that domain experts can analyze."
+  },
+  {
+    "objectID": "projects/protein_subgraph.html#status",
+    "href": "projects/protein_subgraph.html#status",
+    "title": "Evolution-Informed Structural Subgraph Protein Representations",
+    "section": "Status",
+    "text": "Status\nManuscript in preparation. Code includes baseline comparisons and evaluation protocols."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "The best way to reach me is via email. I read every message and reply as time permits.\nEmail: sbarazan@andrew.cmu.edu\nGitHub: https://github.com/sinabr\nLinkedIn: https://www.linkedin.com/in/sina-barazandeh/"
+  },
+  {
+    "objectID": "posts/2025-10-26-internships.html",
+    "href": "posts/2025-10-26-internships.html",
+    "title": "Now seeking Summer 2026 internships",
+    "section": "",
+    "text": "I am looking for Summer 2026 internships in biotech and tech companies. My research spans generative models for biological sequences, protein representation learning, and biomarker discovery using machine learning.\nI am particularly interested in roles involving:\n\nML for drug discovery and protein design\nFoundation models for biology\nComputational methods for single-cell analysis\nAI systems for laboratory automation\nSequence optimization and generative modeling\n\nI have experience building production-ready PyTorch code, running large-scale experiments on HPC clusters, and publishing in top venues. I value reproducible research, strong baselines, and clear communication.\nIf your team works at the intersection of machine learning and biology, I would be happy to connect.\nContact: sbarazan@andrew.cmu.edu"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Now seeking Summer 2026 internships\n\n\n\n\n\n\n\n\nOct 26, 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a PhD student in Computational Biology at Carnegie Mellon University’s School of Computer Science, advised by Dr. Jose Lugo-Martinez. My research applies machine learning to biological problems, with emphasis on generative models for sequence design, protein representation learning, and biomarker discovery.\nI value methods that are simple, strong, and reproducible. I aim to release code, data, and minimal examples whenever possible. My work spans foundation models, reinforcement learning, and graph-based representations for proteins and RNA.\nBefore CMU, I completed my Master’s at Bilkent University under Dr. A. Ercument Cicek, where I developed generative adversarial networks for biological sequence optimization. My work has been published in venues including PLOS Computational Biology and Bioinformatics Advances.\nMy long-term goal is to build reliable computational tools and foundation models that are both effective and interpretable, bridging machine learning research with practical applications in drug discovery and precision medicine."
+  },
+  {
+    "objectID": "publications/rnagen.html",
+    "href": "publications/rnagen.html",
+    "title": "RNAGEN: A generative adversarial network-based model to generate synthetic RNA sequences to target proteins",
+    "section": "",
+    "text": "We developed a GAN-based model for generating synthetic RNA sequences that target specific proteins. The model learns to produce biologically plausible RNA sequences with desired binding properties while maintaining structural validity."
+  },
+  {
+    "objectID": "publications/rnatranslator.html",
+    "href": "publications/rnatranslator.html",
+    "title": "RNAtranslator: Modeling protein-conditional RNA design as sequence-to-sequence natural language translation",
+    "section": "",
+    "text": "We frame protein-conditional RNA design as a sequence-to-sequence translation problem, treating protein sequences as source language and RNA sequences as target language. This approach leverages transformer architectures to generate RNA sequences optimized for specific protein targets."
+  }
+]
