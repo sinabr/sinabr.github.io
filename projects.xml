@@ -40,7 +40,6 @@
   <category>rl-llm</category>
   <guid>https://sinabr.github.io/projects/agentic_lab_automation.html</guid>
   <pubDate>Sat, 01 Mar 2025 00:00:00 GMT</pubDate>
-  <media:content url="https://sinabr.github.io/projects/images/cards/project_automation.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Evolution-Informed Structural Subgraph Protein Representations</title>
@@ -75,7 +74,6 @@
   <category>foundation-models</category>
   <guid>https://sinabr.github.io/projects/protein_subgraph.html</guid>
   <pubDate>Sat, 01 Feb 2025 00:00:00 GMT</pubDate>
-  <media:content url="https://sinabr.github.io/projects/images/cards/project_protein.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Reinforcement Learning for Senescence Biomarker Discovery</title>
@@ -106,7 +104,6 @@
   <category>single-cell</category>
   <guid>https://sinabr.github.io/projects/rl_biomarker.html</guid>
   <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
-  <media:content url="https://sinabr.github.io/projects/images/cards/project_rl.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
