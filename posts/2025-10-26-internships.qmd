@@ -4,12 +4,12 @@ date: 2025-10-26
 categories: [career]
 ---
 
-I am looking for Summer 2026 internships in biotech and tech companies. My research spans generative models for biological sequences, protein representation learning, and biomarker discovery using machine learning.
+I am looking for Summer 2027 internships in biotech and tech companies. My research spans generative models for biological sequences, protein representation learning, and biomarker discovery using machine learning.
 
 I am particularly interested in roles involving:
 
 - ML for drug discovery and protein design
-- Foundation models for biology
+- Foundation models and AI agents for Science
 - Computational methods for single-cell analysis
 - AI systems for laboratory automation
 - Sequence optimization and generative modeling

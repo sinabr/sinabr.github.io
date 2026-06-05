@@ -16,7 +16,7 @@ I develop graph-based methods for protein representation that incorporate struct
 
 I apply reinforcement learning to identify minimal gene panels that distinguish cellular states, particularly for senescence biomarkers. This involves positive-unlabeled learning objectives, structure-aware rewards, and robust evaluation protocols. The goal is to find parsimonious biomarker sets that generalize across datasets and experimental conditions.
 
-## Additional Interests
+## Agentic AI and RL for Accurate Programmable Cloud Lab simulation and orchestration
 
 I am also exploring agentic AI systems for laboratory automation, combining reinforcement learning with large language models to plan and execute experimental workflows autonomously.
 

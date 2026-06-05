@@ -6,9 +6,13 @@ I have served as a teaching assistant for courses in machine learning, artificia
 
 ## Carnegie Mellon University
 
-**Fall 2023**  
+**Fall 2025**  
 Computational Medicine  
 Instructor: Dr. Wei Wu
+
+**Spring 2026**  
+ML for Scientists
+Instructor: Dr. Martin Zhang
 
 ## Bilkent University (Ankara, Turkey)
 

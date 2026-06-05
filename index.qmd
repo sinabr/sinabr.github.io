@@ -12,7 +12,7 @@ I am a PhD student in the **School of Computer Science** at **Carnegie Mellon Un
 
 I build machine learning methods for biology and medicine, with focus on **generative models for biological sequences**, **protein representation learning**, and **biomarker discovery**. My work spans foundation models, reinforcement learning, and graph-based approaches.
 
-I am seeking **Summer 2026 internships** in biotech and tech, where I can apply my expertise in ML for biology, sequence design, and computational drug discovery.
+I am seeking **Summer 2027 internships** in biotech and tech, where I can apply my expertise in ML for biology, sequence design, and computational drug discovery.
 
 ::: {.callout-note}
 I value **robust baselines**, **reproducible code**, and **clear methods** that can be understood by both ML researchers and domain scientists.
@@ -20,13 +20,14 @@ I value **robust baselines**, **reproducible code**, and **clear methods** that 
 
 ## Research Highlights
 
+- **Laboratory Automation:** Building agentic AI systems using RL and LLMs for autonomous experimental workflows
 - **Generative AI for Biology:** Sequence design using GANs, LLMs, and seq2seq models for optimizing translation efficiency and RNA targeting
 - **Reinforcement Learning for Biomarker Discovery:** Policy optimization for identifying senescence biomarkers with structure-aware rewards
 - **Graph-Based Protein Representation:** Evolution-informed subgraph features that outperform foundation model embeddings on downstream tasks
-- **Laboratory Automation:** Building agentic AI systems using RL and LLMs for autonomous experimental workflows
 
 ## Recent News
 
+- Attending SciFM (Chicago IL, 2026) 
 - Two publications in 2025: PLOS Computational Biology and Bioinformatics Advances
 - Attending SenNet Annual Meeting (Washington DC, 2025) and PathVisions (San Diego, 2025)
 - Now seeking Summer 2026 internships
