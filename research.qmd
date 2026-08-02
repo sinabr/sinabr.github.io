@@ -16,8 +16,8 @@ I develop graph-based methods for protein representation that incorporate struct
 
 I apply reinforcement learning to identify minimal gene panels that distinguish cellular states, particularly for senescence biomarkers. This involves positive-unlabeled learning objectives, structure-aware rewards, and robust evaluation protocols. The goal is to find parsimonious biomarker sets that generalize across datasets and experimental conditions.
 
-## Agentic AI and RL for Accurate Programmable Cloud Lab simulation and orchestration
+## Programmable Cloud Lab Simulation and Agentic Orchestration
 
-I am also exploring agentic AI systems for laboratory automation, combining reinforcement learning with large language models to plan and execute experimental workflows autonomously.
+I develop accurate simulators and benchmarks for Programmable Cloud Laboratories (CloudBench), and agentic AI systems that combine reinforcement learning with large language models to plan, execute, and recover experimental workflows under realistic lab faults and resource constraints.
 
 All projects emphasize reproducible code, strong baselines, and clear communication of methods and limitations.

@@ -26,7 +26,7 @@ Advisor: Dr. Jose Lugo-Martinez
 - Tabrizi, S., **Barazandeh, S.**, et al. (2025). RNAtranslator: Protein-conditional RNA design as sequence-to-sequence translation. *PLOS Computational Biology*.
 
 ## Seeking
-Summer 2026 internships in biotech and tech, focusing on ML for biology, drug discovery, or AI systems.
+Summer 2027 internships in biotech and tech, focusing on ML for biology, drug discovery, or AI systems.
 
 [Download full CV (PDF)](files/Sina_Barazandeh_CV.pdf)
 

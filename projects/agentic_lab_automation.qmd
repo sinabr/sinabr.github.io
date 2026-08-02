@@ -10,8 +10,8 @@ Automating scientific workflows requires systems that can plan experiments, inte
 
 ## Approach
 
-I am building agentic AI systems that combine reinforcement learning with large language models to automate laboratory tasks. The system plans multi-step experiments, executes protocols on robotic platforms, and iteratively refines hypotheses based on results.
+I am building agentic AI systems that combine reinforcement learning with large language models to automate laboratory tasks. The system plans multi-step experiments, executes protocols on robotic platforms, recovers from instrument faults, and iteratively refines strategies based on outcomes. Development and evaluation use the [PCL simulator (CloudBench)](pcl_simulation.qmd) before deployment on physical hardware.
 
 ## Status
 
-Work in progress. Stay tuned for updates.
+Work in progress. Related contributed talk at the [AI Scientist Summer Workshop](https://ai-scientist-workshop.github.io/#about) (Microsoft Research, 2026).
