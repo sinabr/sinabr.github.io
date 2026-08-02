@@ -21,15 +21,11 @@
 
 <section id="problem" class="level2">
 <h2 class="anchored" data-anchor-id="problem">Problem</h2>
-<p>Programmable Cloud Laboratories (PCLs) enable remote, automated experimentation at scale, but developing and evaluating orchestration policies on real hardware is slow, expensive, and fault-prone. Reliable simulators are needed to stress-test agents, recover from instrument failures, and benchmark scheduling under realistic lab dynamics.</p>
+<p>Programmable cloud laboratories enable remote, automated experimentation, but developing and evaluating orchestration methods on real hardware is slow and costly. Accurate simulation is needed to study these systems before deployment.</p>
 </section>
 <section id="approach" class="level2">
 <h2 class="anchored" data-anchor-id="approach">Approach</h2>
-<p>I am building <strong>CloudBench</strong>, an open-framework simulator and benchmark generator for programmable cloud laboratories. The system models instrument state, protocol timing, resource contention, and fault modes so that RL and LLM-based agents can be trained and evaluated before deployment on physical platforms.</p>
-</section>
-<section id="results" class="level2">
-<h2 class="anchored" data-anchor-id="results">Results</h2>
-<p>Supports accurate simulation of PCL workflows for orchestration research, including fault recovery and multi-instrument scheduling. Related work includes a contributed talk and poster at the <a href="https://ai-scientist-workshop.github.io/#about">AI Scientist Summer Workshop</a> (Microsoft Research, Cambridge MA, 2026).</p>
+<p>I am building <strong>CloudBench</strong>, an open-framework simulator and benchmark generator for programmable cloud laboratories.</p>
 </section>
 <section id="status" class="level2">
 <h2 class="anchored" data-anchor-id="status">Status</h2>
@@ -42,7 +38,6 @@
   <category>simulation</category>
   <category>automation</category>
   <category>cloud-labs</category>
-  <category>agents</category>
   <guid>https://sinabr.github.io/projects/pcl_simulation.html</guid>
   <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
 </item>
@@ -56,15 +51,15 @@
 
 <section id="problem" class="level2">
 <h2 class="anchored" data-anchor-id="problem">Problem</h2>
-<p>Automating scientific workflows requires systems that can plan experiments, interpret results, and adapt strategies based on outcomes. Traditional scripting is too rigid for exploratory research.</p>
+<p>Automating large-scale laboratory workflows requires systems that can plan experiments, handle failures, and adapt as conditions change. Fixed scripts are often too rigid for this setting.</p>
 </section>
 <section id="approach" class="level2">
 <h2 class="anchored" data-anchor-id="approach">Approach</h2>
-<p>I am building agentic AI systems that combine reinforcement learning with large language models to automate laboratory tasks. The system plans multi-step experiments, executes protocols on robotic platforms, recovers from instrument faults, and iteratively refines strategies based on outcomes. Development and evaluation use the <a href="../projects/pcl_simulation.html">PCL simulator (CloudBench)</a> before deployment on physical hardware.</p>
+<p>I am developing agentic AI systems that combine reinforcement learning with large language models for automated laboratories, with a focus on autonomous orchestration and fault recovery in programmable cloud labs.</p>
 </section>
 <section id="status" class="level2">
 <h2 class="anchored" data-anchor-id="status">Status</h2>
-<p>Work in progress. Related contributed talk at the <a href="https://ai-scientist-workshop.github.io/#about">AI Scientist Summer Workshop</a> (Microsoft Research, 2026).</p>
+<p>Work in progress. Contributed talk at the <a href="https://ai-scientist-workshop.github.io/#about">AI Scientist Summer Workshop</a> (Microsoft Research, Cambridge, MA, 2026): <em>Agentic Fault Recovery for Autonomous Orchestration of Programmable Cloud Laboratories</em>.</p>
 
 
 </section>

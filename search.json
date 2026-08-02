@@ -4,7 +4,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Below are research projects with code, methods, and results. Each includes problem motivation, technical approach, and outcomes. Repositories are linked when available.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccurate Simulation of Programmable Cloud Laboratories\n\n\n\nsimulation\n\nautomation\n\ncloud-labs\n\nagents\n\n\n\n\n\n\n\n\n\nJun 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nAgentic AI for Laboratory Automation\n\n\n\nagents\n\nautomation\n\nrl-llm\n\n\n\n\n\n\n\n\n\nMar 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEvolution-Informed Structural Subgraph Protein Representations\n\n\n\nprotein-engineering\n\ngraph-methods\n\nfoundation-models\n\n\n\n\n\n\n\n\n\nFeb 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nReinforcement Learning for Senescence Biomarker Discovery\n\n\n\nreinforcement-learning\n\nbiomarkers\n\nsingle-cell\n\n\n\n\n\n\n\n\n\nJan 15, 2025\n\n\n\n\n\nNo matching items"
+    "text": "Below are research projects with code, methods, and results. Each includes problem motivation, technical approach, and outcomes. Repositories are linked when available.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccurate Simulation of Programmable Cloud Laboratories\n\n\n\nsimulation\n\nautomation\n\ncloud-labs\n\n\n\n\n\n\n\n\n\nJun 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nAgentic AI for Laboratory Automation\n\n\n\nagents\n\nautomation\n\nrl-llm\n\n\n\n\n\n\n\n\n\nMar 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEvolution-Informed Structural Subgraph Protein Representations\n\n\n\nprotein-engineering\n\ngraph-methods\n\nfoundation-models\n\n\n\n\n\n\n\n\n\nFeb 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nReinforcement Learning for Senescence Biomarker Discovery\n\n\n\nreinforcement-learning\n\nbiomarkers\n\nsingle-cell\n\n\n\n\n\n\n\n\n\nJan 15, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2025-10-26-internships.html",
@@ -46,28 +46,21 @@
     "href": "projects/pcl_simulation.html",
     "title": "Accurate Simulation of Programmable Cloud Laboratories",
     "section": "",
-    "text": "Programmable Cloud Laboratories (PCLs) enable remote, automated experimentation at scale, but developing and evaluating orchestration policies on real hardware is slow, expensive, and fault-prone. Reliable simulators are needed to stress-test agents, recover from instrument failures, and benchmark scheduling under realistic lab dynamics."
+    "text": "Programmable cloud laboratories enable remote, automated experimentation, but developing and evaluating orchestration methods on real hardware is slow and costly. Accurate simulation is needed to study these systems before deployment."
   },
   {
     "objectID": "projects/pcl_simulation.html#problem",
     "href": "projects/pcl_simulation.html#problem",
     "title": "Accurate Simulation of Programmable Cloud Laboratories",
     "section": "",
-    "text": "Programmable Cloud Laboratories (PCLs) enable remote, automated experimentation at scale, but developing and evaluating orchestration policies on real hardware is slow, expensive, and fault-prone. Reliable simulators are needed to stress-test agents, recover from instrument failures, and benchmark scheduling under realistic lab dynamics."
+    "text": "Programmable cloud laboratories enable remote, automated experimentation, but developing and evaluating orchestration methods on real hardware is slow and costly. Accurate simulation is needed to study these systems before deployment."
   },
   {
     "objectID": "projects/pcl_simulation.html#approach",
     "href": "projects/pcl_simulation.html#approach",
     "title": "Accurate Simulation of Programmable Cloud Laboratories",
     "section": "Approach",
-    "text": "Approach\nI am building CloudBench, an open-framework simulator and benchmark generator for programmable cloud laboratories. The system models instrument state, protocol timing, resource contention, and fault modes so that RL and LLM-based agents can be trained and evaluated before deployment on physical platforms."
-  },
-  {
-    "objectID": "projects/pcl_simulation.html#results",
-    "href": "projects/pcl_simulation.html#results",
-    "title": "Accurate Simulation of Programmable Cloud Laboratories",
-    "section": "Results",
-    "text": "Results\nSupports accurate simulation of PCL workflows for orchestration research, including fault recovery and multi-instrument scheduling. Related work includes a contributed talk and poster at the AI Scientist Summer Workshop (Microsoft Research, Cambridge MA, 2026)."
+    "text": "Approach\nI am building CloudBench, an open-framework simulator and benchmark generator for programmable cloud laboratories."
   },
   {
     "objectID": "projects/pcl_simulation.html#status",
@@ -256,28 +249,28 @@
     "href": "projects/agentic_lab_automation.html",
     "title": "Agentic AI for Laboratory Automation",
     "section": "",
-    "text": "Automating scientific workflows requires systems that can plan experiments, interpret results, and adapt strategies based on outcomes. Traditional scripting is too rigid for exploratory research."
+    "text": "Automating large-scale laboratory workflows requires systems that can plan experiments, handle failures, and adapt as conditions change. Fixed scripts are often too rigid for this setting."
   },
   {
     "objectID": "projects/agentic_lab_automation.html#problem",
     "href": "projects/agentic_lab_automation.html#problem",
     "title": "Agentic AI for Laboratory Automation",
     "section": "",
-    "text": "Automating scientific workflows requires systems that can plan experiments, interpret results, and adapt strategies based on outcomes. Traditional scripting is too rigid for exploratory research."
+    "text": "Automating large-scale laboratory workflows requires systems that can plan experiments, handle failures, and adapt as conditions change. Fixed scripts are often too rigid for this setting."
   },
   {
     "objectID": "projects/agentic_lab_automation.html#approach",
     "href": "projects/agentic_lab_automation.html#approach",
     "title": "Agentic AI for Laboratory Automation",
     "section": "Approach",
-    "text": "Approach\nI am building agentic AI systems that combine reinforcement learning with large language models to automate laboratory tasks. The system plans multi-step experiments, executes protocols on robotic platforms, recovers from instrument faults, and iteratively refines strategies based on outcomes. Development and evaluation use the PCL simulator (CloudBench) before deployment on physical hardware."
+    "text": "Approach\nI am developing agentic AI systems that combine reinforcement learning with large language models for automated laboratories, with a focus on autonomous orchestration and fault recovery in programmable cloud labs."
   },
   {
     "objectID": "projects/agentic_lab_automation.html#status",
     "href": "projects/agentic_lab_automation.html#status",
     "title": "Agentic AI for Laboratory Automation",
     "section": "Status",
-    "text": "Status\nWork in progress. Related contributed talk at the AI Scientist Summer Workshop (Microsoft Research, 2026)."
+    "text": "Status\nWork in progress. Contributed talk at the AI Scientist Summer Workshop (Microsoft Research, Cambridge, MA, 2026): Agentic Fault Recovery for Autonomous Orchestration of Programmable Cloud Laboratories."
   },
   {
     "objectID": "research.html",
@@ -312,7 +305,7 @@
     "href": "research.html#programmable-cloud-lab-simulation-and-agentic-orchestration",
     "title": "Research",
     "section": "Programmable Cloud Lab Simulation and Agentic Orchestration",
-    "text": "Programmable Cloud Lab Simulation and Agentic Orchestration\nI develop accurate simulators and benchmarks for Programmable Cloud Laboratories (CloudBench), and agentic AI systems that combine reinforcement learning with large language models to plan, execute, and recover experimental workflows under realistic lab faults and resource constraints.\nAll projects emphasize reproducible code, strong baselines, and clear communication of methods and limitations."
+    "text": "Programmable Cloud Lab Simulation and Agentic Orchestration\nI am developing CloudBench, an open-framework simulator and benchmark generator for programmable cloud laboratories, and agentic AI systems that use reinforcement learning and large language models for autonomous orchestration and fault recovery in automated labs.\nAll projects emphasize reproducible code, strong baselines, and clear communication of methods and limitations."
   },
   {
     "objectID": "contact.html",
@@ -326,7 +319,7 @@
     "href": "index.html",
     "title": "Sina Barazandeh",
     "section": "",
-    "text": "I am a PhD student in the School of Computer Science at Carnegie Mellon University, in the Computational Biology Department, advised by Dr. Jose Lugo-Martinez.\nI build machine learning methods for biology and medicine, with focus on generative models for biological sequences, protein representation learning, and biomarker discovery. My work spans foundation models, reinforcement learning, and graph-based approaches.\nI am seeking Summer 2027 internships in biotech and tech, where I can apply my expertise in ML for biology, sequence design, and computational drug discovery.\n\n\n\n\n\n\nNote\n\n\n\nI value robust baselines, reproducible code, and clear methods that can be understood by both ML researchers and domain scientists.\n\n\n\n\n\nPh.D. Computational Biology — School of Computer Science, Carnegie Mellon University (2024–2029)\nAdvisor: Dr. Jose Lugo-Martinez\nM.Sc. Computer Engineering — Bilkent University (2021–2024, GPA: 3.9/4.0)\nAdvisor: Dr. A. Ercument Cicek · Thesis: Generative Models for Generating and Optimizing Biological Sequences\nB.Sc. Computer Engineering — Shiraz University (2016–2021, GPA: 3.5/4.0)\n\n\n\n\n\nLaboratory Automation: Accurate simulation of Programmable Cloud Laboratories (CloudBench) and agentic AI for autonomous experimental workflows\nGenerative AI for Biology: Sequence design using GANs, LLMs, and seq2seq models for optimizing translation efficiency and RNA targeting\nReinforcement Learning for Biomarker Discovery: Policy optimization for identifying senescence biomarkers with structure-aware rewards\nGraph-Based Protein Representation: Evolution-informed subgraph features that outperform foundation model embeddings on downstream tasks\n\n\n\n\n\nAttending AI Scientist Summer Workshop at Cambridge, MA — Microsoft Research (Aug 2026); contributed talk on agentic fault recovery for programmable cloud laboratories\nAttending SciFM (Chicago IL, 2026)\nTwo publications in 2025: PLOS Computational Biology and Bioinformatics Advances\nAttending SenNet Annual Meeting (Washington DC, 2025) and PathVisions (San Diego, 2025)\nNow seeking Summer 2027 internships\n\nSee my projects, publications, and CV for more details."
+    "text": "I am a PhD student in the School of Computer Science at Carnegie Mellon University, in the Computational Biology Department, advised by Dr. Jose Lugo-Martinez.\nI build machine learning methods for biology and medicine, with focus on generative models for biological sequences, protein representation learning, and biomarker discovery. My work spans foundation models, reinforcement learning, and graph-based approaches.\nI am seeking Summer 2027 internships in biotech and tech, where I can apply my expertise in ML for biology, sequence design, and computational drug discovery.\n\n\n\n\n\n\nNote\n\n\n\nI value robust baselines, reproducible code, and clear methods that can be understood by both ML researchers and domain scientists.\n\n\n\n\n\nPh.D. Computational Biology — School of Computer Science, Carnegie Mellon University (2024–2029)\nAdvisor: Dr. Jose Lugo-Martinez\nM.Sc. Computer Engineering — Bilkent University (2021–2024, GPA: 3.9/4.0)\nAdvisor: Dr. A. Ercument Cicek · Thesis: Generative Models for Generating and Optimizing Biological Sequences\nB.Sc. Computer Engineering — Shiraz University (2016–2021, GPA: 3.5/4.0)\n\n\n\n\n\nLaboratory Automation: CloudBench simulation for programmable cloud laboratories, and agentic AI for automated lab orchestration\nGenerative AI for Biology: Sequence design using GANs, LLMs, and seq2seq models for optimizing translation efficiency and RNA targeting\nReinforcement Learning for Biomarker Discovery: Policy optimization for identifying senescence biomarkers with structure-aware rewards\nGraph-Based Protein Representation: Evolution-informed subgraph features that outperform foundation model embeddings on downstream tasks\n\n\n\n\n\nAttending AI Scientist Summer Workshop at Cambridge, MA — Microsoft Research (Aug 2026); contributed talk: Agentic Fault Recovery for Autonomous Orchestration of Programmable Cloud Laboratories\nAttending SciFM (Chicago IL, 2026)\nTwo publications in 2025: PLOS Computational Biology and Bioinformatics Advances\nAttending SenNet Annual Meeting (Washington DC, 2025) and PathVisions (San Diego, 2025)\nNow seeking Summer 2027 internships\n\nSee my projects, publications, and CV for more details."
   },
   {
     "objectID": "index.html#education",
@@ -340,13 +333,13 @@
     "href": "index.html#research-highlights",
     "title": "Sina Barazandeh",
     "section": "",
-    "text": "Laboratory Automation: Accurate simulation of Programmable Cloud Laboratories (CloudBench) and agentic AI for autonomous experimental workflows\nGenerative AI for Biology: Sequence design using GANs, LLMs, and seq2seq models for optimizing translation efficiency and RNA targeting\nReinforcement Learning for Biomarker Discovery: Policy optimization for identifying senescence biomarkers with structure-aware rewards\nGraph-Based Protein Representation: Evolution-informed subgraph features that outperform foundation model embeddings on downstream tasks"
+    "text": "Laboratory Automation: CloudBench simulation for programmable cloud laboratories, and agentic AI for automated lab orchestration\nGenerative AI for Biology: Sequence design using GANs, LLMs, and seq2seq models for optimizing translation efficiency and RNA targeting\nReinforcement Learning for Biomarker Discovery: Policy optimization for identifying senescence biomarkers with structure-aware rewards\nGraph-Based Protein Representation: Evolution-informed subgraph features that outperform foundation model embeddings on downstream tasks"
   },
   {
     "objectID": "index.html#recent-news",
     "href": "index.html#recent-news",
     "title": "Sina Barazandeh",
     "section": "",
-    "text": "Attending AI Scientist Summer Workshop at Cambridge, MA — Microsoft Research (Aug 2026); contributed talk on agentic fault recovery for programmable cloud laboratories\nAttending SciFM (Chicago IL, 2026)\nTwo publications in 2025: PLOS Computational Biology and Bioinformatics Advances\nAttending SenNet Annual Meeting (Washington DC, 2025) and PathVisions (San Diego, 2025)\nNow seeking Summer 2027 internships\n\nSee my projects, publications, and CV for more details."
+    "text": "Attending AI Scientist Summer Workshop at Cambridge, MA — Microsoft Research (Aug 2026); contributed talk: Agentic Fault Recovery for Autonomous Orchestration of Programmable Cloud Laboratories\nAttending SciFM (Chicago IL, 2026)\nTwo publications in 2025: PLOS Computational Biology and Bioinformatics Advances\nAttending SenNet Annual Meeting (Washington DC, 2025) and PathVisions (San Diego, 2025)\nNow seeking Summer 2027 internships\n\nSee my projects, publications, and CV for more details."
   }
 ]
