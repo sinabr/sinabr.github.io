@@ -9,8 +9,43 @@
 <link>https://sinabr.github.io/projects.html</link>
 <atom:link href="https://sinabr.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description>PhD student, CMU SCS CBD. Machine learning for Biology.</description>
-<generator>quarto-1.9.38</generator>
-<lastBuildDate>Sat, 01 Mar 2025 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Mon, 01 Jun 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Accurate Simulation of Programmable Cloud Laboratories</title>
+  <link>https://sinabr.github.io/projects/pcl_simulation.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="problem" class="level2">
+<h2 class="anchored" data-anchor-id="problem">Problem</h2>
+<p>Programmable Cloud Laboratories (PCLs) enable remote, automated experimentation at scale, but developing and evaluating orchestration policies on real hardware is slow, expensive, and fault-prone. Reliable simulators are needed to stress-test agents, recover from instrument failures, and benchmark scheduling under realistic lab dynamics.</p>
+</section>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach</h2>
+<p>I am building <strong>CloudBench</strong>, an open-framework simulator and benchmark generator for programmable cloud laboratories. The system models instrument state, protocol timing, resource contention, and fault modes so that RL and LLM-based agents can be trained and evaluated before deployment on physical platforms.</p>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>Supports accurate simulation of PCL workflows for orchestration research, including fault recovery and multi-instrument scheduling. Related work includes a contributed talk and poster at the <a href="https://ai-scientist-workshop.github.io/#about">AI Scientist Summer Workshop</a> (Microsoft Research, Cambridge MA, 2026).</p>
+</section>
+<section id="status" class="level2">
+<h2 class="anchored" data-anchor-id="status">Status</h2>
+<p>Manuscript in preparation (<em>CloudBench: An Open-Framework Simulator and Benchmark Generator for Programmable Cloud Laboratories</em>). Code and benchmarks will be released with the paper.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>simulation</category>
+  <category>automation</category>
+  <category>cloud-labs</category>
+  <category>agents</category>
+  <guid>https://sinabr.github.io/projects/pcl_simulation.html</guid>
+  <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Agentic AI for Laboratory Automation</title>
   <link>https://sinabr.github.io/projects/agentic_lab_automation.html</link>
@@ -25,11 +60,11 @@
 </section>
 <section id="approach" class="level2">
 <h2 class="anchored" data-anchor-id="approach">Approach</h2>
-<p>I am building agentic AI systems that combine reinforcement learning with large language models to automate laboratory tasks. The system plans multi-step experiments, executes protocols on robotic platforms, and iteratively refines hypotheses based on results.</p>
+<p>I am building agentic AI systems that combine reinforcement learning with large language models to automate laboratory tasks. The system plans multi-step experiments, executes protocols on robotic platforms, recovers from instrument faults, and iteratively refines strategies based on outcomes. Development and evaluation use the <a href="../projects/pcl_simulation.html">PCL simulator (CloudBench)</a> before deployment on physical hardware.</p>
 </section>
 <section id="status" class="level2">
 <h2 class="anchored" data-anchor-id="status">Status</h2>
-<p>Work in progress. Stay tuned for updates.</p>
+<p>Work in progress. Related contributed talk at the <a href="https://ai-scientist-workshop.github.io/#about">AI Scientist Summer Workshop</a> (Microsoft Research, 2026).</p>
 
 
 </section>

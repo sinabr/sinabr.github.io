@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-10-26">
+<meta name="dcterms.date" content="2026-06-01">
 
-<title>Now seeking Summer 2026 internships – Sina Barazandeh</title>
+<title>Accurate Simulation of Programmable Cloud Laboratories – Sina Barazandeh</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -152,17 +152,29 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#problem" id="toc-problem" class="nav-link active" data-scroll-target="#problem">Problem</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#status" id="toc-status" class="nav-link" data-scroll-target="#status">Status</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Now seeking Summer 2026 internships</h1>
+<h1 class="title">Accurate Simulation of Programmable Cloud Laboratories</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">career</div>
+    <div class="quarto-category">simulation</div>
+    <div class="quarto-category">automation</div>
+    <div class="quarto-category">cloud-labs</div>
+    <div class="quarto-category">agents</div>
   </div>
   </div>
 
@@ -174,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 26, 2025</p>
+      <p class="date">June 1, 2026</p>
     </div>
   </div>
   
@@ -186,20 +198,24 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I am looking for Summer 2027 internships in biotech and tech companies. My research spans generative models for biological sequences, protein representation learning, and biomarker discovery using machine learning.</p>
-<p>I am particularly interested in roles involving:</p>
-<ul>
-<li>ML for drug discovery and protein design</li>
-<li>Foundation models and AI agents for Science</li>
-<li>Computational methods for single-cell analysis</li>
-<li>AI systems for laboratory automation</li>
-<li>Sequence optimization and generative modeling</li>
-</ul>
-<p>I have experience building production-ready PyTorch code, running large-scale experiments on HPC clusters, and publishing in top venues. I value reproducible research, strong baselines, and clear communication.</p>
-<p>If your team works at the intersection of machine learning and biology, I would be happy to connect.</p>
-<p>Contact: sbarazan@andrew.cmu.edu</p>
+<section id="problem" class="level2">
+<h2 class="anchored" data-anchor-id="problem">Problem</h2>
+<p>Programmable Cloud Laboratories (PCLs) enable remote, automated experimentation at scale, but developing and evaluating orchestration policies on real hardware is slow, expensive, and fault-prone. Reliable simulators are needed to stress-test agents, recover from instrument failures, and benchmark scheduling under realistic lab dynamics.</p>
+</section>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach</h2>
+<p>I am building <strong>CloudBench</strong>, an open-framework simulator and benchmark generator for programmable cloud laboratories. The system models instrument state, protocol timing, resource contention, and fault modes so that RL and LLM-based agents can be trained and evaluated before deployment on physical platforms.</p>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>Supports accurate simulation of PCL workflows for orchestration research, including fault recovery and multi-instrument scheduling. Related work includes a contributed talk and poster at the <a href="https://ai-scientist-workshop.github.io/#about">AI Scientist Summer Workshop</a> (Microsoft Research, Cambridge MA, 2026).</p>
+</section>
+<section id="status" class="level2">
+<h2 class="anchored" data-anchor-id="status">Status</h2>
+<p>Manuscript in preparation (<em>CloudBench: An Open-Framework Simulator and Benchmark Generator for Programmable Cloud Laboratories</em>). Code and benchmarks will be released with the paper.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

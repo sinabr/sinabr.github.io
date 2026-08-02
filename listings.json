@@ -2,6 +2,7 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/pcl_simulation.html",
       "/projects/agentic_lab_automation.html",
       "/projects/protein_subgraph.html",
       "/projects/rl_biomarker.html"
