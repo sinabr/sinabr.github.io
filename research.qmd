@@ -18,6 +18,6 @@ I apply reinforcement learning to identify minimal gene panels that distinguish 
 
 ## Programmable Cloud Lab Simulation and Agentic Orchestration
 
-I develop accurate simulators and benchmarks for Programmable Cloud Laboratories (CloudBench), and agentic AI systems that combine reinforcement learning with large language models to plan, execute, and recover experimental workflows under realistic lab faults and resource constraints.
+I am developing CloudBench, an open-framework simulator and benchmark generator for programmable cloud laboratories, and agentic AI systems that use reinforcement learning and large language models for autonomous orchestration and fault recovery in automated labs.
 
 All projects emphasize reproducible code, strong baselines, and clear communication of methods and limitations.

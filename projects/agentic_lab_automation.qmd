@@ -6,12 +6,12 @@ categories: [agents, automation, rl-llm]
 
 ## Problem
 
-Automating scientific workflows requires systems that can plan experiments, interpret results, and adapt strategies based on outcomes. Traditional scripting is too rigid for exploratory research.
+Automating large-scale laboratory workflows requires systems that can plan experiments, handle failures, and adapt as conditions change. Fixed scripts are often too rigid for this setting.
 
 ## Approach
 
-I am building agentic AI systems that combine reinforcement learning with large language models to automate laboratory tasks. The system plans multi-step experiments, executes protocols on robotic platforms, recovers from instrument faults, and iteratively refines strategies based on outcomes. Development and evaluation use the [PCL simulator (CloudBench)](pcl_simulation.qmd) before deployment on physical hardware.
+I am developing agentic AI systems that combine reinforcement learning with large language models for automated laboratories, with a focus on autonomous orchestration and fault recovery in programmable cloud labs.
 
 ## Status
 
-Work in progress. Related contributed talk at the [AI Scientist Summer Workshop](https://ai-scientist-workshop.github.io/#about) (Microsoft Research, 2026).
+Work in progress. Contributed talk at the [AI Scientist Summer Workshop](https://ai-scientist-workshop.github.io/#about) (Microsoft Research, Cambridge, MA, 2026): *Agentic Fault Recovery for Autonomous Orchestration of Programmable Cloud Laboratories*.

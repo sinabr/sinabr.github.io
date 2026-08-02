@@ -1,20 +1,16 @@
 ---
 title: "Accurate Simulation of Programmable Cloud Laboratories"
 date: 2026-06-01
-categories: [simulation, automation, cloud-labs, agents]
+categories: [simulation, automation, cloud-labs]
 ---
 
 ## Problem
 
-Programmable Cloud Laboratories (PCLs) enable remote, automated experimentation at scale, but developing and evaluating orchestration policies on real hardware is slow, expensive, and fault-prone. Reliable simulators are needed to stress-test agents, recover from instrument failures, and benchmark scheduling under realistic lab dynamics.
+Programmable cloud laboratories enable remote, automated experimentation, but developing and evaluating orchestration methods on real hardware is slow and costly. Accurate simulation is needed to study these systems before deployment.
 
 ## Approach
 
-I am building **CloudBench**, an open-framework simulator and benchmark generator for programmable cloud laboratories. The system models instrument state, protocol timing, resource contention, and fault modes so that RL and LLM-based agents can be trained and evaluated before deployment on physical platforms.
-
-## Results
-
-Supports accurate simulation of PCL workflows for orchestration research, including fault recovery and multi-instrument scheduling. Related work includes a contributed talk and poster at the [AI Scientist Summer Workshop](https://ai-scientist-workshop.github.io/#about) (Microsoft Research, Cambridge MA, 2026).
+I am building **CloudBench**, an open-framework simulator and benchmark generator for programmable cloud laboratories.
 
 ## Status
 
