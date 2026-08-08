@@ -1,0 +1,17 @@
+---
+title: "FlashAttention and PagedAttention in MiniTorch"
+date: 2026-01-15
+categories: [ml-systems, llms, attention]
+---
+
+## Problem
+
+Efficient attention and memory management are central to training and serving large language models. Coursework in LLM Systems at CMU focused on implementing these ideas in a teaching framework rather than only using them as black-box library calls.
+
+## Approach
+
+In a course research project with Instructor Lei Li, I worked on extending **FlashAttention** and **PagedAttention** to **MiniTorch**, implementing core attention and paging concepts in a minimal PyTorch-like system.
+
+## Status
+
+Course research project (LLM Systems, CMU). Not a peer-reviewed publication. Code can be linked here when available.

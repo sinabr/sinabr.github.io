@@ -8,11 +8,11 @@ page-layout: full
 <img src="images/sina.jpg" alt="Sina Barazandeh" width="100%" style="border-radius:0; box-shadow: 0 0 8px rgba(0,0,0,0.1);">
 :::
 ::: {.g-col-8}
-I am a PhD student in the **School of Computer Science** at **Carnegie Mellon University**, in the **Computational Biology Department**, advised by **Dr. Jose Lugo-Martinez**.
+I am a PhD student in the **School of Computer Science** at **Carnegie Mellon University** (Computational Biology Department), advised by **Dr. Jose Lugo-Martinez**.
 
-I build machine learning methods for biology and medicine, with focus on **generative models for biological sequences**, **protein representation learning**, and **biomarker discovery**. My work spans foundation models, reinforcement learning, and graph-based approaches.
+My research focuses on **machine learning**, **generative and foundation models**, **reinforcement learning**, and **agentic systems**, with applications to automated science and computational biology. I am interested in ML methods and systems that support reliable reasoning, decision-making, simulation, and scientific discovery.
 
-I am seeking **Summer 2027 internships** in biotech and tech, where I can apply my expertise in ML for biology, sequence design, and computational drug discovery.
+I am seeking **Summer 2027 research internships** in machine learning, generative AI, agentic systems, ML systems, and AI for science.
 
 ::: {.callout-note}
 I value **robust baselines**, **reproducible code**, and **clear methods** that can be understood by both ML researchers and domain scientists.
@@ -28,10 +28,12 @@ I value **robust baselines**, **reproducible code**, and **clear methods** that 
 
 ## Research Highlights
 
-- **Laboratory Automation:** CloudBench simulation for programmable cloud laboratories, and agentic AI for automated lab orchestration
-- **Generative AI for Biology:** Sequence design using GANs, LLMs, and seq2seq models for optimizing translation efficiency and RNA targeting
-- **Reinforcement Learning for Biomarker Discovery:** Policy optimization for identifying senescence biomarkers with structure-aware rewards
-- **Graph-Based Protein Representation:** Evolution-informed subgraph features that outperform foundation model embeddings on downstream tasks
+- **Agentic Systems:** RL and LLM agents for autonomous orchestration and fault recovery
+- **Simulation & Benchmarking:** CloudBench — simulator and benchmark generator for programmable cloud laboratories
+- **ML Systems:** Extending FlashAttention and PagedAttention in MiniTorch (LLM Systems coursework)
+- **Generative Models:** Sequence design with GANs and seq2seq models (UTRGAN, RNAtranslator)
+- **Reinforcement Learning:** Policy optimization for biomarker discovery under structure-aware rewards
+- **Representation Learning:** Evolution-informed protein subgraph features for downstream prediction
 
 ## Recent News
 
@@ -39,7 +41,7 @@ I value **robust baselines**, **reproducible code**, and **clear methods** that 
 - Attending SciFM (Chicago IL, 2026)
 - Two publications in 2025: PLOS Computational Biology and Bioinformatics Advances
 - Attending SenNet Annual Meeting (Washington DC, 2025) and PathVisions (San Diego, 2025)
-- Now seeking Summer 2027 internships
+- Now seeking Summer 2027 research internships
 
 See my [projects](projects.qmd), [publications](publications.qmd), and [CV](cv.qmd) for more details.
 :::

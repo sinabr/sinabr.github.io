@@ -8,8 +8,7 @@ Below are selected publications. See my [Google Scholar](https://scholar.google.
 
 **2026**
 
-**Barazandeh, S.**, Gun Kaynar, Arth Banka, Joshua Kangas, Carl Kingsford, Jose Lugo-Martinez. CloudBench: An Open-Framework Simulator and Benchmark Gen-
-erator for Programmable Cloud Laboratories (planed to be submitted to Nature Communications)
+**Barazandeh, S.**, Gun Kaynar, Arth Banka, Joshua Kangas, Carl Kingsford, Jose Lugo-Martinez. CloudBench: An Open-Framework Simulator and Benchmark Generator for Programmable Cloud Laboratories. *Manuscript in preparation.*
 
 ## Peer-Reviewed Publications
 

@@ -5,7 +5,7 @@ project:
 
 website:
   title: "Sina Barazandeh"
-  description: "PhD student, CMU SCS CBD. Machine learning for Biology."
+  description: "PhD student, CMU SCS. Machine learning, agents, RL, and ML systems for science."
   site-url: "https://sinabr.github.io"
   navbar:
     left:

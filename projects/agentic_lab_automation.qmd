@@ -1,16 +1,16 @@
 ---
-title: "Agentic AI for Laboratory Automation"
+title: "Agentic Orchestration and Fault Recovery"
 date: 2025-03-01
-categories: [agents, automation, rl-llm]
+categories: [agents, rl-llm, decision-making]
 ---
 
 ## Problem
 
-Automating large-scale laboratory workflows requires systems that can plan experiments, handle failures, and adapt as conditions change. Fixed scripts are often too rigid for this setting.
+Autonomous systems that orchestrate multi-step workflows must plan actions, respond to failures, and adapt as conditions change. Fixed scripts are often too rigid for this setting.
 
 ## Approach
 
-I am developing agentic AI systems that combine reinforcement learning with large language models for automated laboratories, with a focus on autonomous orchestration and fault recovery in programmable cloud labs.
+I am developing agentic systems that combine reinforcement learning with large language models for autonomous orchestration and fault recovery. The motivating application is programmable cloud laboratories, but the core problems are agent decision-making, recovery under failure, and reliable execution of long-horizon workflows.
 
 ## Status
 

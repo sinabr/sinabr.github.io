@@ -2,22 +2,26 @@
 title: "Research"
 ---
 
-My research applies machine learning to biological problems, with focus on three main areas:
+I develop machine learning methods and intelligent systems for scientific and autonomous decision-making, with interests in generative models, reinforcement learning, foundation models, agents, and ML systems. Computational biology and automated science are the main application areas where I evaluate these ideas.
 
-## Generative Models for Biological Sequences
+## Generative and Foundation Models
 
-I design generative models for DNA, RNA, and protein sequences with controllable properties. This includes GANs for 5' UTR optimization, transformer-based seq2seq models for protein-conditional RNA design, and methods that balance biological validity with desired functional properties. My work emphasizes reproducible baselines and validation against held-out predictive models.
+I design generative models for sequences with controllable properties, including GANs for 5' UTR optimization and transformer-based seq2seq models for protein-conditional RNA design. This work emphasizes reproducible baselines and validation against held-out predictive models.
 
-## Protein Representation Learning
+## Reinforcement Learning and Decision-Making
 
-I develop graph-based methods for protein representation that incorporate structural and evolutionary information. Current work focuses on subgraph-based features that outperform foundation model embeddings on downstream tasks like pathogenicity prediction. I aim to build representations that are both accurate and interpretable for domain experts.
+I apply reinforcement learning to decision problems such as selecting informative gene panels for senescence biomarker discovery. This involves policy optimization, structure-aware rewards, and evaluation under positive-unlabeled settings common in biological data.
 
-## Biomarker Discovery and Single-Cell Analysis
+## Agentic Systems, Simulation, and Benchmarking
 
-I apply reinforcement learning to identify minimal gene panels that distinguish cellular states, particularly for senescence biomarkers. This involves positive-unlabeled learning objectives, structure-aware rewards, and robust evaluation protocols. The goal is to find parsimonious biomarker sets that generalize across datasets and experimental conditions.
+I build agentic systems for autonomous orchestration and fault recovery in programmable cloud laboratories, and develop CloudBench as an open-framework simulator and benchmark generator for studying these systems offline. Related work includes a contributed talk at the AI Scientist Summer Workshop (Microsoft Research, 2026).
 
-## Programmable Cloud Lab Simulation and Agentic Orchestration
+## Representation Learning
 
-I am developing CloudBench, an open-framework simulator and benchmark generator for programmable cloud laboratories, and agentic AI systems that use reinforcement learning and large language models for autonomous orchestration and fault recovery in automated labs.
+I develop graph-based protein representations that combine structural subgraph features with evolutionary information, with the goal of representations that are accurate and interpretable on downstream tasks such as pathogenicity prediction.
+
+## ML Systems
+
+I also work on LLM systems topics in coursework, including extending FlashAttention and PagedAttention to MiniTorch. See the [projects](projects.qmd) page for details.
 
 All projects emphasize reproducible code, strong baselines, and clear communication of methods and limitations.

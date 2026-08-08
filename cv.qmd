@@ -9,12 +9,8 @@ PhD student, Carnegie Mellon University
 School of Computer Science, Computational Biology Department  
 Advisor: Dr. Jose Lugo-Martinez
 
-## Research Interests
-- Foundation models for biology
-- Generative AI for sequence design
-- Single-cell data analysis
-- Reinforcement learning for biomarker discovery
-- Agentic AI for laboratory automation
+## Research Focus
+I develop machine learning methods and intelligent systems for scientific and autonomous decision-making, with interests in generative models, reinforcement learning, foundation models, agents, and ML systems.
 
 ## Education
 - **PhD, Computational Biology** — Carnegie Mellon University (2024–2029)
@@ -26,7 +22,7 @@ Advisor: Dr. Jose Lugo-Martinez
 - Tabrizi, S., **Barazandeh, S.**, et al. (2025). RNAtranslator: Protein-conditional RNA design as sequence-to-sequence translation. *PLOS Computational Biology*.
 
 ## Seeking
-Summer 2027 internships in biotech and tech, focusing on ML for biology, drug discovery, or AI systems.
+Summer 2027 research internships in machine learning, generative AI, agentic systems, ML systems, and AI for science.
 
 [Download full CV (PDF)](files/Sina_Barazandeh_CV.pdf)
 
