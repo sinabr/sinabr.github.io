@@ -12,6 +12,8 @@ Autonomous systems that orchestrate multi-step workflows must plan actions, resp
 
 I am developing agentic systems that combine reinforcement learning with large language models for autonomous orchestration and fault recovery. The motivating application is programmable cloud laboratories, but the core problems are agent decision-making, recovery under failure, and reliable execution of long-horizon workflows.
 
+This work asks how an agent should detect that a protocol has deviated from plan, choose a safe recovery action, and resume without repeating completed physical operations. It connects [simPCL](pcl_simulation.qmd), which enables controlled offline evaluation, with our [MHS physical-laboratory work](mhs_dose_response.qmd), which tests closed-loop operation on real equipment.
+
 ## Status
 
 Work in progress. Contributed talk at the [AI Scientist Summer Workshop](https://ai-scientist-workshop.github.io/#about) (Microsoft Research, Cambridge, MA, 2026): *Agentic Fault Recovery for Autonomous Orchestration of Programmable Cloud Laboratories*.

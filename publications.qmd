@@ -8,7 +8,9 @@ Below are selected publications. See my [Google Scholar](https://scholar.google.
 
 **2026**
 
-**Barazandeh, S.**, Gun Kaynar, Arth Banka, Joshua Kangas, Carl Kingsford, Jose Lugo-Martinez. simPCL: An Open-Framework Simulator and Benchmark Generator for Programmable Cloud Laboratories. *Manuscript in preparation.*
+**Barazandeh, S.**, Gün Kaynar, Arth Banka, Joshua Kangas, Carl Kingsford, Jose Lugo-Martinez. simPCL: An Open-Framework Simulator and Benchmark Generator for Programmable Cloud Laboratories. *Manuscript in preparation.*
+
+[[Project]](projects/pcl_simulation.qmd)
 
 ## Peer-Reviewed Publications
 

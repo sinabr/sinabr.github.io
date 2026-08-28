@@ -1,0 +1,8 @@
+---
+title: "simPCL: An Open-Framework Simulator and Benchmark Generator for Programmable Cloud Laboratories"
+authors: "Barazandeh, S., Kaynar, G., Banka, A., Kangas, J., Kingsford, C., Lugo-Martinez, J."
+venue: "Manuscript in preparation"
+year: 2026
+---
+
+simPCL is a simulator and benchmark generator for programmable cloud laboratories. It supports controlled, reproducible evaluation of agent planning, fault recovery, reliable protocol execution, and closed-loop scientific decision-making.

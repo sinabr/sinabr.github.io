@@ -1,15 +1,15 @@
 ---
-title: "UTRGAN: Learning to generate 5' UTR sequences for optimized translation efficiency"
+title: "UTRGAN: Learning to generate 5' UTR sequences for optimized translation efficiency and gene expression"
 authors: "Barazandeh, S., Ozden, F., Hincer, A., Seker, U.O.S., Cicek, A.E."
 venue: "Bioinformatics Advances"
 year: 2025
 links:
   - text: Paper
-    href: https://doi.org/10.1093/bioinformatics/vbaf134
+    href: https://academic.oup.com/bioinformaticsadvances/article/5/1/vbaf134/8160017
   - text: bioRxiv
     href: https://www.biorxiv.org/content/10.1101/2023.01.30.526198
   - text: Code
-    href: https://github.com/sinabr/utrgan
+    href: https://github.com/ciceklab/UTRGAN
 ---
 
 We developed a generative adversarial network for designing 5' untranslated region sequences that optimize translation efficiency and gene expression. The model learns to generate biologically valid UTR sequences with controllable properties for synthetic biology applications.

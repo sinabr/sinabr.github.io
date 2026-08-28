@@ -6,7 +6,7 @@ categories: [protein-engineering, graph-methods, foundation-models]
 
 ## Problem
 
-Foundation models like ESM-2 provide powerful protein embeddings but do not include enough structural information and evolutionary signals that are critical for function prediction.
+Foundation models like ESM-2 provide powerful protein embeddings, while explicit structural and evolutionary features may add complementary information for function prediction.
 
 ## Approach
 
@@ -14,7 +14,7 @@ We developed graph-based protein representations using structural subgraph count
 
 ## Results
 
-Outperforms ESM-2 embeddings and GNN-based models on pathogenicity prediction tasks. Provides interpretable features that domain experts can analyze.
+Preliminary results show improvements over ESM-2 embeddings and GNN-based baselines on pathogenicity prediction tasks. The representation also provides interpretable features that domain experts can analyze.
 
 ## Status
 

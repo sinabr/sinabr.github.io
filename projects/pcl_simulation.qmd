@@ -10,8 +10,15 @@ Evaluating autonomous agents for experimental orchestration on real laboratory h
 
 ## Approach
 
-I am building **simPCL**, a simulator and benchmark generator for programmable cloud laboratories. The laboratory setting is the application domain; the research questions are about simulation, agent evaluation, and benchmarking for autonomous laboratory systems.
+I am building **simPCL**, an open-framework simulator and benchmark generator for programmable cloud laboratories. It supports controlled study of:
+
+- long-horizon experimental planning;
+- recovery from instrument and workflow failures;
+- reliable execution across multi-step protocols; and
+- closed-loop decisions in which measurements determine the next experiment.
+
+simPCL complements our work on [physical laboratory automation using MHS](mhs_dose_response.qmd): real equipment demonstrates what an agent can accomplish, while simulation makes it possible to evaluate many scenarios reproducibly before using scarce laboratory time.
 
 ## Status
 
-Manuscript in preparation. Code and benchmarks will be released with the paper.
+Manuscript in preparation. Related work was presented at the [AI Scientist Summer Workshop](https://ai-scientist-workshop.github.io/#about) (Microsoft Research, 2026) in a contributed talk on agentic fault recovery. Code and benchmarks will be released with the paper.

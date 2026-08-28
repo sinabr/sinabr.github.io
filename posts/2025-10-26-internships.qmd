@@ -1,10 +1,11 @@
 ---
 title: "Now seeking Summer 2027 internships"
 date: 2025-10-26
+date-modified: 2026-08-28
 categories: [career]
 ---
 
-I am looking for Summer 2027 research internships in biotech and tech. My research spans generative models for biological sequences, protein representation learning, biomarker discovery, **agentic scientific discovery**, and **autonomous laboratories**.
+I am looking for Summer 2027 research internships in biotech and technology. My primary interests are **agentic scientific discovery**, **autonomous laboratories**, laboratory automation, and AI for science. I am also interested in generative models, reinforcement learning, ML systems, biological sequence design, protein representation learning, and biomarker discovery.
 
 I am particularly interested in roles involving:
 
@@ -16,7 +17,9 @@ I am particularly interested in roles involving:
 - Computational methods for single-cell analysis
 - ML systems
 
-I have experience building production-ready PyTorch code, running large-scale experiments on HPC clusters, integrating physical lab instruments with AI agents, and publishing in venues including ChemBioChem, PLOS Computational Biology, and Bioinformatics Advances. I value reproducible research, strong baselines, and clear communication.
+Most recently, I led CMU's work using the [Model Hardware Standard (MHS)](2026-08-27-mhs-preview.qmd) in the limited research preview. I built drivers and orchestration so an AI agent could coordinate a liquid handler, plate reader, robotic arm, and cameras for closed-loop dose-response experiments within device-declared safety bounds.
+
+I have experience developing PyTorch research code, running large-scale experiments on HPC clusters, integrating physical lab instruments with AI agents, and publishing in ChemBioChem, PLOS Computational Biology, and Bioinformatics Advances. I value reproducible research, strong baselines, and clear communication.
 
 If your team works at the intersection of machine learning, autonomous labs, and scientific discovery, I would be happy to connect.
 

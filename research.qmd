@@ -2,15 +2,15 @@
 title: "Research"
 ---
 
-I develop machine learning methods and intelligent systems for scientific and autonomous decision-making, with interests in generative models, reinforcement learning, foundation models, agents, and ML systems. Computational biology, **agentic scientific discovery**, and **autonomous laboratories** are the main application areas where I evaluate these ideas: agents that plan and run experiments, recover from faults, and close the loop from measurement back to the next action.
+My primary research focus is **agentic scientific discovery and autonomous laboratories**: machine-learning systems that plan and run experiments, recover from failures, and use results to decide what to do next. I draw on AI agents, reinforcement learning, generative and foundation models, and ML systems, with computational biology as a central application area.
 
 ## Autonomous Laboratories and Agentic Scientific Discovery
 
 Autonomous laboratories need more than a scripted protocol. Instruments disagree on interfaces, runs fail in physical ways, and the next useful experiment often depends on the last curve or plate. I work on agentic systems that orchestrate multi-instrument workflows, monitor readiness and safety conditions, and decide whether to accept a result or intervene — for example compressing a concentration range after a saturated dose-response curve.
 
-During the [Model Hardware Standard (MHS)](https://www.anthropic.com/news/model-hardware-standard-research-preview) research preview (announced by Anthropic), I led Carnegie Mellon's work using MHS so an AI agent could operate a liquid handler, plate reader, robotic arm, and cameras for serial-dilution dose-response experiments. MHS is a new standard for AI agents to safely operate physical equipment; in the preview the specification is still provisional, and it is not Claude-only — we used Claude in this deployment. I built the drivers and the orchestration layer. [Read the post.](posts/2026-08-27-mhs-preview.qmd)
+During the limited [Model Hardware Standard (MHS)](https://www.anthropic.com/news/model-hardware-standard-research-preview) research preview (announced by Anthropic), I led Carnegie Mellon's work using MHS so an AI agent could operate a liquid handler, plate reader, robotic arm, and cameras for serial-dilution dose-response experiments. MHS is a new standard for AI agents to safely operate physical equipment; the specification shared in the preview is provisional. MHS is model-agnostic, and we used Claude as one agent in this deployment. I built the drivers and orchestration layer. [Read the post.](posts/2026-08-27-mhs-preview.qmd)
 
-The same questions show up in programmable cloud laboratories, where evaluating agents on real hardware is slow and expensive. I am building **simPCL**, a simulator and benchmark generator for these settings, so planning, fault recovery, and closed-loop scientific discovery can be studied offline with controlled scenarios. Related work includes a contributed talk at the AI Scientist Summer Workshop (Microsoft Research, 2026) on agentic fault recovery for autonomous orchestration of programmable cloud laboratories.
+The same questions show up in programmable cloud laboratories, where evaluating agents on real hardware is slow and expensive. I am building [**simPCL**](projects/pcl_simulation.qmd), a simulator and benchmark generator for studying planning, fault recovery, and closed-loop scientific discovery under controlled scenarios. Related work includes [agentic orchestration and fault recovery](projects/agentic_lab_automation.qmd) and a contributed talk at the AI Scientist Summer Workshop (Microsoft Research, 2026).
 
 ## Generative and Foundation Models
 
