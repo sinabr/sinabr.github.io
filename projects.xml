@@ -32,10 +32,10 @@
   <category>mhs</category>
   <guid>https://sinabr.github.io/projects/mhs_dose_response.html</guid>
   <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://sinabr.github.io/files/mhs-related-photo/instruments_1.png" medium="image" type="image/png" height="106" width="144"/>
+  <media:content url="https://sinabr.github.io/files/mhs-related-photo/instruments-1.webp" medium="image" type="image/webp"/>
 </item>
 <item>
-  <title>simPCL: Simulation and Benchmarking for Agentic Lab Systems</title>
+  <title>simPCL: An Open-Framework Simulator and Benchmark Generator for Programmable Cloud Laboratories</title>
   <link>https://sinabr.github.io/projects/pcl_simulation.html</link>
   <description><![CDATA[ 
 
@@ -149,9 +149,9 @@
 <h2 class="anchored" data-anchor-id="approach">Approach</h2>
 <p>We developed graph-based protein representations using structural subgraph counts combined with evolutionary features. The method constructs protein graphs from structures and extracts interpretable features that capture local geometry and conservation patterns.</p>
 </section>
-<section id="results" class="level2">
-<h2 class="anchored" data-anchor-id="results">Results</h2>
-<p>Preliminary results show improvements over ESM-2 embeddings and GNN-based baselines on pathogenicity prediction tasks. The representation also provides interpretable features that domain experts can analyze.</p>
+<section id="evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="evaluation">Evaluation</h2>
+<p>We are evaluating whether structural and evolutionary features improve pathogenicity prediction over ESM-2 and GNN baselines. The representation also provides interpretable features that domain experts can analyze.</p>
 </section>
 <section id="status" class="level2">
 <h2 class="anchored" data-anchor-id="status">Status</h2>

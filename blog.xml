@@ -89,7 +89,7 @@ The lab run above is from our work with MHS at CMU during the research preview. 
 <div class="mhs-photo">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://sinabr.github.io/files/mhs-related-photo/instruments_1.png" class="img-fluid figure-img"></p>
+<p><img src="https://sinabr.github.io/files/mhs-related-photo/instruments-1.webp" class="img-fluid figure-img"></p>
 <figcaption>CMU laboratory instruments: the CyBio FeliX liquid handler for automated pipetting and liquid-transfer workflows (left), and the Varioskan LUX multimode plate reader for microplate-based absorbance, fluorescence, and luminescence measurements (right).</figcaption>
 </figure>
 </div>
@@ -97,7 +97,7 @@ The lab run above is from our work with MHS at CMU during the research preview. 
 <div class="mhs-photo">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://sinabr.github.io/files/mhs-related-photo/instruments_2.png" class="img-fluid figure-img"></p>
+<p><img src="https://sinabr.github.io/files/mhs-related-photo/instruments-2.webp" class="img-fluid figure-img"></p>
 <figcaption>Spinnaker robotic arm for automated microplate handling and transport (left), with monitoring cameras used to observe plate movement and system operation (center and right).</figcaption>
 </figure>
 </div>
@@ -117,7 +117,7 @@ The lab run above is from our work with MHS at CMU during the research preview. 
 <div class="mhs-photo">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://sinabr.github.io/files/mhs-related-photo/serial dilution plate map.png" class="img-fluid figure-img"></p>
+<p><img src="https://sinabr.github.io/files/mhs-related-photo/serial-dilution-plate-map.webp" class="img-fluid figure-img"></p>
 <figcaption>A 96-well plate arranged as a serial dilution, with the concentration decreasing step by step across the columns from 200 µg/mL to 0.20 µg/mL. This produces a broad, predictable concentration range that can be measured to build a dose-response curve.</figcaption>
 </figure>
 </div>
@@ -167,7 +167,7 @@ The lab run above is from our work with MHS at CMU during the research preview. 
 </section>
 <section id="team" class="level2">
 <h2 class="anchored" data-anchor-id="team">Team</h2>
-<p>This was a team effort. I am grateful to <strong>Arth Banka</strong>, <strong>Gün Kaynar</strong>, <strong>Jiayi Li</strong>, and <strong>Peneeta Wojcik</strong> for their work, and to my advisor <strong>Jose Lugo-Martinez</strong>, <strong>Carl Kingsford</strong>, and <strong>Josh Kangas</strong> for their guidance.</p>
+<p>This was a team effort. I am grateful to <strong>Arth Banka</strong>, <strong>Gün Kaynar</strong>, <strong>Jiayi Li</strong>, and <strong>Peneeta Wojcik</strong> for their work, and to my advisor <strong>Jose Lugo-Martinez</strong>, <strong>Carl Kingsford</strong>, and <strong>Joshua Kangas</strong> for their guidance.</p>
 <p><strong>Further reading</strong></p>
 <ul>
 <li><a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">MHS announcement</a></li>
@@ -185,7 +185,7 @@ The lab run above is from our work with MHS at CMU during the research preview. 
   <category>cmu</category>
   <guid>https://sinabr.github.io/posts/2026-08-27-mhs-preview.html</guid>
   <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://sinabr.github.io/files/mhs-related-photo/instruments_1.png" medium="image" type="image/png" height="106" width="144"/>
+  <media:content url="https://sinabr.github.io/files/mhs-related-photo/instruments-1.webp" medium="image" type="image/webp"/>
 </item>
 <item>
   <title>Now seeking Summer 2027 internships</title>
