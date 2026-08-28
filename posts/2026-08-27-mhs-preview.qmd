@@ -58,7 +58,7 @@ format:
 
 We used the [Model Hardware Standard (MHS)](https://www.anthropic.com/news/model-hardware-standard-research-preview) research preview to let an AI agent operate a liquid handler, a plate reader, a robotic arm, and monitoring cameras. Serial-dilution dose-response experiments ran about three times faster than before. I led this work on the CMU side: the AI orchestration and software integration that brought disconnected device interfaces into one system an agent could coordinate.
 
-MHS is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. It is being co-developed by Anthropic, Arm, and HHMI Janelia Research Campus and is currently in a limited research preview. It is a provisional specification — not a general release, and not an Anthropic or Claude product. We participated in the preview to test how MHS-compatible agents operate our instruments within device-declared safety bounds.
+MHS is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. It is currently in a limited research preview. It is a provisional specification — not a general release, and not an Anthropic or Claude product. We participated in the preview to test how MHS-compatible agents operate our instruments within device-declared safety bounds.
 
 The most rewarding part was watching that software leave the editor and come to life in a working physical laboratory.
 
@@ -94,9 +94,9 @@ That integration tax is what we were testing MHS against.
 
 In our own testing, MHS let us run these experiments about **three times faster** by giving an AI agent a single way to operate the bench. The CMU setup combines:
 
-- an **Analytik Jena CyBio FeliX** liquid handler
-- a **Thermo Scientific Varioskan LUX** plate reader
-- a **Thermo Scientific Spinnaker** robotic arm
+- a CyBio FeliX liquid handler
+- a Varioskan LUX plate reader
+- a Spinnaker robotic arm
 - monitoring cameras
 - an AI agent — we used Claude during the preview
 
@@ -105,19 +105,19 @@ I built the drivers from scratch for each instrument, plus the orchestration lay
 MHS is model-agnostic. We used Claude as one MHS-compatible agent in this deployment, not as a requirement of the standard.
 
 ::: {layout-ncol=3}
-![Thermo Scientific Spinnaker, a robotic arm designed to handle and transport microplates in automated laboratory workflows.](../files/mhs-related-photo/arm.jpg)
+![Spinnaker, a robotic arm designed to handle and transport microplates in automated laboratory workflows.](../files/mhs-related-photo/arm.jpg)
 
-![Analytik Jena CyBio FeliX, a liquid handling instrument used to automate pipetting, sample transfer, and other routine workflows in biological laboratories.](../files/mhs-related-photo/felix-photo.jpg)
+![CyBio FeliX, a liquid handling instrument used to automate pipetting, sample transfer, and other routine workflows in biological laboratories.](../files/mhs-related-photo/felix-photo.jpg)
 
-![Thermo Scientific Varioskan LUX plate reader, used to measure the optical signal from each well of a microplate. In this experiment, the reader quantifies absorbance so the system can determine how the measured response changes across the dilution series.](../files/mhs-related-photo/plate_reader.jpg)
+![Varioskan LUX plate reader, used to measure the optical signal from each well of a microplate. In this experiment, the reader quantifies absorbance so the system can determine how the measured response changes across the dilution series.](../files/mhs-related-photo/plate_reader.jpg)
 :::
 
 ::: {.mhs-photo}
-![CMU laboratory instruments: the Analytik Jena CyBio FeliX liquid handler for automated pipetting and liquid-transfer workflows (left), and the Thermo Scientific Varioskan LUX multimode plate reader for microplate-based absorbance, fluorescence, and luminescence measurements (right).](../files/mhs-related-photo/instruments_1.png)
+![CMU laboratory instruments: the CyBio FeliX liquid handler for automated pipetting and liquid-transfer workflows (left), and the Varioskan LUX multimode plate reader for microplate-based absorbance, fluorescence, and luminescence measurements (right).](../files/mhs-related-photo/instruments_1.png)
 :::
 
 ::: {.mhs-photo}
-![Thermo Scientific Spinnaker robotic arm for automated microplate handling and transport (left), with monitoring cameras used to observe plate movement and system operation (center and right).](../files/mhs-related-photo/instruments_2.png)
+![Spinnaker robotic arm for automated microplate handling and transport (left), with monitoring cameras used to observe plate movement and system operation (center and right).](../files/mhs-related-photo/instruments_2.png)
 :::
 
 ## Hardware, setup, and workflow
