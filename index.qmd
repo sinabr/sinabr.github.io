@@ -14,7 +14,7 @@ I build machine-learning systems for **agentic scientific discovery** and **auto
 
 Most recently, I led CMU's work using the [Model Hardware Standard (MHS)](posts/2026-08-27-mhs-preview.qmd) in the limited research preview: I built instrument drivers and orchestration so an AI agent could coordinate a liquid handler, plate reader, robotic arm, and cameras for closed-loop dose-response experiments.
 
-I am seeking **Summer 2027 research internships**, primarily in agentic scientific discovery, autonomous laboratories, lab automation, and AI for science, and also in generative AI, reinforcement learning, and ML systems.
+I am seeking **Summer 2027 research and applied-science internships** on teams building and deploying ML systems, primarily for agentic scientific discovery, autonomous laboratories, lab automation, and AI for science, and also in generative AI, reinforcement learning, and ML systems.
 
 ::: {.callout-note}
 I value **robust baselines**, **reproducible code**, and **clear methods** that can be understood by both ML researchers and domain scientists.

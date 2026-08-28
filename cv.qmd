@@ -28,7 +28,7 @@ My primary research focus is **agentic scientific discovery**, **autonomous labo
 - Tabrizi, S.S., **Barazandeh, S.**, et al. (2025). RNAtranslator: Modeling protein-conditional RNA design as sequence-to-sequence natural language translation. *PLOS Computational Biology*, 21(10): e1013541.
 
 ## Seeking
-Summer 2027 research internships, primarily in agentic scientific discovery, autonomous laboratories, lab automation, and AI for science, and also in generative AI, reinforcement learning, and ML systems.
+Summer 2027 research and applied-science internships on teams building and deploying ML systems, primarily for agentic scientific discovery, autonomous laboratories, lab automation, and AI for science, and also in generative AI, reinforcement learning, and ML systems.
 
 [Download full CV (PDF)](files/Sina_Barazandeh_CV.pdf)
 

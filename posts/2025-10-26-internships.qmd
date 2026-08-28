@@ -5,7 +5,7 @@ date-modified: 2026-08-28
 categories: [career]
 ---
 
-I am looking for Summer 2027 research internships in biotech and technology. My primary interests are **agentic scientific discovery**, **autonomous laboratories**, laboratory automation, and AI for science. I am also interested in generative models, reinforcement learning, ML systems, biological sequence design, protein representation learning, and biomarker discovery.
+I am looking for Summer 2027 research and applied-science internships on technology and biotechnology teams building deployable ML systems. My primary interests are **agentic scientific discovery**, **autonomous laboratories**, laboratory automation, and AI for science. I am also interested in generative models, reinforcement learning, ML systems, biological sequence design, protein representation learning, and biomarker discovery.
 
 I am particularly interested in roles involving:
 
