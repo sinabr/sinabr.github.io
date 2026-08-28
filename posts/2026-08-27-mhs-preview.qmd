@@ -56,9 +56,9 @@ format:
           </style>
 ---
 
-We used the [Model Hardware Standard (MHS)](https://www.anthropic.com/news/model-hardware-standard-research-preview) research preview to let an AI agent operate a liquid handler, a plate reader, a robotic arm, and monitoring cameras. Serial-dilution dose-response experiments ran about three times faster than before. I led this work on the CMU side: the AI orchestration and software integration that brought disconnected device interfaces into one system an agent could coordinate.
+We used the [Model Hardware Standard (MHS)](https://www.anthropic.com/news/model-hardware-standard-research-preview) research preview (announced by Anthropic) to let an AI agent operate a liquid handler, a plate reader, a robotic arm, and monitoring cameras. Serial-dilution dose-response experiments ran about three times faster than before. I led this work on the CMU side: the AI orchestration and software integration that brought disconnected device interfaces into one system an agent could coordinate.
 
-MHS is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. It is currently in a limited research preview. It is a provisional specification — not a general release, and not an Anthropic or Claude product. We participated in the preview to test how MHS-compatible agents operate our instruments within device-declared safety bounds.
+MHS is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. It is currently in a limited research preview. It is a provisional specification — not a general release — and is not Claude-only: MHS-compatible AI agents can use it. We participated in the preview to test how those agents operate our instruments within device-declared safety bounds.
 
 The most rewarding part was watching that software leave the editor and come to life in a working physical laboratory.
 
@@ -102,7 +102,7 @@ In our own testing, MHS let us run these experiments about **three times faster*
 
 I built the drivers from scratch for each instrument, plus the orchestration layer that lets an agent run the full protocol within device-declared bounds. That work took about **eight hours**. A vendor-built automation job of this kind typically takes several weeks. The instruments keep running their native software; MHS sits on top. No extra automation stack required.
 
-MHS is model-agnostic. We used Claude as one MHS-compatible agent in this deployment, not as a requirement of the standard.
+MHS is model-agnostic and not Claude-only. We used Claude as one MHS-compatible agent in this deployment, not as a requirement of the standard.
 
 ::: {layout-ncol=3}
 ![Spinnaker, a robotic arm designed to handle and transport microplates in automated laboratory workflows.](../files/mhs-related-photo/arm.jpg)
