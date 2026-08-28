@@ -35,7 +35,7 @@
   <media:content url="https://sinabr.github.io/files/mhs-related-photo/instruments_1.png" medium="image" type="image/png" height="106" width="144"/>
 </item>
 <item>
-  <title>CloudBench: Simulation and Benchmarking for Agentic Lab Systems</title>
+  <title>simPCL: Simulation and Benchmarking for Agentic Lab Systems</title>
   <link>https://sinabr.github.io/projects/pcl_simulation.html</link>
   <description><![CDATA[ 
 
@@ -44,11 +44,11 @@
 
 <section id="problem" class="level2">
 <h2 class="anchored" data-anchor-id="problem">Problem</h2>
-<p>Evaluating autonomous agents for experimental orchestration on real laboratory hardware is slow and expensive. Progress on planning, fault recovery, and decision-making needs simulation environments and benchmarks that support controlled offline study.</p>
+<p>Evaluating autonomous agents for experimental orchestration on real laboratory hardware is slow and expensive. Progress on planning, fault recovery, closed-loop scientific discovery, and decision-making needs simulation environments and benchmarks that support controlled offline study.</p>
 </section>
 <section id="approach" class="level2">
 <h2 class="anchored" data-anchor-id="approach">Approach</h2>
-<p>I am building <strong>CloudBench</strong>, an open-framework simulator and benchmark generator for programmable cloud laboratories. The laboratory setting is the application domain; the research questions are about simulation, agent evaluation, and benchmarking for autonomous systems.</p>
+<p>I am building <strong>simPCL</strong>, a simulator and benchmark generator for programmable cloud laboratories. The laboratory setting is the application domain; the research questions are about simulation, agent evaluation, and benchmarking for autonomous laboratory systems.</p>
 </section>
 <section id="status" class="level2">
 <h2 class="anchored" data-anchor-id="status">Status</h2>

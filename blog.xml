@@ -188,24 +188,26 @@ The lab run above is from our work with MHS at CMU during the research preview. 
   <media:content url="https://sinabr.github.io/files/mhs-related-photo/instruments_1.png" medium="image" type="image/png" height="106" width="144"/>
 </item>
 <item>
-  <title>Now seeking Summer 2026 internships</title>
+  <title>Now seeking Summer 2027 internships</title>
   <link>https://sinabr.github.io/posts/2025-10-26-internships.html</link>
   <description><![CDATA[ 
 
 
 
 
-<p>I am looking for Summer 2027 internships in biotech and tech companies. My research spans generative models for biological sequences, protein representation learning, and biomarker discovery using machine learning.</p>
+<p>I am looking for Summer 2027 research internships in biotech and tech. My research spans generative models for biological sequences, protein representation learning, biomarker discovery, <strong>agentic scientific discovery</strong>, and <strong>autonomous laboratories</strong>.</p>
 <p>I am particularly interested in roles involving:</p>
 <ul>
+<li>Agentic scientific discovery and closed-loop experimental systems</li>
+<li>Autonomous laboratories and laboratory automation</li>
+<li>AI agents for science (planning, orchestration, and fault recovery)</li>
 <li>ML for drug discovery and protein design</li>
-<li>Foundation models and AI agents for Science</li>
+<li>Foundation models and generative models for biological sequences</li>
 <li>Computational methods for single-cell analysis</li>
-<li>AI systems for laboratory automation</li>
-<li>Sequence optimization and generative modeling</li>
+<li>ML systems</li>
 </ul>
-<p>I have experience building production-ready PyTorch code, running large-scale experiments on HPC clusters, and publishing in top venues. I value reproducible research, strong baselines, and clear communication.</p>
-<p>If your team works at the intersection of machine learning and biology, I would be happy to connect.</p>
+<p>I have experience building production-ready PyTorch code, running large-scale experiments on HPC clusters, integrating physical lab instruments with AI agents, and publishing in venues including ChemBioChem, PLOS Computational Biology, and Bioinformatics Advances. I value reproducible research, strong baselines, and clear communication.</p>
+<p>If your team works at the intersection of machine learning, autonomous labs, and scientific discovery, I would be happy to connect.</p>
 <p>Contact: sbarazan@andrew.cmu.edu</p>
 
 

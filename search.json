@@ -2,9 +2,9 @@
   {
     "objectID": "publications/cloudbench.html",
     "href": "publications/cloudbench.html",
-    "title": "RNAGEN: A generative adversarial network-based model to generate synthetic RNA sequences to target proteins",
+    "title": "simPCL: An open-framework simulator and benchmark generator for programmable cloud laboratories",
     "section": "",
-    "text": "We developed a GAN-based model for generating synthetic RNA sequences that target specific proteins. The model learns to produce biologically plausible RNA sequences with desired binding properties while maintaining structural validity."
+    "text": "simPCL is a simulator and benchmark generator for programmable cloud laboratories. The laboratory setting is the application domain; the research questions are simulation, agent evaluation, and benchmarking for autonomous laboratory systems and agentic scientific discovery."
   },
   {
     "objectID": "publications/utrgan.html",
@@ -25,14 +25,14 @@
     "href": "publications.html#in-progress-publications",
     "title": "Publications",
     "section": "In-progress Publications",
-    "text": "In-progress Publications\n2026\nBarazandeh, S., Gun Kaynar, Arth Banka, Joshua Kangas, Carl Kingsford, Jose Lugo-Martinez. CloudBench: An Open-Framework Simulator and Benchmark Generator for Programmable Cloud Laboratories. Manuscript in preparation."
+    "text": "In-progress Publications\n2026\nBarazandeh, S., Gun Kaynar, Arth Banka, Joshua Kangas, Carl Kingsford, Jose Lugo-Martinez. simPCL: An Open-Framework Simulator and Benchmark Generator for Programmable Cloud Laboratories. Manuscript in preparation."
   },
   {
     "objectID": "publications.html#peer-reviewed-publications",
     "href": "publications.html#peer-reviewed-publications",
     "title": "Publications",
     "section": "Peer-Reviewed Publications",
-    "text": "Peer-Reviewed Publications\n2026\nOzden, F., Barazandeh, S., Akboga, D., Tabrizi, S.S., Seker, U.O.S., Cicek, A.E. (2023). RNAGEN: A generative adversarial network-based model to generate synthetic RNA sequences to target proteins. bioRxiv.\n[Preprint] [github] (In press at ChemBioChem)\n2025\nBarazandeh, S., Ozden, F., Hincer, A., Seker, U.O.S., Cicek, A.E. (2025). UTRGAN: Learning to generate 5’ UTR sequences for optimized translation efficiency and gene expression. Bioinformatics Advances, 5(1): vbaf134.\n[Paper] [bioRxiv] [Code]\nTabrizi, S.S., Barazandeh, S., Aghdam, H.H., Cicek, A.E. (2025). RNAtranslator: Modeling protein-conditional RNA design as sequence-to-sequence natural language translation. PLOS Computational Biology, 21(10): e1013541.\n[Paper] [bioRxiv] [Code] [Model]"
+    "text": "Peer-Reviewed Publications\n2026\nOzden, F., Barazandeh, S., Akboga, D., Tabrizi, S.S., Seker, U.O.S., Cicek, A.E. (2026). RNAGEN: A generative adversarial network-based model to generate synthetic RNA sequences to target proteins. ChemBioChem, 27(13): e202500445.\n[Paper] [Preprint] [Code]\n2025\nBarazandeh, S., Ozden, F., Hincer, A., Seker, U.O.S., Cicek, A.E. (2025). UTRGAN: Learning to generate 5’ UTR sequences for optimized translation efficiency and gene expression. Bioinformatics Advances, 5(1): vbaf134.\n[Paper] [bioRxiv] [Code]\nTabrizi, S.S., Barazandeh, S., Aghdam, H.H., Cicek, A.E. (2025). RNAtranslator: Modeling protein-conditional RNA design as sequence-to-sequence natural language translation. PLOS Computational Biology, 21(10): e1013541.\n[Paper] [bioRxiv] [Code] [Model]"
   },
   {
     "objectID": "publications.html#other-publications",
@@ -46,7 +46,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Safe closed-loop agentic dose-response experiments using the Model Hardware Standard\n\n\nI led Carnegie Mellon’s work using the Model Hardware Standard in the research preview, building drivers and an orchestration layer so an AI agent could operate a liquid handler, plate reader, and robotic arm for serial-dilution dose-response experiments.\n\n\n\n\n\nAug 27, 2026\n\n\nSina Barazandeh\n\n\n\n\n\n\n\n\n\n\n\n\nNow seeking Summer 2026 internships\n\n\n\n\n\n\n\n\nOct 26, 2025\n\n\n\n\n\nNo matching items"
+    "text": "Safe closed-loop agentic dose-response experiments using the Model Hardware Standard\n\n\nI led Carnegie Mellon’s work using the Model Hardware Standard in the research preview, building drivers and an orchestration layer so an AI agent could operate a liquid handler, plate reader, and robotic arm for serial-dilution dose-response experiments.\n\n\n\n\n\nAug 27, 2026\n\n\nSina Barazandeh\n\n\n\n\n\n\n\n\n\n\n\n\nNow seeking Summer 2027 internships\n\n\n\n\n\n\n\n\nOct 26, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/agentic_lab_automation.html",
@@ -79,28 +79,28 @@
   {
     "objectID": "projects/pcl_simulation.html",
     "href": "projects/pcl_simulation.html",
-    "title": "CloudBench: Simulation and Benchmarking for Agentic Lab Systems",
+    "title": "simPCL: Simulation and Benchmarking for Agentic Lab Systems",
     "section": "",
-    "text": "Evaluating autonomous agents for experimental orchestration on real laboratory hardware is slow and expensive. Progress on planning, fault recovery, and decision-making needs simulation environments and benchmarks that support controlled offline study."
+    "text": "Evaluating autonomous agents for experimental orchestration on real laboratory hardware is slow and expensive. Progress on planning, fault recovery, closed-loop scientific discovery, and decision-making needs simulation environments and benchmarks that support controlled offline study."
   },
   {
     "objectID": "projects/pcl_simulation.html#problem",
     "href": "projects/pcl_simulation.html#problem",
-    "title": "CloudBench: Simulation and Benchmarking for Agentic Lab Systems",
+    "title": "simPCL: Simulation and Benchmarking for Agentic Lab Systems",
     "section": "",
-    "text": "Evaluating autonomous agents for experimental orchestration on real laboratory hardware is slow and expensive. Progress on planning, fault recovery, and decision-making needs simulation environments and benchmarks that support controlled offline study."
+    "text": "Evaluating autonomous agents for experimental orchestration on real laboratory hardware is slow and expensive. Progress on planning, fault recovery, closed-loop scientific discovery, and decision-making needs simulation environments and benchmarks that support controlled offline study."
   },
   {
     "objectID": "projects/pcl_simulation.html#approach",
     "href": "projects/pcl_simulation.html#approach",
-    "title": "CloudBench: Simulation and Benchmarking for Agentic Lab Systems",
+    "title": "simPCL: Simulation and Benchmarking for Agentic Lab Systems",
     "section": "Approach",
-    "text": "Approach\nI am building CloudBench, an open-framework simulator and benchmark generator for programmable cloud laboratories. The laboratory setting is the application domain; the research questions are about simulation, agent evaluation, and benchmarking for autonomous systems."
+    "text": "Approach\nI am building simPCL, a simulator and benchmark generator for programmable cloud laboratories. The laboratory setting is the application domain; the research questions are about simulation, agent evaluation, and benchmarking for autonomous laboratory systems."
   },
   {
     "objectID": "projects/pcl_simulation.html#status",
     "href": "projects/pcl_simulation.html#status",
-    "title": "CloudBench: Simulation and Benchmarking for Agentic Lab Systems",
+    "title": "simPCL: Simulation and Benchmarking for Agentic Lab Systems",
     "section": "Status",
     "text": "Status\nManuscript in preparation. Code and benchmarks will be released with the paper."
   },
@@ -137,7 +137,7 @@
     "href": "index.html",
     "title": "Sina Barazandeh",
     "section": "",
-    "text": "I am a PhD student in the School of Computer Science at Carnegie Mellon University (Computational Biology Department), advised by Dr. Jose Lugo-Martinez.\nMy research focuses on machine learning, generative and foundation models, reinforcement learning, and agentic systems, with applications to automated science and computational biology. I am interested in ML methods and systems that support reliable reasoning, decision-making, simulation, and scientific discovery.\nI am seeking Summer 2027 research internships in machine learning, generative AI, agentic systems, ML systems, and AI for science.\n\n\n\n\n\n\nNote\n\n\n\nI value robust baselines, reproducible code, and clear methods that can be understood by both ML researchers and domain scientists.\n\n\n\n\n\nPh.D. Computational Biology — School of Computer Science, Carnegie Mellon University (2024–2029)\nAdvisor: Dr. Jose Lugo-Martinez\nM.Sc. Computer Engineering — Bilkent University (2021–2024, GPA: 3.9/4.0)\nAdvisor: Dr. A. Ercument Cicek · Thesis: Generative Models for Generating and Optimizing Biological Sequences\nB.Sc. Computer Engineering — Shiraz University (2016–2021, GPA: 3.5/4.0)\n\n\n\n\n\nLab Automation / MHS: Led CMU’s work using the Model Hardware Standard in the research preview, including drivers and orchestration so an AI agent could operate a liquid handler, plate reader, and robotic arm\nAgentic Systems: RL and LLM agents for autonomous orchestration and fault recovery\nSimulation & Benchmarking: CloudBench — simulator and benchmark generator for programmable cloud laboratories\nML Systems: Extending FlashAttention and PagedAttention in MiniTorch (LLM Systems coursework)\nGenerative Models: Sequence design with GANs and seq2seq models (UTRGAN, RNAtranslator)\nReinforcement Learning: Policy optimization for biomarker discovery under structure-aware rewards\nRepresentation Learning: Evolution-informed protein subgraph features for downstream prediction\n\n\n\n\n\nAug 2026: We used the Model Hardware Standard (MHS) in the research preview (announced by Anthropic) so an AI agent could operate a liquid handler, plate reader, robotic arm, and cameras. Serial-dilution dose-response experiments ran ~3× faster. I led this work at CMU. Read the post. Also covered by CMU SCS on LinkedIn and X.\nAttending AI Scientist Summer Workshop at Cambridge, MA — Microsoft Research (Aug 2026); contributed talk: Agentic Fault Recovery for Autonomous Orchestration of Programmable Cloud Laboratories\nAttending SciFM (Chicago IL, 2026)\nTwo publications in 2025: PLOS Computational Biology and Bioinformatics Advances\nAttending SenNet Annual Meeting (Washington DC, 2025) and PathVisions (San Diego, 2025)\nNow seeking Summer 2027 research internships\n\nSee my projects, publications, and CV for more details."
+    "text": "I am a PhD student in the School of Computer Science at Carnegie Mellon University (Computational Biology Department), advised by Dr. Jose Lugo-Martinez.\nMy research focuses on machine learning, generative and foundation models, reinforcement learning, and agentic systems, with applications to agentic scientific discovery, autonomous laboratories, and computational biology. I am interested in ML methods and systems that support reliable reasoning, decision-making, simulation, closed-loop experiments, and scientific discovery.\nI am seeking Summer 2027 research internships in machine learning, generative AI, agentic systems, agentic scientific discovery, autonomous laboratories, lab automation, ML systems, and AI for science.\n\n\n\n\n\n\nNote\n\n\n\nI value robust baselines, reproducible code, and clear methods that can be understood by both ML researchers and domain scientists.\n\n\n\n\n\nPh.D. Computational Biology — School of Computer Science, Carnegie Mellon University (2024–2029)\nAdvisor: Dr. Jose Lugo-Martinez\nM.Sc. Computer Engineering — Bilkent University (2021–2024, GPA: 3.9/4.0)\nAdvisor: Dr. A. Ercument Cicek · Thesis: Generative Models for Generating and Optimizing Biological Sequences\nB.Sc. Computer Engineering — Shiraz University (2016–2021, GPA: 3.5/4.0)\n\n\n\n\n\nLab Automation / MHS: Led CMU’s work using the Model Hardware Standard in the research preview, including drivers and orchestration so an AI agent could operate a liquid handler, plate reader, and robotic arm\nAgentic Systems: RL and LLM agents for autonomous orchestration, fault recovery, and agentic scientific discovery\nAutonomous Laboratories: Closed-loop experimental workflows on physical instruments and programmable cloud labs\nSimulation & Benchmarking: simPCL — simulator and benchmark generator for programmable cloud laboratories\nML Systems: Extending FlashAttention and PagedAttention in MiniTorch (LLM Systems coursework)\nGenerative Models: Sequence design with GANs and seq2seq models (UTRGAN, RNAtranslator)\nReinforcement Learning: Policy optimization for biomarker discovery under structure-aware rewards\nRepresentation Learning: Evolution-informed protein subgraph features for downstream prediction\n\n\n\n\n\nAug 2026: We used the Model Hardware Standard (MHS) in the research preview (announced by Anthropic) so an AI agent could operate a liquid handler, plate reader, robotic arm, and cameras. Serial-dilution dose-response experiments ran ~3× faster. I led this work at CMU. Read the post. Also covered by CMU SCS on LinkedIn and X.\nAttending AI Scientist Summer Workshop at Cambridge, MA — Microsoft Research (Aug 2026); contributed talk: Agentic Fault Recovery for Autonomous Orchestration of Programmable Cloud Laboratories\nAttending SciFM (Chicago IL, 2026)\nTwo publications in 2025 (PLOS Computational Biology, Bioinformatics Advances) and RNAGEN in ChemBioChem (2026)\nAttending SenNet Annual Meeting (Washington DC, 2025) and PathVisions (San Diego, 2025)\nNow seeking Summer 2027 research internships in agentic scientific discovery, autonomous laboratories, and related ML areas\n\nSee my projects, publications, and CV for more details."
   },
   {
     "objectID": "index.html#education",
@@ -151,35 +151,35 @@
     "href": "index.html#research-highlights",
     "title": "Sina Barazandeh",
     "section": "",
-    "text": "Lab Automation / MHS: Led CMU’s work using the Model Hardware Standard in the research preview, including drivers and orchestration so an AI agent could operate a liquid handler, plate reader, and robotic arm\nAgentic Systems: RL and LLM agents for autonomous orchestration and fault recovery\nSimulation & Benchmarking: CloudBench — simulator and benchmark generator for programmable cloud laboratories\nML Systems: Extending FlashAttention and PagedAttention in MiniTorch (LLM Systems coursework)\nGenerative Models: Sequence design with GANs and seq2seq models (UTRGAN, RNAtranslator)\nReinforcement Learning: Policy optimization for biomarker discovery under structure-aware rewards\nRepresentation Learning: Evolution-informed protein subgraph features for downstream prediction"
+    "text": "Lab Automation / MHS: Led CMU’s work using the Model Hardware Standard in the research preview, including drivers and orchestration so an AI agent could operate a liquid handler, plate reader, and robotic arm\nAgentic Systems: RL and LLM agents for autonomous orchestration, fault recovery, and agentic scientific discovery\nAutonomous Laboratories: Closed-loop experimental workflows on physical instruments and programmable cloud labs\nSimulation & Benchmarking: simPCL — simulator and benchmark generator for programmable cloud laboratories\nML Systems: Extending FlashAttention and PagedAttention in MiniTorch (LLM Systems coursework)\nGenerative Models: Sequence design with GANs and seq2seq models (UTRGAN, RNAtranslator)\nReinforcement Learning: Policy optimization for biomarker discovery under structure-aware rewards\nRepresentation Learning: Evolution-informed protein subgraph features for downstream prediction"
   },
   {
     "objectID": "index.html#recent-news",
     "href": "index.html#recent-news",
     "title": "Sina Barazandeh",
     "section": "",
-    "text": "Aug 2026: We used the Model Hardware Standard (MHS) in the research preview (announced by Anthropic) so an AI agent could operate a liquid handler, plate reader, robotic arm, and cameras. Serial-dilution dose-response experiments ran ~3× faster. I led this work at CMU. Read the post. Also covered by CMU SCS on LinkedIn and X.\nAttending AI Scientist Summer Workshop at Cambridge, MA — Microsoft Research (Aug 2026); contributed talk: Agentic Fault Recovery for Autonomous Orchestration of Programmable Cloud Laboratories\nAttending SciFM (Chicago IL, 2026)\nTwo publications in 2025: PLOS Computational Biology and Bioinformatics Advances\nAttending SenNet Annual Meeting (Washington DC, 2025) and PathVisions (San Diego, 2025)\nNow seeking Summer 2027 research internships\n\nSee my projects, publications, and CV for more details."
+    "text": "Aug 2026: We used the Model Hardware Standard (MHS) in the research preview (announced by Anthropic) so an AI agent could operate a liquid handler, plate reader, robotic arm, and cameras. Serial-dilution dose-response experiments ran ~3× faster. I led this work at CMU. Read the post. Also covered by CMU SCS on LinkedIn and X.\nAttending AI Scientist Summer Workshop at Cambridge, MA — Microsoft Research (Aug 2026); contributed talk: Agentic Fault Recovery for Autonomous Orchestration of Programmable Cloud Laboratories\nAttending SciFM (Chicago IL, 2026)\nTwo publications in 2025 (PLOS Computational Biology, Bioinformatics Advances) and RNAGEN in ChemBioChem (2026)\nAttending SenNet Annual Meeting (Washington DC, 2025) and PathVisions (San Diego, 2025)\nNow seeking Summer 2027 research internships in agentic scientific discovery, autonomous laboratories, and related ML areas\n\nSee my projects, publications, and CV for more details."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am a PhD student in the School of Computer Science at Carnegie Mellon University (Computational Biology Department), advised by Dr. Jose Lugo-Martinez. My research focuses on machine learning, generative and foundation models, reinforcement learning, and agentic systems, with applications to automated science and computational biology.\nI develop ML methods and systems for reliable reasoning, decision-making, simulation, and scientific discovery. My projects include generative models for biological sequences, reinforcement learning for biomarker discovery, CloudBench simulation and benchmarking for programmable cloud laboratories, and agentic orchestration with fault recovery. During the Model Hardware Standard (MHS) research preview (announced by Anthropic), I led CMU’s work using MHS so an AI agent could operate physical lab instruments for dose-response experiments.\nI value methods that are simple, strong, and reproducible, and aim to release code and minimal examples whenever possible. Before CMU, I completed my Master’s at Bilkent University under Dr. A. Ercument Cicek, where I developed generative models for biological sequence optimization. My work has been published in venues including PLOS Computational Biology and Bioinformatics Advances."
+    "text": "I am a PhD student in the School of Computer Science at Carnegie Mellon University (Computational Biology Department), advised by Dr. Jose Lugo-Martinez. My research focuses on machine learning, generative and foundation models, reinforcement learning, and agentic systems, with applications to agentic scientific discovery, autonomous laboratories, and computational biology.\nI develop ML methods and systems for reliable reasoning, decision-making, simulation, and scientific discovery. Concrete lab-automation work includes closed-loop serial-dilution dose-response experiments in which an AI agent operates a liquid handler, plate reader, robotic arm, and monitoring cameras; camera checks that a plate is present and oriented before any transfer; agent-driven rejection of saturated curves and reruns with a compressed concentration range; and simPCL, a simulator and benchmark generator for programmable cloud-laboratory workflows, planning, and fault recovery. During the Model Hardware Standard (MHS) research preview (announced by Anthropic), I led CMU’s work using MHS so an AI agent could operate those physical instruments. Other projects include generative models for biological sequences and reinforcement learning for biomarker discovery.\nI value methods that are simple, strong, and reproducible, and aim to release code and minimal examples whenever possible. Before CMU, I completed my Master’s at Bilkent University under Dr. A. Ercument Cicek, where I developed generative models for biological sequence optimization. My work has been published in venues including ChemBioChem, PLOS Computational Biology, and Bioinformatics Advances."
   },
   {
     "objectID": "posts/2025-10-26-internships.html",
     "href": "posts/2025-10-26-internships.html",
-    "title": "Now seeking Summer 2026 internships",
+    "title": "Now seeking Summer 2027 internships",
     "section": "",
-    "text": "I am looking for Summer 2027 internships in biotech and tech companies. My research spans generative models for biological sequences, protein representation learning, and biomarker discovery using machine learning.\nI am particularly interested in roles involving:\n\nML for drug discovery and protein design\nFoundation models and AI agents for Science\nComputational methods for single-cell analysis\nAI systems for laboratory automation\nSequence optimization and generative modeling\n\nI have experience building production-ready PyTorch code, running large-scale experiments on HPC clusters, and publishing in top venues. I value reproducible research, strong baselines, and clear communication.\nIf your team works at the intersection of machine learning and biology, I would be happy to connect.\nContact: sbarazan@andrew.cmu.edu"
+    "text": "I am looking for Summer 2027 research internships in biotech and tech. My research spans generative models for biological sequences, protein representation learning, biomarker discovery, agentic scientific discovery, and autonomous laboratories.\nI am particularly interested in roles involving:\n\nAgentic scientific discovery and closed-loop experimental systems\nAutonomous laboratories and laboratory automation\nAI agents for science (planning, orchestration, and fault recovery)\nML for drug discovery and protein design\nFoundation models and generative models for biological sequences\nComputational methods for single-cell analysis\nML systems\n\nI have experience building production-ready PyTorch code, running large-scale experiments on HPC clusters, integrating physical lab instruments with AI agents, and publishing in venues including ChemBioChem, PLOS Computational Biology, and Bioinformatics Advances. I value reproducible research, strong baselines, and clear communication.\nIf your team works at the intersection of machine learning, autonomous labs, and scientific discovery, I would be happy to connect.\nContact: sbarazan@andrew.cmu.edu"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Below are research projects with code, methods, and results. Each includes problem motivation, technical approach, and outcomes. Repositories are linked when available.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSafe closed-loop agentic dose-response experiments using MHS\n\n\n\nagents\n\nlab-automation\n\nmhs\n\n\n\n\n\n\n\n\n\nAug 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nCloudBench: Simulation and Benchmarking for Agentic Lab Systems\n\n\n\nsimulation\n\nagents\n\nbenchmarking\n\nml-systems\n\n\n\n\n\n\n\n\n\nJun 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nFlashAttention and PagedAttention in MiniTorch\n\n\n\nml-systems\n\nllms\n\nattention\n\n\n\n\n\n\n\n\n\nJan 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nAgentic Orchestration and Fault Recovery\n\n\n\nagents\n\nrl-llm\n\ndecision-making\n\n\n\n\n\n\n\n\n\nMar 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEvolution-Informed Structural Subgraph Protein Representations\n\n\n\nprotein-engineering\n\ngraph-methods\n\nfoundation-models\n\n\n\n\n\n\n\n\n\nFeb 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nReinforcement Learning for Senescence Biomarker Discovery\n\n\n\nreinforcement-learning\n\nbiomarkers\n\nsingle-cell\n\n\n\n\n\n\n\n\n\nJan 15, 2025\n\n\n\n\n\nNo matching items"
+    "text": "Below are research projects with code, methods, and results. Each includes problem motivation, technical approach, and outcomes. Repositories are linked when available.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSafe closed-loop agentic dose-response experiments using MHS\n\n\n\nagents\n\nlab-automation\n\nmhs\n\n\n\n\n\n\n\n\n\nAug 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nsimPCL: Simulation and Benchmarking for Agentic Lab Systems\n\n\n\nsimulation\n\nagents\n\nbenchmarking\n\nml-systems\n\n\n\n\n\n\n\n\n\nJun 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nFlashAttention and PagedAttention in MiniTorch\n\n\n\nml-systems\n\nllms\n\nattention\n\n\n\n\n\n\n\n\n\nJan 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nAgentic Orchestration and Fault Recovery\n\n\n\nagents\n\nrl-llm\n\ndecision-making\n\n\n\n\n\n\n\n\n\nMar 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEvolution-Informed Structural Subgraph Protein Representations\n\n\n\nprotein-engineering\n\ngraph-methods\n\nfoundation-models\n\n\n\n\n\n\n\n\n\nFeb 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nReinforcement Learning for Senescence Biomarker Discovery\n\n\n\nreinforcement-learning\n\nbiomarkers\n\nsingle-cell\n\n\n\n\n\n\n\n\n\nJan 15, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2026-08-27-mhs-preview.html",
@@ -256,7 +256,7 @@
     "href": "cv.html#research-focus",
     "title": "CV",
     "section": "Research Focus",
-    "text": "Research Focus\nI develop machine learning methods and intelligent systems for scientific and autonomous decision-making, with interests in generative models, reinforcement learning, foundation models, agents, and ML systems."
+    "text": "Research Focus\nI develop machine learning methods and intelligent systems for scientific and autonomous decision-making, with interests in generative models, reinforcement learning, foundation models, agents, agentic scientific discovery, autonomous laboratories, and ML systems."
   },
   {
     "objectID": "cv.html#education",
@@ -270,14 +270,14 @@
     "href": "cv.html#selected-publications",
     "title": "CV",
     "section": "Selected Publications",
-    "text": "Selected Publications\n\nBarazandeh, S., et al. (2025). UTRGAN: Learning to generate 5’ UTR sequences for optimized translation efficiency. Bioinformatics Advances.\nTabrizi, S., Barazandeh, S., et al. (2025). RNAtranslator: Protein-conditional RNA design as sequence-to-sequence translation. PLOS Computational Biology."
+    "text": "Selected Publications\n\nOzden, F., Barazandeh, S., et al. (2026). RNAGEN: Generating synthetic RNA sequences to target proteins. ChemBioChem.\nBarazandeh, S., et al. (2025). UTRGAN: Learning to generate 5’ UTR sequences for optimized translation efficiency. Bioinformatics Advances.\nTabrizi, S., Barazandeh, S., et al. (2025). RNAtranslator: Protein-conditional RNA design as sequence-to-sequence translation. PLOS Computational Biology."
   },
   {
     "objectID": "cv.html#seeking",
     "href": "cv.html#seeking",
     "title": "CV",
     "section": "Seeking",
-    "text": "Seeking\nSummer 2027 research internships in machine learning, generative AI, agentic systems, ML systems, and AI for science.\nDownload full CV (PDF)\nDownload 1-page Resume (PDF)"
+    "text": "Seeking\nSummer 2027 research internships in machine learning, generative AI, agentic systems, agentic scientific discovery, autonomous laboratories, lab automation, ML systems, and AI for science.\nDownload full CV (PDF)\nDownload 1-page Resume (PDF)"
   },
   {
     "objectID": "contact.html",
@@ -389,7 +389,14 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "I develop machine learning methods and intelligent systems for scientific and autonomous decision-making, with interests in generative models, reinforcement learning, foundation models, agents, and ML systems. Computational biology and automated science are the main application areas where I evaluate these ideas."
+    "text": "I develop machine learning methods and intelligent systems for scientific and autonomous decision-making, with interests in generative models, reinforcement learning, foundation models, agents, and ML systems. Computational biology, agentic scientific discovery, and autonomous laboratories are the main application areas where I evaluate these ideas: agents that plan and run experiments, recover from faults, and close the loop from measurement back to the next action."
+  },
+  {
+    "objectID": "research.html#autonomous-laboratories-and-agentic-scientific-discovery",
+    "href": "research.html#autonomous-laboratories-and-agentic-scientific-discovery",
+    "title": "Research",
+    "section": "Autonomous Laboratories and Agentic Scientific Discovery",
+    "text": "Autonomous Laboratories and Agentic Scientific Discovery\nAutonomous laboratories need more than a scripted protocol. Instruments disagree on interfaces, runs fail in physical ways, and the next useful experiment often depends on the last curve or plate. I work on agentic systems that orchestrate multi-instrument workflows, monitor readiness and safety conditions, and decide whether to accept a result or intervene — for example compressing a concentration range after a saturated dose-response curve.\nDuring the Model Hardware Standard (MHS) research preview (announced by Anthropic), I led Carnegie Mellon’s work using MHS so an AI agent could operate a liquid handler, plate reader, robotic arm, and cameras for serial-dilution dose-response experiments. MHS is a new standard for AI agents to safely operate physical equipment; in the preview the specification is still provisional, and it is not Claude-only — we used Claude in this deployment. I built the drivers and the orchestration layer. Read the post.\nThe same questions show up in programmable cloud laboratories, where evaluating agents on real hardware is slow and expensive. I am building simPCL, a simulator and benchmark generator for these settings, so planning, fault recovery, and closed-loop scientific discovery can be studied offline with controlled scenarios. Related work includes a contributed talk at the AI Scientist Summer Workshop (Microsoft Research, 2026) on agentic fault recovery for autonomous orchestration of programmable cloud laboratories."
   },
   {
     "objectID": "research.html#generative-and-foundation-models",
@@ -403,14 +410,7 @@
     "href": "research.html#reinforcement-learning-and-decision-making",
     "title": "Research",
     "section": "Reinforcement Learning and Decision-Making",
-    "text": "Reinforcement Learning and Decision-Making\nI apply reinforcement learning to decision problems such as selecting informative gene panels for senescence biomarker discovery. This involves policy optimization, structure-aware rewards, and evaluation under positive-unlabeled settings common in biological data."
-  },
-  {
-    "objectID": "research.html#agentic-systems-simulation-and-benchmarking",
-    "href": "research.html#agentic-systems-simulation-and-benchmarking",
-    "title": "Research",
-    "section": "Agentic Systems, Simulation, and Benchmarking",
-    "text": "Agentic Systems, Simulation, and Benchmarking\nI build agentic systems for autonomous orchestration and fault recovery in programmable cloud laboratories, and develop CloudBench as an open-framework simulator and benchmark generator for studying these systems offline. Related work includes a contributed talk at the AI Scientist Summer Workshop (Microsoft Research, 2026).\nDuring the Model Hardware Standard (MHS) research preview (announced by Anthropic), I led Carnegie Mellon’s work using MHS so an AI agent could operate a liquid handler, plate reader, robotic arm, and cameras for serial-dilution dose-response experiments. MHS is a new standard for AI agents to safely operate physical equipment; in the preview the specification is still provisional, and it is not Claude-only — we used Claude in this deployment. I built the drivers and the orchestration layer. Read the post."
+    "text": "Reinforcement Learning and Decision-Making\nI apply reinforcement learning to decision problems such as selecting informative gene panels for senescence biomarker discovery. This involves policy optimization, structure-aware rewards, and evaluation under positive-unlabeled settings common in biological data. The same decision-making tools — when to stop, when to rerun, what to try next — carry into agentic laboratory workflows."
   },
   {
     "objectID": "research.html#representation-learning",
@@ -431,7 +431,7 @@
     "href": "publications/rnagen.html",
     "title": "RNAGEN: A generative adversarial network-based model to generate synthetic RNA sequences to target proteins",
     "section": "",
-    "text": "We developed a GAN-based model for generating synthetic RNA sequences that target specific proteins. The model learns to produce biologically plausible RNA sequences with desired binding properties while maintaining structural validity."
+    "text": "We developed a GAN-based model for generating synthetic RNA sequences that target specific proteins. The model learns to produce biologically plausible RNA sequences with desired binding properties while maintaining structural validity. Published in ChemBioChem (2026)."
   },
   {
     "objectID": "publications/rnatranslator.html",
