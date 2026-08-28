@@ -10,7 +10,7 @@ School of Computer Science, Computational Biology Department
 Advisor: Dr. Jose Lugo-Martinez
 
 ## Research Focus
-I develop machine learning methods and intelligent systems for scientific and autonomous decision-making, with interests in generative models, reinforcement learning, foundation models, agents, and ML systems.
+I develop machine learning methods and intelligent systems for scientific and autonomous decision-making, with interests in generative models, reinforcement learning, foundation models, agents, **agentic scientific discovery**, **autonomous laboratories**, and ML systems.
 
 ## Education
 - **PhD, Computational Biology** — Carnegie Mellon University (2024–2029)
@@ -18,11 +18,12 @@ I develop machine learning methods and intelligent systems for scientific and au
 - **BSc, Computer Engineering** — Shiraz University (2016–2021, GPA: 3.5/4.0)
 
 ## Selected Publications
+- Ozden, F., **Barazandeh, S.**, et al. (2026). RNAGEN: Generating synthetic RNA sequences to target proteins. *ChemBioChem*.
 - **Barazandeh, S.**, et al. (2025). UTRGAN: Learning to generate 5' UTR sequences for optimized translation efficiency. *Bioinformatics Advances*.
 - Tabrizi, S., **Barazandeh, S.**, et al. (2025). RNAtranslator: Protein-conditional RNA design as sequence-to-sequence translation. *PLOS Computational Biology*.
 
 ## Seeking
-Summer 2027 research internships in machine learning, generative AI, agentic systems, ML systems, and AI for science.
+Summer 2027 research internships in machine learning, generative AI, agentic systems, agentic scientific discovery, autonomous laboratories, lab automation, ML systems, and AI for science.
 
 [Download full CV (PDF)](files/Sina_Barazandeh_CV.pdf)
 

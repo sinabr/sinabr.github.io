@@ -1,21 +1,23 @@
 ---
-title: "Now seeking Summer 2026 internships"
+title: "Now seeking Summer 2027 internships"
 date: 2025-10-26
 categories: [career]
 ---
 
-I am looking for Summer 2027 internships in biotech and tech companies. My research spans generative models for biological sequences, protein representation learning, and biomarker discovery using machine learning.
+I am looking for Summer 2027 research internships in biotech and tech. My research spans generative models for biological sequences, protein representation learning, biomarker discovery, **agentic scientific discovery**, and **autonomous laboratories**.
 
 I am particularly interested in roles involving:
 
+- Agentic scientific discovery and closed-loop experimental systems
+- Autonomous laboratories and laboratory automation
+- AI agents for science (planning, orchestration, and fault recovery)
 - ML for drug discovery and protein design
-- Foundation models and AI agents for Science
+- Foundation models and generative models for biological sequences
 - Computational methods for single-cell analysis
-- AI systems for laboratory automation
-- Sequence optimization and generative modeling
+- ML systems
 
-I have experience building production-ready PyTorch code, running large-scale experiments on HPC clusters, and publishing in top venues. I value reproducible research, strong baselines, and clear communication.
+I have experience building production-ready PyTorch code, running large-scale experiments on HPC clusters, integrating physical lab instruments with AI agents, and publishing in venues including ChemBioChem, PLOS Computational Biology, and Bioinformatics Advances. I value reproducible research, strong baselines, and clear communication.
 
-If your team works at the intersection of machine learning and biology, I would be happy to connect.
+If your team works at the intersection of machine learning, autonomous labs, and scientific discovery, I would be happy to connect.
 
 Contact: sbarazan@andrew.cmu.edu

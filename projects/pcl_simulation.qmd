@@ -1,16 +1,16 @@
 ---
-title: "CloudBench: Simulation and Benchmarking for Agentic Lab Systems"
+title: "simPCL: Simulation and Benchmarking for Agentic Lab Systems"
 date: 2026-06-01
 categories: [simulation, agents, benchmarking, ml-systems]
 ---
 
 ## Problem
 
-Evaluating autonomous agents for experimental orchestration on real laboratory hardware is slow and expensive. Progress on planning, fault recovery, and decision-making needs simulation environments and benchmarks that support controlled offline study.
+Evaluating autonomous agents for experimental orchestration on real laboratory hardware is slow and expensive. Progress on planning, fault recovery, closed-loop scientific discovery, and decision-making needs simulation environments and benchmarks that support controlled offline study.
 
 ## Approach
 
-I am building **CloudBench**, an open-framework simulator and benchmark generator for programmable cloud laboratories. The laboratory setting is the application domain; the research questions are about simulation, agent evaluation, and benchmarking for autonomous systems.
+I am building **simPCL**, a simulator and benchmark generator for programmable cloud laboratories. The laboratory setting is the application domain; the research questions are about simulation, agent evaluation, and benchmarking for autonomous laboratory systems.
 
 ## Status
 

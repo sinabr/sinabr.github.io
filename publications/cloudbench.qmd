@@ -1,11 +1,8 @@
 ---
-title: "RNAGEN: A generative adversarial network-based model to generate synthetic RNA sequences to target proteins"
-authors: "Ozden, F., Barazandeh, S., Akboga, D., Tabrizi, S.S., Seker, U.O.S., Cicek, A.E."
-venue: "bioRxiv"
-year: 2023
-links:
-  - text: Preprint
-    href: https://doi.org/10.1101/2023.07.11.548246
+title: "simPCL: An open-framework simulator and benchmark generator for programmable cloud laboratories"
+authors: "Barazandeh, S., Kaynar, G., Banka, A., Kangas, J., Kingsford, C., Lugo-Martinez, J."
+venue: "Manuscript in preparation"
+year: 2026
 ---
 
-We developed a GAN-based model for generating synthetic RNA sequences that target specific proteins. The model learns to produce biologically plausible RNA sequences with desired binding properties while maintaining structural validity.
+simPCL is a simulator and benchmark generator for programmable cloud laboratories. The laboratory setting is the application domain; the research questions are simulation, agent evaluation, and benchmarking for autonomous laboratory systems and agentic scientific discovery.
