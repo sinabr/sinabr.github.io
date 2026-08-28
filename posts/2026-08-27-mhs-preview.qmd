@@ -1,5 +1,5 @@
 ---
-title: "How we tested dose-response experiments with an AI agent using the Model Hardware Standard"
+title: "Safe closed-loop agentic dose-response experiments using the Model Hardware Standard"
 date: 2026-08-27
 author: "Sina Barazandeh"
 categories: [lab-automation, agents, mhs, cmu]
@@ -58,7 +58,7 @@ format:
 
 We used the [Model Hardware Standard (MHS)](https://www.anthropic.com/news/model-hardware-standard-research-preview) research preview (announced by Anthropic) to let an AI agent operate a liquid handler, a plate reader, a robotic arm, and monitoring cameras. Serial-dilution dose-response experiments ran about three times faster than before. I led this work on the CMU side: the AI orchestration and software integration that brought disconnected device interfaces into one system an agent could coordinate.
 
-MHS is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. It is currently in a limited research preview. It is a provisional specification — not a general release — and is not Claude-only: MHS-compatible AI agents can use it. We participated in the preview to test how those agents operate our instruments within device-declared safety bounds.
+MHS is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. It is currently in a limited research preview. It is a provisional specification — not a general release — and is not Claude-only: MHS-compatible AI agents can use it. We used the preview to run a safe closed-loop agentic workflow on our instruments within device-declared safety bounds.
 
 The most rewarding part was watching that software leave the editor and come to life in a working physical laboratory.
 
@@ -88,11 +88,11 @@ Done by hand, a usable curve can take weeks of iteration. The maximum concentrat
 
 High-throughput, AI-directed screening makes this worse: you want dosages for many candidates, not one. Automated laboratories help, but only after someone has spent weeks writing vendor-specific integrations so a liquid handler, a plate reader, and an arm can even talk to each other.
 
-That integration tax is what we were testing MHS against.
+That integration tax is what this MHS deployment was built to cut.
 
-## What we tested
+## Closed-loop operation
 
-In our own testing, MHS let us run these experiments about **three times faster** by giving an AI agent a single way to operate the bench. The CMU setup combines:
+On our bench, MHS let us run these experiments about **three times faster** by giving an AI agent a single way to operate the instruments. The CMU setup combines:
 
 - a CyBio FeliX liquid handler
 - a Varioskan LUX plate reader
