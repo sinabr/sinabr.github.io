@@ -16,10 +16,6 @@ Most recently, I led CMU's work using the [Model Hardware Standard (MHS)](posts/
 
 I am seeking **Summer 2027 research and applied-science internships** on teams building and deploying ML systems, primarily for agentic scientific discovery, autonomous laboratories, lab automation, and AI for science, and also in generative AI, reinforcement learning, and ML systems.
 
-::: {.callout-note}
-I value **robust baselines**, **reproducible code**, and **clear methods** that can be understood by both ML researchers and domain scientists.
-:::
-
 ## Education
 
 - **Ph.D. Computational Biology** — School of Computer Science, Carnegie Mellon University (2024–2029)  
