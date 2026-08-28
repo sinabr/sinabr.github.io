@@ -1,73 +1,52 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "publications/cloudbench.html",
+    "href": "publications/cloudbench.html",
+    "title": "RNAGEN: A generative adversarial network-based model to generate synthetic RNA sequences to target proteins",
     "section": "",
-    "text": "Below are research projects with code, methods, and results. Each includes problem motivation, technical approach, and outcomes. Repositories are linked when available.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCloudBench: Simulation and Benchmarking for Agentic Lab Systems\n\n\n\nsimulation\n\nagents\n\nbenchmarking\n\nml-systems\n\n\n\n\n\n\n\n\n\nJun 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nFlashAttention and PagedAttention in MiniTorch\n\n\n\nml-systems\n\nllms\n\nattention\n\n\n\n\n\n\n\n\n\nJan 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nAgentic Orchestration and Fault Recovery\n\n\n\nagents\n\nrl-llm\n\ndecision-making\n\n\n\n\n\n\n\n\n\nMar 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEvolution-Informed Structural Subgraph Protein Representations\n\n\n\nprotein-engineering\n\ngraph-methods\n\nfoundation-models\n\n\n\n\n\n\n\n\n\nFeb 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nReinforcement Learning for Senescence Biomarker Discovery\n\n\n\nreinforcement-learning\n\nbiomarkers\n\nsingle-cell\n\n\n\n\n\n\n\n\n\nJan 15, 2025\n\n\n\n\n\nNo matching items"
+    "text": "We developed a GAN-based model for generating synthetic RNA sequences that target specific proteins. The model learns to produce biologically plausible RNA sequences with desired binding properties while maintaining structural validity."
   },
   {
-    "objectID": "posts/2025-10-26-internships.html",
-    "href": "posts/2025-10-26-internships.html",
-    "title": "Now seeking Summer 2026 internships",
+    "objectID": "publications/utrgan.html",
+    "href": "publications/utrgan.html",
+    "title": "UTRGAN: Learning to generate 5’ UTR sequences for optimized translation efficiency",
     "section": "",
-    "text": "I am looking for Summer 2027 internships in biotech and tech companies. My research spans generative models for biological sequences, protein representation learning, and biomarker discovery using machine learning.\nI am particularly interested in roles involving:\n\nML for drug discovery and protein design\nFoundation models and AI agents for Science\nComputational methods for single-cell analysis\nAI systems for laboratory automation\nSequence optimization and generative modeling\n\nI have experience building production-ready PyTorch code, running large-scale experiments on HPC clusters, and publishing in top venues. I value reproducible research, strong baselines, and clear communication.\nIf your team works at the intersection of machine learning and biology, I would be happy to connect.\nContact: sbarazan@andrew.cmu.edu"
+    "text": "We developed a generative adversarial network for designing 5’ untranslated region sequences that optimize translation efficiency and gene expression. The model learns to generate biologically valid UTR sequences with controllable properties for synthetic biology applications."
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "I have served as a teaching assistant for courses in machine learning, artificial intelligence, and programming. I value clear explanations, reproducible examples, and helping students connect theory to practice."
+    "text": "Below are selected publications. See my Google Scholar for the complete list."
   },
   {
-    "objectID": "teaching.html#carnegie-mellon-university",
-    "href": "teaching.html#carnegie-mellon-university",
-    "title": "Teaching",
-    "section": "Carnegie Mellon University",
-    "text": "Carnegie Mellon University\nFall 2025\nComputational Medicine\nInstructor: Dr. Wei Wu\nSpring 2026\nML for Scientists Instructor: Dr. Martin Zhang"
+    "objectID": "publications.html#in-progress-publications",
+    "href": "publications.html#in-progress-publications",
+    "title": "Publications",
+    "section": "In-progress Publications",
+    "text": "In-progress Publications\n2026\nBarazandeh, S., Gun Kaynar, Arth Banka, Joshua Kangas, Carl Kingsford, Jose Lugo-Martinez. CloudBench: An Open-Framework Simulator and Benchmark Generator for Programmable Cloud Laboratories. Manuscript in preparation."
   },
   {
-    "objectID": "teaching.html#bilkent-university-ankara-turkey",
-    "href": "teaching.html#bilkent-university-ankara-turkey",
-    "title": "Teaching",
-    "section": "Bilkent University (Ankara, Turkey)",
-    "text": "Bilkent University (Ankara, Turkey)\n2023\nProgramming and Algorithms\nInstructor: Dr. Ugur Dogrusoz\n2022\nArtificial Intelligence\nInstructor: Dr. Özgür S. Öğüz\n2021\nIntroduction to Machine Learning\nInstructors: Dr. A. Ercument Cicek, Dr. Aysegul Dundar"
+    "objectID": "publications.html#peer-reviewed-publications",
+    "href": "publications.html#peer-reviewed-publications",
+    "title": "Publications",
+    "section": "Peer-Reviewed Publications",
+    "text": "Peer-Reviewed Publications\n2026\nOzden, F., Barazandeh, S., Akboga, D., Tabrizi, S.S., Seker, U.O.S., Cicek, A.E. (2023). RNAGEN: A generative adversarial network-based model to generate synthetic RNA sequences to target proteins. bioRxiv.\n[Preprint] [github] (In press at ChemBioChem)\n2025\nBarazandeh, S., Ozden, F., Hincer, A., Seker, U.O.S., Cicek, A.E. (2025). UTRGAN: Learning to generate 5’ UTR sequences for optimized translation efficiency and gene expression. Bioinformatics Advances, 5(1): vbaf134.\n[Paper] [bioRxiv] [Code]\nTabrizi, S.S., Barazandeh, S., Aghdam, H.H., Cicek, A.E. (2025). RNAtranslator: Modeling protein-conditional RNA design as sequence-to-sequence natural language translation. PLOS Computational Biology, 21(10): e1013541.\n[Paper] [bioRxiv] [Code] [Model]"
   },
   {
-    "objectID": "teaching.html#teaching-philosophy",
-    "href": "teaching.html#teaching-philosophy",
-    "title": "Teaching",
-    "section": "Teaching Philosophy",
-    "text": "Teaching Philosophy\nI focus on helping students build intuition through concrete examples, encouraging them to implement methods from scratch before using libraries, and emphasizing the importance of validation and sanity checks in ML research."
+    "objectID": "publications.html#other-publications",
+    "href": "publications.html#other-publications",
+    "title": "Publications",
+    "section": "Other Publications",
+    "text": "Other Publications\n2018\nAsali, E., Negahbani, F., Tafazzol, S., Maghareh, M.S., Bahmeie, S., Barazandeh, S., Mirian, S., Moshkelgosha, M. (2018). Namira Soccer 2D Simulation Team Description Paper 2018. RoboCup 2018, Montreal, Canada."
   },
   {
-    "objectID": "projects/llm_systems_minitorch.html",
-    "href": "projects/llm_systems_minitorch.html",
-    "title": "FlashAttention and PagedAttention in MiniTorch",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "Efficient attention and memory management are central to training and serving large language models. Coursework in LLM Systems at CMU focused on implementing these ideas in a teaching framework rather than only using them as black-box library calls."
-  },
-  {
-    "objectID": "projects/llm_systems_minitorch.html#problem",
-    "href": "projects/llm_systems_minitorch.html#problem",
-    "title": "FlashAttention and PagedAttention in MiniTorch",
-    "section": "",
-    "text": "Efficient attention and memory management are central to training and serving large language models. Coursework in LLM Systems at CMU focused on implementing these ideas in a teaching framework rather than only using them as black-box library calls."
-  },
-  {
-    "objectID": "projects/llm_systems_minitorch.html#approach",
-    "href": "projects/llm_systems_minitorch.html#approach",
-    "title": "FlashAttention and PagedAttention in MiniTorch",
-    "section": "Approach",
-    "text": "Approach\nIn a course research project with Instructor Lei Li, I worked on extending FlashAttention and PagedAttention to MiniTorch, implementing core attention and paging concepts in a minimal PyTorch-like system."
-  },
-  {
-    "objectID": "projects/llm_systems_minitorch.html#status",
-    "href": "projects/llm_systems_minitorch.html#status",
-    "title": "FlashAttention and PagedAttention in MiniTorch",
-    "section": "Status",
-    "text": "Status\nCourse research project (LLM Systems, CMU). Not a peer-reviewed publication. Code can be linked here when available."
+    "text": "How we tested dose-response experiments with an AI agent using the Model Hardware Standard\n\n\nI led Carnegie Mellon’s participation in the Model Hardware Standard research preview, building drivers and an orchestration layer so an AI agent could operate a liquid handler, plate reader, and robotic arm for serial-dilution dose-response experiments.\n\n\n\n\n\nAug 27, 2026\n\n\nSina Barazandeh\n\n\n\n\n\n\n\n\n\n\n\n\nNow seeking Summer 2026 internships\n\n\n\n\n\n\n\n\nOct 26, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/agentic_lab_automation.html",
@@ -98,39 +77,165 @@
     "text": "Status\nWork in progress. Contributed talk at the AI Scientist Summer Workshop (Microsoft Research, Cambridge, MA, 2026): Agentic Fault Recovery for Autonomous Orchestration of Programmable Cloud Laboratories."
   },
   {
-    "objectID": "projects/protein_subgraph.html",
-    "href": "projects/protein_subgraph.html",
-    "title": "Evolution-Informed Structural Subgraph Protein Representations",
+    "objectID": "projects/pcl_simulation.html",
+    "href": "projects/pcl_simulation.html",
+    "title": "CloudBench: Simulation and Benchmarking for Agentic Lab Systems",
     "section": "",
-    "text": "Foundation models like ESM-2 provide powerful protein embeddings but do not include enough structural information and evolutionary signals that are critical for function prediction."
+    "text": "Evaluating autonomous agents for experimental orchestration on real laboratory hardware is slow and expensive. Progress on planning, fault recovery, and decision-making needs simulation environments and benchmarks that support controlled offline study."
   },
   {
-    "objectID": "projects/protein_subgraph.html#problem",
-    "href": "projects/protein_subgraph.html#problem",
-    "title": "Evolution-Informed Structural Subgraph Protein Representations",
+    "objectID": "projects/pcl_simulation.html#problem",
+    "href": "projects/pcl_simulation.html#problem",
+    "title": "CloudBench: Simulation and Benchmarking for Agentic Lab Systems",
     "section": "",
-    "text": "Foundation models like ESM-2 provide powerful protein embeddings but do not include enough structural information and evolutionary signals that are critical for function prediction."
+    "text": "Evaluating autonomous agents for experimental orchestration on real laboratory hardware is slow and expensive. Progress on planning, fault recovery, and decision-making needs simulation environments and benchmarks that support controlled offline study."
   },
   {
-    "objectID": "projects/protein_subgraph.html#approach",
-    "href": "projects/protein_subgraph.html#approach",
-    "title": "Evolution-Informed Structural Subgraph Protein Representations",
+    "objectID": "projects/pcl_simulation.html#approach",
+    "href": "projects/pcl_simulation.html#approach",
+    "title": "CloudBench: Simulation and Benchmarking for Agentic Lab Systems",
     "section": "Approach",
-    "text": "Approach\nWe developed graph-based protein representations using structural subgraph counts combined with evolutionary features. The method constructs protein graphs from structures and extracts interpretable features that capture local geometry and conservation patterns."
+    "text": "Approach\nI am building CloudBench, an open-framework simulator and benchmark generator for programmable cloud laboratories. The laboratory setting is the application domain; the research questions are about simulation, agent evaluation, and benchmarking for autonomous systems."
   },
   {
-    "objectID": "projects/protein_subgraph.html#results",
-    "href": "projects/protein_subgraph.html#results",
-    "title": "Evolution-Informed Structural Subgraph Protein Representations",
-    "section": "Results",
-    "text": "Results\nOutperforms ESM-2 embeddings and GNN-based models on pathogenicity prediction tasks. Provides interpretable features that domain experts can analyze."
-  },
-  {
-    "objectID": "projects/protein_subgraph.html#status",
-    "href": "projects/protein_subgraph.html#status",
-    "title": "Evolution-Informed Structural Subgraph Protein Representations",
+    "objectID": "projects/pcl_simulation.html#status",
+    "href": "projects/pcl_simulation.html#status",
+    "title": "CloudBench: Simulation and Benchmarking for Agentic Lab Systems",
     "section": "Status",
-    "text": "Status\nManuscript in preparation. Code includes baseline comparisons and evaluation protocols. Code and data will be released."
+    "text": "Status\nManuscript in preparation. Code and benchmarks will be released with the paper."
+  },
+  {
+    "objectID": "projects/llm_systems_minitorch.html",
+    "href": "projects/llm_systems_minitorch.html",
+    "title": "FlashAttention and PagedAttention in MiniTorch",
+    "section": "",
+    "text": "Efficient attention and memory management are central to training and serving large language models. Coursework in LLM Systems at CMU focused on implementing these ideas in a teaching framework rather than only using them as black-box library calls."
+  },
+  {
+    "objectID": "projects/llm_systems_minitorch.html#problem",
+    "href": "projects/llm_systems_minitorch.html#problem",
+    "title": "FlashAttention and PagedAttention in MiniTorch",
+    "section": "",
+    "text": "Efficient attention and memory management are central to training and serving large language models. Coursework in LLM Systems at CMU focused on implementing these ideas in a teaching framework rather than only using them as black-box library calls."
+  },
+  {
+    "objectID": "projects/llm_systems_minitorch.html#approach",
+    "href": "projects/llm_systems_minitorch.html#approach",
+    "title": "FlashAttention and PagedAttention in MiniTorch",
+    "section": "Approach",
+    "text": "Approach\nIn a course research project with Instructor Lei Li, I worked on extending FlashAttention and PagedAttention to MiniTorch, implementing core attention and paging concepts in a minimal PyTorch-like system."
+  },
+  {
+    "objectID": "projects/llm_systems_minitorch.html#status",
+    "href": "projects/llm_systems_minitorch.html#status",
+    "title": "FlashAttention and PagedAttention in MiniTorch",
+    "section": "Status",
+    "text": "Status\nCourse research project (LLM Systems, CMU). Not a peer-reviewed publication. Code can be linked here when available."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sina Barazandeh",
+    "section": "",
+    "text": "I am a PhD student in the School of Computer Science at Carnegie Mellon University (Computational Biology Department), advised by Dr. Jose Lugo-Martinez.\nMy research focuses on machine learning, generative and foundation models, reinforcement learning, and agentic systems, with applications to automated science and computational biology. I am interested in ML methods and systems that support reliable reasoning, decision-making, simulation, and scientific discovery.\nI am seeking Summer 2027 research internships in machine learning, generative AI, agentic systems, ML systems, and AI for science.\n\n\n\n\n\n\nNote\n\n\n\nI value robust baselines, reproducible code, and clear methods that can be understood by both ML researchers and domain scientists.\n\n\n\n\n\nPh.D. Computational Biology — School of Computer Science, Carnegie Mellon University (2024–2029)\nAdvisor: Dr. Jose Lugo-Martinez\nM.Sc. Computer Engineering — Bilkent University (2021–2024, GPA: 3.9/4.0)\nAdvisor: Dr. A. Ercument Cicek · Thesis: Generative Models for Generating and Optimizing Biological Sequences\nB.Sc. Computer Engineering — Shiraz University (2016–2021, GPA: 3.5/4.0)\n\n\n\n\n\nLab Automation / MHS: Led CMU’s participation in the Model Hardware Standard research preview, building drivers and orchestration so an AI agent could operate a liquid handler, plate reader, and robotic arm\nAgentic Systems: RL and LLM agents for autonomous orchestration and fault recovery\nSimulation & Benchmarking: CloudBench — simulator and benchmark generator for programmable cloud laboratories\nML Systems: Extending FlashAttention and PagedAttention in MiniTorch (LLM Systems coursework)\nGenerative Models: Sequence design with GANs and seq2seq models (UTRGAN, RNAtranslator)\nReinforcement Learning: Policy optimization for biomarker discovery under structure-aware rewards\nRepresentation Learning: Evolution-informed protein subgraph features for downstream prediction\n\n\n\n\n\nAug 2026: Carnegie Mellon is featured in the Model Hardware Standard (MHS) research preview. I led CMU’s work using MHS to let an AI agent operate a liquid handler, plate reader, robotic arm, and cameras for serial-dilution dose-response experiments ~3× faster. Read the post. Also covered by CMU SCS on LinkedIn and X.\nAttending AI Scientist Summer Workshop at Cambridge, MA — Microsoft Research (Aug 2026); contributed talk: Agentic Fault Recovery for Autonomous Orchestration of Programmable Cloud Laboratories\nAttending SciFM (Chicago IL, 2026)\nTwo publications in 2025: PLOS Computational Biology and Bioinformatics Advances\nAttending SenNet Annual Meeting (Washington DC, 2025) and PathVisions (San Diego, 2025)\nNow seeking Summer 2027 research internships\n\nSee my projects, publications, and CV for more details."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Sina Barazandeh",
+    "section": "",
+    "text": "Ph.D. Computational Biology — School of Computer Science, Carnegie Mellon University (2024–2029)\nAdvisor: Dr. Jose Lugo-Martinez\nM.Sc. Computer Engineering — Bilkent University (2021–2024, GPA: 3.9/4.0)\nAdvisor: Dr. A. Ercument Cicek · Thesis: Generative Models for Generating and Optimizing Biological Sequences\nB.Sc. Computer Engineering — Shiraz University (2016–2021, GPA: 3.5/4.0)"
+  },
+  {
+    "objectID": "index.html#research-highlights",
+    "href": "index.html#research-highlights",
+    "title": "Sina Barazandeh",
+    "section": "",
+    "text": "Lab Automation / MHS: Led CMU’s participation in the Model Hardware Standard research preview, building drivers and orchestration so an AI agent could operate a liquid handler, plate reader, and robotic arm\nAgentic Systems: RL and LLM agents for autonomous orchestration and fault recovery\nSimulation & Benchmarking: CloudBench — simulator and benchmark generator for programmable cloud laboratories\nML Systems: Extending FlashAttention and PagedAttention in MiniTorch (LLM Systems coursework)\nGenerative Models: Sequence design with GANs and seq2seq models (UTRGAN, RNAtranslator)\nReinforcement Learning: Policy optimization for biomarker discovery under structure-aware rewards\nRepresentation Learning: Evolution-informed protein subgraph features for downstream prediction"
+  },
+  {
+    "objectID": "index.html#recent-news",
+    "href": "index.html#recent-news",
+    "title": "Sina Barazandeh",
+    "section": "",
+    "text": "Aug 2026: Carnegie Mellon is featured in the Model Hardware Standard (MHS) research preview. I led CMU’s work using MHS to let an AI agent operate a liquid handler, plate reader, robotic arm, and cameras for serial-dilution dose-response experiments ~3× faster. Read the post. Also covered by CMU SCS on LinkedIn and X.\nAttending AI Scientist Summer Workshop at Cambridge, MA — Microsoft Research (Aug 2026); contributed talk: Agentic Fault Recovery for Autonomous Orchestration of Programmable Cloud Laboratories\nAttending SciFM (Chicago IL, 2026)\nTwo publications in 2025: PLOS Computational Biology and Bioinformatics Advances\nAttending SenNet Annual Meeting (Washington DC, 2025) and PathVisions (San Diego, 2025)\nNow seeking Summer 2027 research internships\n\nSee my projects, publications, and CV for more details."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a PhD student in the School of Computer Science at Carnegie Mellon University (Computational Biology Department), advised by Dr. Jose Lugo-Martinez. My research focuses on machine learning, generative and foundation models, reinforcement learning, and agentic systems, with applications to automated science and computational biology.\nI develop ML methods and systems for reliable reasoning, decision-making, simulation, and scientific discovery. My projects include generative models for biological sequences, reinforcement learning for biomarker discovery, CloudBench simulation and benchmarking for programmable cloud laboratories, and agentic orchestration with fault recovery. I led CMU’s participation in the Model Hardware Standard (MHS) research preview, building software that let an AI agent operate physical lab instruments for dose-response experiments.\nI value methods that are simple, strong, and reproducible, and aim to release code and minimal examples whenever possible. Before CMU, I completed my Master’s at Bilkent University under Dr. A. Ercument Cicek, where I developed generative models for biological sequence optimization. My work has been published in venues including PLOS Computational Biology and Bioinformatics Advances."
+  },
+  {
+    "objectID": "posts/2025-10-26-internships.html",
+    "href": "posts/2025-10-26-internships.html",
+    "title": "Now seeking Summer 2026 internships",
+    "section": "",
+    "text": "I am looking for Summer 2027 internships in biotech and tech companies. My research spans generative models for biological sequences, protein representation learning, and biomarker discovery using machine learning.\nI am particularly interested in roles involving:\n\nML for drug discovery and protein design\nFoundation models and AI agents for Science\nComputational methods for single-cell analysis\nAI systems for laboratory automation\nSequence optimization and generative modeling\n\nI have experience building production-ready PyTorch code, running large-scale experiments on HPC clusters, and publishing in top venues. I value reproducible research, strong baselines, and clear communication.\nIf your team works at the intersection of machine learning and biology, I would be happy to connect.\nContact: sbarazan@andrew.cmu.edu"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Below are research projects with code, methods, and results. Each includes problem motivation, technical approach, and outcomes. Repositories are linked when available.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMHS research preview at CMU: agent-operated dose-response experiments\n\n\n\nagents\n\nlab-automation\n\nmhs\n\n\n\n\n\n\n\n\n\nAug 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nCloudBench: Simulation and Benchmarking for Agentic Lab Systems\n\n\n\nsimulation\n\nagents\n\nbenchmarking\n\nml-systems\n\n\n\n\n\n\n\n\n\nJun 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nFlashAttention and PagedAttention in MiniTorch\n\n\n\nml-systems\n\nllms\n\nattention\n\n\n\n\n\n\n\n\n\nJan 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nAgentic Orchestration and Fault Recovery\n\n\n\nagents\n\nrl-llm\n\ndecision-making\n\n\n\n\n\n\n\n\n\nMar 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEvolution-Informed Structural Subgraph Protein Representations\n\n\n\nprotein-engineering\n\ngraph-methods\n\nfoundation-models\n\n\n\n\n\n\n\n\n\nFeb 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nReinforcement Learning for Senescence Biomarker Discovery\n\n\n\nreinforcement-learning\n\nbiomarkers\n\nsingle-cell\n\n\n\n\n\n\n\n\n\nJan 15, 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2026-08-27-mhs-preview.html",
+    "href": "posts/2026-08-27-mhs-preview.html",
+    "title": "How we tested dose-response experiments with an AI agent using the Model Hardware Standard",
+    "section": "",
+    "text": "We used the Model Hardware Standard (MHS) research preview to let an AI agent operate a liquid handler, a plate reader, a robotic arm, and monitoring cameras. Serial-dilution dose-response experiments ran about three times faster than before. I led this work on the CMU side: the AI orchestration and software integration that brought disconnected device interfaces into one system an agent could coordinate.\nMHS is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. It is being co-developed by Anthropic, Arm, and HHMI Janelia Research Campus and is currently in a limited research preview. It is a provisional specification — not a general release, and not an Anthropic or Claude product. We participated in the preview to test how MHS-compatible agents operate our instruments within device-declared safety bounds.\nThe most rewarding part was watching that software leave the editor and come to life in a working physical laboratory.\nThe lab run above is from our MHS research preview work at CMU. If the player does not start immediately, click it once — or open the video on Google Drive."
+  },
+  {
+    "objectID": "posts/2026-08-27-mhs-preview.html#the-mhs-research-preview",
+    "href": "posts/2026-08-27-mhs-preview.html#the-mhs-research-preview",
+    "title": "How we tested dose-response experiments with an AI agent using the Model Hardware Standard",
+    "section": "The MHS research preview",
+    "text": "The MHS research preview\nAccess during the preview is by application while the safety design is validated. CMU’s deployment is featured in the MHS announcement under Carnegie Mellon University: Determining dose-response curves through rapid automation. School of Computer Science coverage is also on LinkedIn and X.\n\nResearchers at Carnegie Mellon University used MHS to run serial dilution dose-response experiments about three times faster than before, with an AI agent orchestrating a liquid handler, a plate reader, a robotic arm, and monitoring cameras spread across three computers with fundamentally incompatible interfaces.\n\nThe CMU case study lists Sina Barazandeh, Arth Banka, Gün Kaynar, Jiayi Li, Peneeta Wojcik, Carl Kingsford, Jose Lugo-Martinez, and Joshua Kangas. I led the preview on the CMU side. I designed and implemented the MHS drivers for all three instruments and the orchestration layer on top of them — the coding, the interface work, and the conformance testing that made the stack speak one protocol.\nDuring the preview I also drafted a proposed enhancement for client-supplied idempotency keys, so a mutating procedure can be retried with exactly-once semantics, and contributed a few bug fixes to the preview Python SDK."
+  },
+  {
+    "objectID": "posts/2026-08-27-mhs-preview.html#why-dose-response-is-a-hard-automation-target",
+    "href": "posts/2026-08-27-mhs-preview.html#why-dose-response-is-a-hard-automation-target",
+    "title": "How we tested dose-response experiments with an AI agent using the Model Hardware Standard",
+    "section": "Why dose-response is a hard automation target",
+    "text": "Why dose-response is a hard automation target\nA key step in drug development is figuring out how much of a candidate is enough. Too much can be costly or toxic; too little does nothing. Labs usually answer that with serial dilution: start with a strong solution and dilute it by a fixed ratio, again and again, until there is a predictable concentration range to measure.\nDone by hand, a usable curve can take weeks of iteration. The maximum concentration and the step size both have to be right. Too high, and the signal saturates — the top of the curve goes flat and those wells stop teaching you anything. Steps that are too small miss the full range; steps that are too large skip the transition entirely.\nHigh-throughput, AI-directed screening makes this worse: you want dosages for many candidates, not one. Automated laboratories help, but only after someone has spent weeks writing vendor-specific integrations so a liquid handler, a plate reader, and an arm can even talk to each other.\nThat integration tax is what we were testing MHS against."
+  },
+  {
+    "objectID": "posts/2026-08-27-mhs-preview.html#what-we-tested",
+    "href": "posts/2026-08-27-mhs-preview.html#what-we-tested",
+    "title": "How we tested dose-response experiments with an AI agent using the Model Hardware Standard",
+    "section": "What we tested",
+    "text": "What we tested\nIn our own testing, MHS let us run these experiments about three times faster by giving an AI agent a single way to operate the bench. The CMU setup combines:\n\nan Analytik Jena CyBio FeliX liquid handler\na Thermo Scientific Varioskan LUX plate reader\na Thermo Scientific Spinnaker robotic arm\nmonitoring cameras\nan AI agent — we used Claude during the preview\n\nI built the drivers from scratch for each instrument, plus the orchestration layer that lets an agent run the full protocol within device-declared bounds. That work took about eight hours. A vendor-built automation job of this kind typically takes several weeks. The instruments keep running their native software; MHS sits on top. No extra automation stack required.\nMHS is model-agnostic. We used Claude as one MHS-compatible agent in this deployment, not as a requirement of the standard.\n\n\n\n\n\n\nThermo Scientific Spinnaker, a robotic arm designed to handle and transport microplates in automated laboratory workflows.\n\n\n\n\n\n\n\nAnalytik Jena CyBio FeliX, a liquid handling instrument used to automate pipetting, sample transfer, and other routine workflows in biological laboratories.\n\n\n\n\n\n\n\nThermo Scientific Varioskan LUX plate reader, used to measure the optical signal from each well of a microplate. In this experiment, the reader quantifies absorbance so the system can determine how the measured response changes across the dilution series.\n\n\n\n\n\n\n\n\n\nCMU laboratory instruments: the Analytik Jena CyBio FeliX liquid handler for automated pipetting and liquid-transfer workflows (left), and the Thermo Scientific Varioskan LUX multimode plate reader for microplate-based absorbance, fluorescence, and luminescence measurements (right).\n\n\n\n\n\n\n\nThermo Scientific Spinnaker robotic arm for automated microplate handling and transport (left), with monitoring cameras used to observe plate movement and system operation (center and right)."
+  },
+  {
+    "objectID": "posts/2026-08-27-mhs-preview.html#hardware-setup-and-workflow",
+    "href": "posts/2026-08-27-mhs-preview.html#hardware-setup-and-workflow",
+    "title": "How we tested dose-response experiments with an AI agent using the Model Hardware Standard",
+    "section": "Hardware, setup, and workflow",
+    "text": "Hardware, setup, and workflow\nThe physical setup uses three computers with three incompatible control styles:\n\nComputer 1 runs the robotic arm through scheduling software that consumes job files dropped into a directory — not a normal API.\nComputer 2 runs the liquid handler through an older Windows ActiveX/COM scripting interface, plus USB cameras.\nComputer 3 runs the plate reader, which in our software version has no programmatic interface at all, only an on-screen GUI.\n\nMHS turns each of those into one manifest of states (plate at position 3, well filled) and procedures (aspirate, shake, read). The agent works from a single interface, regardless of which OS and vendor stack is underneath.\nThe scientific workflow is the same as before. The difference is that it is now agent-driven: the liquid handler prepares a dilution series, a camera check confirms the plate is present and correctly oriented, the arm moves the plate to the reader, the reader measures, and the agent inspects the curve. If the fit is poor, it adjusts the concentration range and runs again. If the fit is good, it accepts the result.\nWe used a colorimetric dye as a stand-in for a drug candidate — safe, easy to see, and still requiring the same decisions a real dose-response run would need.\n\n\n\n\nA 96-well plate arranged as a serial dilution, with the concentration decreasing step by step across the columns from 200 µg/mL to 0.20 µg/mL. This produces a broad, predictable concentration range that can be measured to build a dose-response curve.\n\n\n\nEach interface had its own sharp edges. The arm’s scheduler is a directory watcher that emits two different files per submitted XML job; MHS has to reconcile those into one clean result, usually within a second. The liquid handler exposes COM scripting with no modern SDK, so every usable method had to be worked out from vendor documentation or by exploring the interface until a driver actually ran. A single dispense cycle takes four to five minutes, and the volume error has to stay within about 5% or the curve is unusable. The plate reader is driven through its GUI the way a person would use it, with nothing to check against except what is on screen.\nBefore this, a person sat through those steps: watching the arm’s log, checking that the plate was seated, deciding whether a curve was informative enough to keep. During the preview, the agent handled those operating decisions within the bounds the devices declare."
+  },
+  {
+    "objectID": "posts/2026-08-27-mhs-preview.html#safety-and-what-the-agent-did",
+    "href": "posts/2026-08-27-mhs-preview.html#safety-and-what-the-agent-did",
+    "title": "How we tested dose-response experiments with an AI agent using the Model Hardware Standard",
+    "section": "Safety and what the agent did",
+    "text": "Safety and what the agent did\nDevices declare bounds, interlocks, and emergency stops in the standard itself. AI agents inherit and operate within them by default.\nTo check that the stack would refuse unsafe motion, we induced six failure conditions: missing plate, rotated plate, reader busy, disconnected camera, unreachable device, and active emergency stop. The system blocked all six before any device moved.\n\n\n\n\nMHS blocks the experiment whenever key safety or readiness conditions are not met, including a missing or rotated plate, a busy reader, a disconnected camera, an unreachable device, or an active emergency stop. These checks prevent the automated system from moving hardware or continuing the workflow until the problem is resolved.\n\n\n\nThen we asked the agent to produce an acceptable dose-response curve. The first run used a top concentration of 200 µg/mL. The agent judged the fit too poor to accept (\\(R^2 &lt; 0.90\\)), driven by saturation at the high end. It discarded the plate and reran on a fresh plate with a compressed range (200 µg/mL down to 100 µg/mL). The second run produced a strong fit (\\(R^2 &gt; 0.98\\), 3.4% variation across repeats). An operator was not in the loop for those curve-quality decisions; the run still stayed inside device-declared safety bounds.\n\n\n\n\n\n\nRun 1: The first serial-dilution experiment tested concentrations up to 200 µg/mL. At the higher concentrations, the measurement began to saturate, meaning the signal stopped increasing in a useful way. Because this made the dose-response curve less reliable, the system rejected the run and decided that the concentration range needed to be adjusted.\n\n\n\n\n\n\n\nRun 2: The system repeated the experiment with a lower maximum concentration of 100 µg/mL. This new range captured the changing response much more clearly, producing a stronger and more reliable dose-response curve. The improved fit was accepted without an operator stepping in for that decision.\n\n\n\n\n\nThe headline for me is still the integration speed. From raw, non-automated equipment to a completed dilution curve — including one agent-driven rerun — was eight hours. We plan to share the instrument drivers built during the preview so others can reuse that integration work rather than starting from scratch. That is our own plan for the drivers, not a general release of MHS."
+  },
+  {
+    "objectID": "posts/2026-08-27-mhs-preview.html#what-is-next",
+    "href": "posts/2026-08-27-mhs-preview.html#what-is-next",
+    "title": "How we tested dose-response experiments with an AI agent using the Model Hardware Standard",
+    "section": "What is next",
+    "text": "What is next\nIn our lab, we plan to validate the system with real drug candidates and replace the dye signal with readouts of actual biological effect. We also plan to build additional drivers for instruments such as qPCR and microscopes, connect MCP-based agents to our MHS fleet, and keep cutting the time it takes to bring up a new device.\nSafety stays in the loop: more checks, continuous device-responsiveness monitoring, and clearer rules for when a high-risk decision still needs a person."
+  },
+  {
+    "objectID": "posts/2026-08-27-mhs-preview.html#team",
+    "href": "posts/2026-08-27-mhs-preview.html#team",
+    "title": "How we tested dose-response experiments with an AI agent using the Model Hardware Standard",
+    "section": "Team",
+    "text": "Team\nThis was a team effort. I am grateful to Arth Banka, Gün Kaynar, Jiayi Li, and Peneeta Wojcik for their work, and to my advisor Jose Lugo-Martinez, Carl Kingsford, and Josh Kangas for their guidance.\nFurther reading\n\nMHS announcement\nCMU School of Computer Science on LinkedIn\nCMU SCS on X"
   },
   {
     "objectID": "cv.html",
@@ -175,74 +280,46 @@
     "text": "Seeking\nSummer 2027 research internships in machine learning, generative AI, agentic systems, ML systems, and AI for science.\nDownload full CV (PDF)\nDownload 1-page Resume (PDF)"
   },
   {
-    "objectID": "publications/utrgan.html",
-    "href": "publications/utrgan.html",
-    "title": "UTRGAN: Learning to generate 5’ UTR sequences for optimized translation efficiency",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
     "section": "",
-    "text": "We developed a generative adversarial network for designing 5’ untranslated region sequences that optimize translation efficiency and gene expression. The model learns to generate biologically valid UTR sequences with controllable properties for synthetic biology applications."
+    "text": "The best way to reach me is via email. I read every message and reply as time permits.\nEmail: sbarazan@andrew.cmu.edu\nGitHub: https://github.com/sinabr\nLinkedIn: https://www.linkedin.com/in/sina-barazandeh/"
   },
   {
-    "objectID": "publications/rnatranslator.html",
-    "href": "publications/rnatranslator.html",
-    "title": "RNAtranslator: Modeling protein-conditional RNA design as sequence-to-sequence natural language translation",
+    "objectID": "projects/protein_subgraph.html",
+    "href": "projects/protein_subgraph.html",
+    "title": "Evolution-Informed Structural Subgraph Protein Representations",
     "section": "",
-    "text": "We frame protein-conditional RNA design as a sequence-to-sequence translation problem, treating protein sequences as source language and RNA sequences as target language. This approach leverages transformer architectures to generate RNA sequences optimized for specific protein targets."
+    "text": "Foundation models like ESM-2 provide powerful protein embeddings but do not include enough structural information and evolutionary signals that are critical for function prediction."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "projects/protein_subgraph.html#problem",
+    "href": "projects/protein_subgraph.html#problem",
+    "title": "Evolution-Informed Structural Subgraph Protein Representations",
     "section": "",
-    "text": "I am a PhD student in the School of Computer Science at Carnegie Mellon University (Computational Biology Department), advised by Dr. Jose Lugo-Martinez. My research focuses on machine learning, generative and foundation models, reinforcement learning, and agentic systems, with applications to automated science and computational biology.\nI develop ML methods and systems for reliable reasoning, decision-making, simulation, and scientific discovery. My projects include generative models for biological sequences, reinforcement learning for biomarker discovery, CloudBench simulation and benchmarking for programmable cloud laboratories, and agentic orchestration with fault recovery.\nI value methods that are simple, strong, and reproducible, and aim to release code and minimal examples whenever possible. Before CMU, I completed my Master’s at Bilkent University under Dr. A. Ercument Cicek, where I developed generative models for biological sequence optimization. My work has been published in venues including PLOS Computational Biology and Bioinformatics Advances."
+    "text": "Foundation models like ESM-2 provide powerful protein embeddings but do not include enough structural information and evolutionary signals that are critical for function prediction."
   },
   {
-    "objectID": "publications/cloudbench.html",
-    "href": "publications/cloudbench.html",
-    "title": "RNAGEN: A generative adversarial network-based model to generate synthetic RNA sequences to target proteins",
-    "section": "",
-    "text": "We developed a GAN-based model for generating synthetic RNA sequences that target specific proteins. The model learns to produce biologically plausible RNA sequences with desired binding properties while maintaining structural validity."
+    "objectID": "projects/protein_subgraph.html#approach",
+    "href": "projects/protein_subgraph.html#approach",
+    "title": "Evolution-Informed Structural Subgraph Protein Representations",
+    "section": "Approach",
+    "text": "Approach\nWe developed graph-based protein representations using structural subgraph counts combined with evolutionary features. The method constructs protein graphs from structures and extracts interpretable features that capture local geometry and conservation patterns."
   },
   {
-    "objectID": "publications/rnagen.html",
-    "href": "publications/rnagen.html",
-    "title": "RNAGEN: A generative adversarial network-based model to generate synthetic RNA sequences to target proteins",
-    "section": "",
-    "text": "We developed a GAN-based model for generating synthetic RNA sequences that target specific proteins. The model learns to produce biologically plausible RNA sequences with desired binding properties while maintaining structural validity."
+    "objectID": "projects/protein_subgraph.html#results",
+    "href": "projects/protein_subgraph.html#results",
+    "title": "Evolution-Informed Structural Subgraph Protein Representations",
+    "section": "Results",
+    "text": "Results\nOutperforms ESM-2 embeddings and GNN-based models on pathogenicity prediction tasks. Provides interpretable features that domain experts can analyze."
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Below are selected publications. See my Google Scholar for the complete list."
-  },
-  {
-    "objectID": "publications.html#in-progress-publications",
-    "href": "publications.html#in-progress-publications",
-    "title": "Publications",
-    "section": "In-progress Publications",
-    "text": "In-progress Publications\n2026\nBarazandeh, S., Gun Kaynar, Arth Banka, Joshua Kangas, Carl Kingsford, Jose Lugo-Martinez. CloudBench: An Open-Framework Simulator and Benchmark Generator for Programmable Cloud Laboratories. Manuscript in preparation."
-  },
-  {
-    "objectID": "publications.html#peer-reviewed-publications",
-    "href": "publications.html#peer-reviewed-publications",
-    "title": "Publications",
-    "section": "Peer-Reviewed Publications",
-    "text": "Peer-Reviewed Publications\n2026\nOzden, F., Barazandeh, S., Akboga, D., Tabrizi, S.S., Seker, U.O.S., Cicek, A.E. (2023). RNAGEN: A generative adversarial network-based model to generate synthetic RNA sequences to target proteins. bioRxiv.\n[Preprint] [github] (In press at ChemBioChem)\n2025\nBarazandeh, S., Ozden, F., Hincer, A., Seker, U.O.S., Cicek, A.E. (2025). UTRGAN: Learning to generate 5’ UTR sequences for optimized translation efficiency and gene expression. Bioinformatics Advances, 5(1): vbaf134.\n[Paper] [bioRxiv] [Code]\nTabrizi, S.S., Barazandeh, S., Aghdam, H.H., Cicek, A.E. (2025). RNAtranslator: Modeling protein-conditional RNA design as sequence-to-sequence natural language translation. PLOS Computational Biology, 21(10): e1013541.\n[Paper] [bioRxiv] [Code] [Model]"
-  },
-  {
-    "objectID": "publications.html#other-publications",
-    "href": "publications.html#other-publications",
-    "title": "Publications",
-    "section": "Other Publications",
-    "text": "Other Publications\n2018\nAsali, E., Negahbani, F., Tafazzol, S., Maghareh, M.S., Bahmeie, S., Barazandeh, S., Mirian, S., Moshkelgosha, M. (2018). Namira Soccer 2D Simulation Team Description Paper 2018. RoboCup 2018, Montreal, Canada."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Now seeking Summer 2026 internships\n\n\n\n\n\n\n\n\nOct 26, 2025\n\n\n\n\n\nNo matching items"
+    "objectID": "projects/protein_subgraph.html#status",
+    "href": "projects/protein_subgraph.html#status",
+    "title": "Evolution-Informed Structural Subgraph Protein Representations",
+    "section": "Status",
+    "text": "Status\nManuscript in preparation. Code includes baseline comparisons and evaluation protocols. Code and data will be released."
   },
   {
     "objectID": "projects/rl_biomarker.html",
@@ -273,32 +350,39 @@
     "text": "Status\nManuscript in preparation. Code will be released with reproducible experiments and ablation studies."
   },
   {
-    "objectID": "projects/pcl_simulation.html",
-    "href": "projects/pcl_simulation.html",
-    "title": "CloudBench: Simulation and Benchmarking for Agentic Lab Systems",
+    "objectID": "projects/mhs_dose_response.html",
+    "href": "projects/mhs_dose_response.html",
+    "title": "MHS research preview at CMU: agent-operated dose-response experiments",
     "section": "",
-    "text": "Evaluating autonomous agents for experimental orchestration on real laboratory hardware is slow and expensive. Progress on planning, fault recovery, and decision-making needs simulation environments and benchmarks that support controlled offline study."
+    "text": "I led Carnegie Mellon’s participation in the Model Hardware Standard (MHS) research preview. MHS is a new standard, co-developed by Anthropic, Arm, and HHMI Janelia Research Campus, for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. It is currently in a limited research preview.\nWe used MHS to let an AI agent operate a liquid handler, plate reader, robotic arm, and cameras across three computers with incompatible interfaces. Serial-dilution dose-response experiments ran about three times faster than before. This deployment is featured in the MHS announcement; CMU SCS also posted on LinkedIn and X.\nMy focus was the AI orchestration and software integration. I developed the MHS drivers for all three instruments and the layer that let an agent — we used Claude during the preview — execute the protocol, reject a saturated curve, and rerun with a compressed concentration range (\\(R^2 &gt; 0.98\\)), within device-declared safety bounds. Integration took about eight hours rather than weeks of vendor engineering.\nFull write-up, photos, and video: How we tested dose-response experiments with an AI agent using the Model Hardware Standard."
   },
   {
-    "objectID": "projects/pcl_simulation.html#problem",
-    "href": "projects/pcl_simulation.html#problem",
-    "title": "CloudBench: Simulation and Benchmarking for Agentic Lab Systems",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
     "section": "",
-    "text": "Evaluating autonomous agents for experimental orchestration on real laboratory hardware is slow and expensive. Progress on planning, fault recovery, and decision-making needs simulation environments and benchmarks that support controlled offline study."
+    "text": "I have served as a teaching assistant for courses in machine learning, artificial intelligence, and programming. I value clear explanations, reproducible examples, and helping students connect theory to practice."
   },
   {
-    "objectID": "projects/pcl_simulation.html#approach",
-    "href": "projects/pcl_simulation.html#approach",
-    "title": "CloudBench: Simulation and Benchmarking for Agentic Lab Systems",
-    "section": "Approach",
-    "text": "Approach\nI am building CloudBench, an open-framework simulator and benchmark generator for programmable cloud laboratories. The laboratory setting is the application domain; the research questions are about simulation, agent evaluation, and benchmarking for autonomous systems."
+    "objectID": "teaching.html#carnegie-mellon-university",
+    "href": "teaching.html#carnegie-mellon-university",
+    "title": "Teaching",
+    "section": "Carnegie Mellon University",
+    "text": "Carnegie Mellon University\nFall 2025\nComputational Medicine\nInstructor: Dr. Wei Wu\nSpring 2026\nML for Scientists Instructor: Dr. Martin Zhang"
   },
   {
-    "objectID": "projects/pcl_simulation.html#status",
-    "href": "projects/pcl_simulation.html#status",
-    "title": "CloudBench: Simulation and Benchmarking for Agentic Lab Systems",
-    "section": "Status",
-    "text": "Status\nManuscript in preparation. Code and benchmarks will be released with the paper."
+    "objectID": "teaching.html#bilkent-university-ankara-turkey",
+    "href": "teaching.html#bilkent-university-ankara-turkey",
+    "title": "Teaching",
+    "section": "Bilkent University (Ankara, Turkey)",
+    "text": "Bilkent University (Ankara, Turkey)\n2023\nProgramming and Algorithms\nInstructor: Dr. Ugur Dogrusoz\n2022\nArtificial Intelligence\nInstructor: Dr. Özgür S. Öğüz\n2021\nIntroduction to Machine Learning\nInstructors: Dr. A. Ercument Cicek, Dr. Aysegul Dundar"
+  },
+  {
+    "objectID": "teaching.html#teaching-philosophy",
+    "href": "teaching.html#teaching-philosophy",
+    "title": "Teaching",
+    "section": "Teaching Philosophy",
+    "text": "Teaching Philosophy\nI focus on helping students build intuition through concrete examples, encouraging them to implement methods from scratch before using libraries, and emphasizing the importance of validation and sanity checks in ML research."
   },
   {
     "objectID": "research.html",
@@ -326,7 +410,7 @@
     "href": "research.html#agentic-systems-simulation-and-benchmarking",
     "title": "Research",
     "section": "Agentic Systems, Simulation, and Benchmarking",
-    "text": "Agentic Systems, Simulation, and Benchmarking\nI build agentic systems for autonomous orchestration and fault recovery in programmable cloud laboratories, and develop CloudBench as an open-framework simulator and benchmark generator for studying these systems offline. Related work includes a contributed talk at the AI Scientist Summer Workshop (Microsoft Research, 2026)."
+    "text": "Agentic Systems, Simulation, and Benchmarking\nI build agentic systems for autonomous orchestration and fault recovery in programmable cloud laboratories, and develop CloudBench as an open-framework simulator and benchmark generator for studying these systems offline. Related work includes a contributed talk at the AI Scientist Summer Workshop (Microsoft Research, 2026).\nI also led Carnegie Mellon’s participation in the Model Hardware Standard (MHS) research preview, a limited preview of a new standard co-developed by Anthropic, Arm, and HHMI Janelia Research Campus. I developed the MHS drivers and orchestration layer that let an AI agent — we used Claude during the preview — operate a liquid handler, plate reader, robotic arm, and cameras for serial-dilution dose-response experiments. Read the post."
   },
   {
     "objectID": "research.html#representation-learning",
@@ -343,38 +427,17 @@
     "text": "ML Systems\nI also work on LLM systems topics in coursework, including extending FlashAttention and PagedAttention to MiniTorch. See the projects page for details.\nAll projects emphasize reproducible code, strong baselines, and clear communication of methods and limitations."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "publications/rnagen.html",
+    "href": "publications/rnagen.html",
+    "title": "RNAGEN: A generative adversarial network-based model to generate synthetic RNA sequences to target proteins",
     "section": "",
-    "text": "The best way to reach me is via email. I read every message and reply as time permits.\nEmail: sbarazan@andrew.cmu.edu\nGitHub: https://github.com/sinabr\nLinkedIn: https://www.linkedin.com/in/sina-barazandeh/"
+    "text": "We developed a GAN-based model for generating synthetic RNA sequences that target specific proteins. The model learns to produce biologically plausible RNA sequences with desired binding properties while maintaining structural validity."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Sina Barazandeh",
+    "objectID": "publications/rnatranslator.html",
+    "href": "publications/rnatranslator.html",
+    "title": "RNAtranslator: Modeling protein-conditional RNA design as sequence-to-sequence natural language translation",
     "section": "",
-    "text": "I am a PhD student in the School of Computer Science at Carnegie Mellon University (Computational Biology Department), advised by Dr. Jose Lugo-Martinez.\nMy research focuses on machine learning, generative and foundation models, reinforcement learning, and agentic systems, with applications to automated science and computational biology. I am interested in ML methods and systems that support reliable reasoning, decision-making, simulation, and scientific discovery.\nI am seeking Summer 2027 research internships in machine learning, generative AI, agentic systems, ML systems, and AI for science.\n\n\n\n\n\n\nNote\n\n\n\nI value robust baselines, reproducible code, and clear methods that can be understood by both ML researchers and domain scientists.\n\n\n\n\n\nPh.D. Computational Biology — School of Computer Science, Carnegie Mellon University (2024–2029)\nAdvisor: Dr. Jose Lugo-Martinez\nM.Sc. Computer Engineering — Bilkent University (2021–2024, GPA: 3.9/4.0)\nAdvisor: Dr. A. Ercument Cicek · Thesis: Generative Models for Generating and Optimizing Biological Sequences\nB.Sc. Computer Engineering — Shiraz University (2016–2021, GPA: 3.5/4.0)\n\n\n\n\n\nAgentic Systems: RL and LLM agents for autonomous orchestration and fault recovery\nSimulation & Benchmarking: CloudBench — simulator and benchmark generator for programmable cloud laboratories\nML Systems: Extending FlashAttention and PagedAttention in MiniTorch (LLM Systems coursework)\nGenerative Models: Sequence design with GANs and seq2seq models (UTRGAN, RNAtranslator)\nReinforcement Learning: Policy optimization for biomarker discovery under structure-aware rewards\nRepresentation Learning: Evolution-informed protein subgraph features for downstream prediction\n\n\n\n\n\nAttending AI Scientist Summer Workshop at Cambridge, MA — Microsoft Research (Aug 2026); contributed talk: Agentic Fault Recovery for Autonomous Orchestration of Programmable Cloud Laboratories\nAttending SciFM (Chicago IL, 2026)\nTwo publications in 2025: PLOS Computational Biology and Bioinformatics Advances\nAttending SenNet Annual Meeting (Washington DC, 2025) and PathVisions (San Diego, 2025)\nNow seeking Summer 2027 research internships\n\nSee my projects, publications, and CV for more details."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Sina Barazandeh",
-    "section": "",
-    "text": "Ph.D. Computational Biology — School of Computer Science, Carnegie Mellon University (2024–2029)\nAdvisor: Dr. Jose Lugo-Martinez\nM.Sc. Computer Engineering — Bilkent University (2021–2024, GPA: 3.9/4.0)\nAdvisor: Dr. A. Ercument Cicek · Thesis: Generative Models for Generating and Optimizing Biological Sequences\nB.Sc. Computer Engineering — Shiraz University (2016–2021, GPA: 3.5/4.0)"
-  },
-  {
-    "objectID": "index.html#research-highlights",
-    "href": "index.html#research-highlights",
-    "title": "Sina Barazandeh",
-    "section": "",
-    "text": "Agentic Systems: RL and LLM agents for autonomous orchestration and fault recovery\nSimulation & Benchmarking: CloudBench — simulator and benchmark generator for programmable cloud laboratories\nML Systems: Extending FlashAttention and PagedAttention in MiniTorch (LLM Systems coursework)\nGenerative Models: Sequence design with GANs and seq2seq models (UTRGAN, RNAtranslator)\nReinforcement Learning: Policy optimization for biomarker discovery under structure-aware rewards\nRepresentation Learning: Evolution-informed protein subgraph features for downstream prediction"
-  },
-  {
-    "objectID": "index.html#recent-news",
-    "href": "index.html#recent-news",
-    "title": "Sina Barazandeh",
-    "section": "",
-    "text": "Attending AI Scientist Summer Workshop at Cambridge, MA — Microsoft Research (Aug 2026); contributed talk: Agentic Fault Recovery for Autonomous Orchestration of Programmable Cloud Laboratories\nAttending SciFM (Chicago IL, 2026)\nTwo publications in 2025: PLOS Computational Biology and Bioinformatics Advances\nAttending SenNet Annual Meeting (Washington DC, 2025) and PathVisions (San Diego, 2025)\nNow seeking Summer 2027 research internships\n\nSee my projects, publications, and CV for more details."
+    "text": "We frame protein-conditional RNA design as a sequence-to-sequence translation problem, treating protein sequences as source language and RNA sequences as target language. This approach leverages transformer architectures to generate RNA sequences optimized for specific protein targets."
   }
 ]

@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Sina Barazandeh">
+<meta name="dcterms.date" content="2026-08-27">
+<meta name="description" content="I led Carnegie Mellon’s participation in the Model Hardware Standard research preview, building drivers and an orchestration layer so an AI agent could operate a liquid handler, plate reader, and robotic arm for serial-dilution dose-response experiments.">
 
-<title>RNAtranslator: Modeling protein-conditional RNA design as sequence-to-sequence natural language translation – Sina Barazandeh</title>
+<title>How we tested dose-response experiments with an AI agent using the Model Hardware Standard – Sina Barazandeh</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -74,7 +77,79 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<style>
+  .mhs-video {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    margin: 0.4rem 0 1.4rem;
+    background: #0b1220;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 18px 50px rgba(15, 23, 42, 0.22);
+  }
+  .mhs-video iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  .mhs-video-note {
+    margin: -0.6rem 0 1.6rem;
+    color: #5b6573;
+    font-size: 0.92rem;
+  }
+  .mhs-quote {
+    border-left: 4px solid #2c3e50;
+    background: #f4f7fb;
+    padding: 1rem 1.2rem;
+    margin: 1.2rem 0 1.6rem;
+    border-radius: 0 10px 10px 0;
+  }
+  .mhs-quote p { margin-bottom: 0.4rem; }
+  .mhs-quote cite { color: #5b6573; font-size: 0.92rem; }
+  .mhs-photo img,
+  .quarto-layout-panel img {
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
+  }
+  .mhs-photo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -151,17 +226,40 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#the-mhs-research-preview" id="toc-the-mhs-research-preview" class="nav-link active" data-scroll-target="#the-mhs-research-preview">The MHS research preview</a></li>
+  <li><a href="#why-dose-response-is-a-hard-automation-target" id="toc-why-dose-response-is-a-hard-automation-target" class="nav-link" data-scroll-target="#why-dose-response-is-a-hard-automation-target">Why dose-response is a hard automation target</a></li>
+  <li><a href="#what-we-tested" id="toc-what-we-tested" class="nav-link" data-scroll-target="#what-we-tested">What we tested</a></li>
+  <li><a href="#hardware-setup-and-workflow" id="toc-hardware-setup-and-workflow" class="nav-link" data-scroll-target="#hardware-setup-and-workflow">Hardware, setup, and workflow</a></li>
+  <li><a href="#safety-and-what-the-agent-did" id="toc-safety-and-what-the-agent-did" class="nav-link" data-scroll-target="#safety-and-what-the-agent-did">Safety and what the agent did</a></li>
+  <li><a href="#what-is-next" id="toc-what-is-next" class="nav-link" data-scroll-target="#what-is-next">What is next</a></li>
+  <li><a href="#team" id="toc-team" class="nav-link" data-scroll-target="#team">Team</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">RNAtranslator: Modeling protein-conditional RNA design as sequence-to-sequence natural language translation</h1>
-</div>
+<h1 class="title">How we tested dose-response experiments with an AI agent using the Model Hardware Standard</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">lab-automation</div>
+    <div class="quarto-category">agents</div>
+    <div class="quarto-category">mhs</div>
+    <div class="quarto-category">cmu</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    I led Carnegie Mellon’s participation in the Model Hardware Standard research preview, building drivers and an orchestration layer so an AI agent could operate a liquid handler, plate reader, and robotic arm for serial-dilution dose-response experiments.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -169,10 +267,16 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Tabrizi, S.S., Barazandeh, S., Aghdam, H.H., Cicek, A.E. </p>
+             <p>Sina Barazandeh </p>
           </div>
   </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 27, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -182,9 +286,163 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>We frame protein-conditional RNA design as a sequence-to-sequence translation problem, treating protein sequences as source language and RNA sequences as target language. This approach leverages transformer architectures to generate RNA sequences optimized for specific protein targets.</p>
+<p>We used the <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard (MHS)</a> research preview to let an AI agent operate a liquid handler, a plate reader, a robotic arm, and monitoring cameras. Serial-dilution dose-response experiments ran about three times faster than before. I led this work on the CMU side: the AI orchestration and software integration that brought disconnected device interfaces into one system an agent could coordinate.</p>
+<p>MHS is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. It is being co-developed by Anthropic, Arm, and HHMI Janelia Research Campus and is currently in a limited research preview. It is a provisional specification — not a general release, and not an Anthropic or Claude product. We participated in the preview to test how MHS-compatible agents operate our instruments within device-declared safety bounds.</p>
+<p>The most rewarding part was watching that software leave the editor and come to life in a working physical laboratory.</p>
+<div class="mhs-video">
+<iframe src="https://drive.google.com/file/d/1GaC_-bp70Zbpq_7aom55OYunS8fB1SzE/preview" title="CMU MHS research preview video" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="">
+</iframe>
+</div>
+<p class="mhs-video-note">
+The lab run above is from our MHS research preview work at CMU. If the player does not start immediately, click it once — or <a href="https://drive.google.com/file/d/1GaC_-bp70Zbpq_7aom55OYunS8fB1SzE/view?usp=drive_link" target="_blank" rel="noopener">open the video on Google Drive</a>.
+</p>
+<section id="the-mhs-research-preview" class="level2">
+<h2 class="anchored" data-anchor-id="the-mhs-research-preview">The MHS research preview</h2>
+<p>Access during the preview is by application while the safety design is validated. CMU’s deployment is featured in the <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">MHS announcement</a> under <em>Carnegie Mellon University: Determining dose-response curves through rapid automation</em>. School of Computer Science coverage is also on <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7498829877215842304/?actorCompanyId=28172194">LinkedIn</a> and <a href="https://x.com/SCSatCMU/status/2093063825171853484">X</a>.</p>
+<div class="mhs-quote">
+<p>Researchers at Carnegie Mellon University used MHS to run serial dilution dose-response experiments about three times faster than before, with an AI agent orchestrating a liquid handler, a plate reader, a robotic arm, and monitoring cameras spread across three computers with fundamentally incompatible interfaces.</p>
+</div>
+<p>The CMU case study lists <strong>Sina Barazandeh</strong>, Arth Banka, Gün Kaynar, Jiayi Li, Peneeta Wojcik, Carl Kingsford, Jose Lugo-Martinez, and Joshua Kangas. I led the preview on the CMU side. I designed and implemented the MHS drivers for all three instruments and the orchestration layer on top of them — the coding, the interface work, and the conformance testing that made the stack speak one protocol.</p>
+<p>During the preview I also drafted a proposed enhancement for client-supplied idempotency keys, so a mutating procedure can be retried with exactly-once semantics, and contributed a few bug fixes to the preview Python SDK.</p>
+</section>
+<section id="why-dose-response-is-a-hard-automation-target" class="level2">
+<h2 class="anchored" data-anchor-id="why-dose-response-is-a-hard-automation-target">Why dose-response is a hard automation target</h2>
+<p>A key step in drug development is figuring out how much of a candidate is enough. Too much can be costly or toxic; too little does nothing. Labs usually answer that with <strong>serial dilution</strong>: start with a strong solution and dilute it by a fixed ratio, again and again, until there is a predictable concentration range to measure.</p>
+<p>Done by hand, a usable curve can take weeks of iteration. The maximum concentration and the step size both have to be right. Too high, and the signal saturates — the top of the curve goes flat and those wells stop teaching you anything. Steps that are too small miss the full range; steps that are too large skip the transition entirely.</p>
+<p>High-throughput, AI-directed screening makes this worse: you want dosages for many candidates, not one. Automated laboratories help, but only after someone has spent weeks writing vendor-specific integrations so a liquid handler, a plate reader, and an arm can even talk to each other.</p>
+<p>That integration tax is what we were testing MHS against.</p>
+</section>
+<section id="what-we-tested" class="level2">
+<h2 class="anchored" data-anchor-id="what-we-tested">What we tested</h2>
+<p>In our own testing, MHS let us run these experiments about <strong>three times faster</strong> by giving an AI agent a single way to operate the bench. The CMU setup combines:</p>
+<ul>
+<li>an <strong>Analytik Jena CyBio FeliX</strong> liquid handler</li>
+<li>a <strong>Thermo Scientific Varioskan LUX</strong> plate reader</li>
+<li>a <strong>Thermo Scientific Spinnaker</strong> robotic arm</li>
+<li>monitoring cameras</li>
+<li>an AI agent — we used Claude during the preview</li>
+</ul>
+<p>I built the drivers from scratch for each instrument, plus the orchestration layer that lets an agent run the full protocol within device-declared bounds. That work took about <strong>eight hours</strong>. A vendor-built automation job of this kind typically takes several weeks. The instruments keep running their native software; MHS sits on top. No extra automation stack required.</p>
+<p>MHS is model-agnostic. We used Claude as one MHS-compatible agent in this deployment, not as a requirement of the standard.</p>
+<div class="quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../files/mhs-related-photo/arm.jpg" class="img-fluid figure-img"></p>
+<figcaption>Thermo Scientific Spinnaker, a robotic arm designed to handle and transport microplates in automated laboratory workflows.</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../files/mhs-related-photo/felix-photo.jpg" class="img-fluid figure-img"></p>
+<figcaption>Analytik Jena CyBio FeliX, a liquid handling instrument used to automate pipetting, sample transfer, and other routine workflows in biological laboratories.</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../files/mhs-related-photo/plate_reader.jpg" class="img-fluid figure-img"></p>
+<figcaption>Thermo Scientific Varioskan LUX plate reader, used to measure the optical signal from each well of a microplate. In this experiment, the reader quantifies absorbance so the system can determine how the measured response changes across the dilution series.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="mhs-photo">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../files/mhs-related-photo/instruments_1.png" class="img-fluid figure-img"></p>
+<figcaption>CMU laboratory instruments: the Analytik Jena CyBio FeliX liquid handler for automated pipetting and liquid-transfer workflows (left), and the Thermo Scientific Varioskan LUX multimode plate reader for microplate-based absorbance, fluorescence, and luminescence measurements (right).</figcaption>
+</figure>
+</div>
+</div>
+<div class="mhs-photo">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../files/mhs-related-photo/instruments_2.png" class="img-fluid figure-img"></p>
+<figcaption>Thermo Scientific Spinnaker robotic arm for automated microplate handling and transport (left), with monitoring cameras used to observe plate movement and system operation (center and right).</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="hardware-setup-and-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="hardware-setup-and-workflow">Hardware, setup, and workflow</h2>
+<p>The physical setup uses <strong>three computers with three incompatible control styles</strong>:</p>
+<ul>
+<li><strong>Computer 1</strong> runs the robotic arm through scheduling software that consumes job files dropped into a directory — not a normal API.</li>
+<li><strong>Computer 2</strong> runs the liquid handler through an older Windows ActiveX/COM scripting interface, plus USB cameras.</li>
+<li><strong>Computer 3</strong> runs the plate reader, which in our software version has <strong>no programmatic interface at all</strong>, only an on-screen GUI.</li>
+</ul>
+<p>MHS turns each of those into one manifest of <strong>states</strong> (plate at position 3, well filled) and <strong>procedures</strong> (aspirate, shake, read). The agent works from a single interface, regardless of which OS and vendor stack is underneath.</p>
+<p>The scientific workflow is the same as before. The difference is that it is now agent-driven: the liquid handler prepares a dilution series, a camera check confirms the plate is present and correctly oriented, the arm moves the plate to the reader, the reader measures, and the agent inspects the curve. If the fit is poor, it adjusts the concentration range and runs again. If the fit is good, it accepts the result.</p>
+<p>We used a colorimetric dye as a stand-in for a drug candidate — safe, easy to see, and still requiring the same decisions a real dose-response run would need.</p>
+<div class="mhs-photo">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../files/mhs-related-photo/serial dilution plate map.png" class="img-fluid figure-img"></p>
+<figcaption>A 96-well plate arranged as a serial dilution, with the concentration decreasing step by step across the columns from 200 µg/mL to 0.20 µg/mL. This produces a broad, predictable concentration range that can be measured to build a dose-response curve.</figcaption>
+</figure>
+</div>
+</div>
+<p>Each interface had its own sharp edges. The arm’s scheduler is a directory watcher that emits two different files per submitted XML job; MHS has to reconcile those into one clean result, usually within a second. The liquid handler exposes COM scripting with no modern SDK, so every usable method had to be worked out from vendor documentation or by exploring the interface until a driver actually ran. A single dispense cycle takes four to five minutes, and the volume error has to stay within about 5% or the curve is unusable. The plate reader is driven through its GUI the way a person would use it, with nothing to check against except what is on screen.</p>
+<p>Before this, a person sat through those steps: watching the arm’s log, checking that the plate was seated, deciding whether a curve was informative enough to keep. During the preview, the agent handled those operating decisions within the bounds the devices declare.</p>
+</section>
+<section id="safety-and-what-the-agent-did" class="level2">
+<h2 class="anchored" data-anchor-id="safety-and-what-the-agent-did">Safety and what the agent did</h2>
+<p>Devices declare bounds, interlocks, and emergency stops in the standard itself. AI agents inherit and operate within them by default.</p>
+<p>To check that the stack would refuse unsafe motion, we induced six failure conditions: missing plate, rotated plate, reader busy, disconnected camera, unreachable device, and active emergency stop. The system blocked all six <strong>before any device moved</strong>.</p>
+<div class="mhs-photo">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../files/mhs-related-photo/safety.png" class="img-fluid figure-img"></p>
+<figcaption>MHS blocks the experiment whenever key safety or readiness conditions are not met, including a missing or rotated plate, a busy reader, a disconnected camera, an unreachable device, or an active emergency stop. These checks prevent the automated system from moving hardware or continuing the workflow until the problem is resolved.</figcaption>
+</figure>
+</div>
+</div>
+<p>Then we asked the agent to produce an acceptable dose-response curve. The first run used a top concentration of 200 µg/mL. The agent judged the fit too poor to accept (<span class="math inline">\(R^2 &lt; 0.90\)</span>), driven by saturation at the high end. It discarded the plate and reran on a fresh plate with a compressed range (200 µg/mL down to 100 µg/mL). The second run produced a strong fit (<span class="math inline">\(R^2 &gt; 0.98\)</span>, 3.4% variation across repeats). An operator was not in the loop for those curve-quality decisions; the run still stayed inside device-declared safety bounds.</p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../files/mhs-related-photo/run1_curve.png" class="img-fluid figure-img"></p>
+<figcaption>Run 1: The first serial-dilution experiment tested concentrations up to 200 µg/mL. At the higher concentrations, the measurement began to saturate, meaning the signal stopped increasing in a useful way. Because this made the dose-response curve less reliable, the system rejected the run and decided that the concentration range needed to be adjusted.</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../files/mhs-related-photo/run2_curve.png" class="img-fluid figure-img"></p>
+<figcaption>Run 2: The system repeated the experiment with a lower maximum concentration of 100 µg/mL. This new range captured the changing response much more clearly, producing a stronger and more reliable dose-response curve. The improved fit was accepted without an operator stepping in for that decision.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>The headline for me is still the integration speed. From raw, non-automated equipment to a completed dilution curve — including one agent-driven rerun — was <strong>eight hours</strong>. We plan to share the instrument drivers built during the preview so others can reuse that integration work rather than starting from scratch. That is our own plan for the drivers, not a general release of MHS.</p>
+</section>
+<section id="what-is-next" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-next">What is next</h2>
+<p>In our lab, we plan to validate the system with real drug candidates and replace the dye signal with readouts of actual biological effect. We also plan to build additional drivers for instruments such as qPCR and microscopes, connect MCP-based agents to our MHS fleet, and keep cutting the time it takes to bring up a new device.</p>
+<p>Safety stays in the loop: more checks, continuous device-responsiveness monitoring, and clearer rules for when a high-risk decision still needs a person.</p>
+</section>
+<section id="team" class="level2">
+<h2 class="anchored" data-anchor-id="team">Team</h2>
+<p>This was a team effort. I am grateful to <strong>Arth Banka</strong>, <strong>Gün Kaynar</strong>, <strong>Jiayi Li</strong>, and <strong>Peneeta Wojcik</strong> for their work, and to my advisor <strong>Jose Lugo-Martinez</strong>, <strong>Carl Kingsford</strong>, and <strong>Josh Kangas</strong> for their guidance.</p>
+<p><strong>Further reading</strong></p>
+<ul>
+<li><a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">MHS announcement</a></li>
+<li><a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7498829877215842304/?actorCompanyId=28172194">CMU School of Computer Science on LinkedIn</a></li>
+<li><a href="https://x.com/SCSatCMU/status/2093063825171853484">CMU SCS on X</a></li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
