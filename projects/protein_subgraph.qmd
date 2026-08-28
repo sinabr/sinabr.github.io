@@ -12,9 +12,9 @@ Foundation models like ESM-2 provide powerful protein embeddings, while explicit
 
 We developed graph-based protein representations using structural subgraph counts combined with evolutionary features. The method constructs protein graphs from structures and extracts interpretable features that capture local geometry and conservation patterns.
 
-## Results
+## Evaluation
 
-Preliminary results show improvements over ESM-2 embeddings and GNN-based baselines on pathogenicity prediction tasks. The representation also provides interpretable features that domain experts can analyze.
+We are evaluating whether structural and evolutionary features improve pathogenicity prediction over ESM-2 and GNN baselines. The representation also provides interpretable features that domain experts can analyze.
 
 ## Status
 

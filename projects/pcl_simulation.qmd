@@ -1,5 +1,5 @@
 ---
-title: "simPCL: Simulation and Benchmarking for Agentic Lab Systems"
+title: "simPCL: An Open-Framework Simulator and Benchmark Generator for Programmable Cloud Laboratories"
 date: 2026-06-01
 categories: [simulation, agents, benchmarking, ml-systems]
 ---

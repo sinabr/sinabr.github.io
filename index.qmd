@@ -1,6 +1,8 @@
 ---
 title: "Sina Barazandeh"
 page-layout: full
+description: "CMU SCS PhD student building AI agents and machine-learning systems for autonomous laboratories and scientific discovery."
+image: "images/sina.jpg"
 ---
 
 :::: {.grid}
@@ -15,6 +17,8 @@ I build machine-learning systems for **agentic scientific discovery** and **auto
 Most recently, I led CMU's work using the [Model Hardware Standard (MHS)](posts/2026-08-27-mhs-preview.qmd) in the limited research preview: I built instrument drivers and orchestration so an AI agent could coordinate a liquid handler, plate reader, robotic arm, and cameras for closed-loop dose-response experiments.
 
 I am seeking **Summer 2027 research and applied-science internships** on teams building and deploying ML systems, primarily for agentic scientific discovery, autonomous laboratories, lab automation, and AI for science, and also in generative AI, reinforcement learning, and ML systems.
+
+[[Resume (PDF)]](files/Sina_Barazandeh_Resume.pdf) · [[Academic CV (PDF)]](files/Sina_Barazandeh_CV.pdf)
 
 ## Education
 
@@ -38,7 +42,7 @@ I am seeking **Summer 2027 research and applied-science internships** on teams b
 
 - **Aug 2026:** We used the [Model Hardware Standard (MHS)](https://www.anthropic.com/news/model-hardware-standard-research-preview) in the research preview (announced by Anthropic) so an AI agent could operate a liquid handler, plate reader, robotic arm, and cameras. Serial-dilution dose-response experiments ran ~3× faster. I led this work at CMU. [Read the post.](posts/2026-08-27-mhs-preview.qmd) Also covered by [CMU SCS on LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7498829877215842304/?actorCompanyId=28172194) and [X](https://x.com/SCSatCMU/status/2093063825171853484).
 - Contributed talk at the [AI Scientist Summer Workshop](https://ai-scientist-workshop.github.io/#about), Microsoft Research, Cambridge, MA (Aug 2026): *Agentic Fault Recovery for Autonomous Orchestration of Programmable Cloud Laboratories*
-- Attending SciFM (Chicago IL, 2026)
+- Attended SciFM 2026 (Chicago, IL)
 - Two publications in 2025 (PLOS Computational Biology, Bioinformatics Advances) and RNAGEN in ChemBioChem (2026)
 - Attended the SenNet Annual Meeting (Washington, DC, 2025) and PathVisions (San Diego, 2025)
 

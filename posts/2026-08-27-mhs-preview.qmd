@@ -3,8 +3,8 @@ title: "Safe closed-loop agentic dose-response experiments using the Model Hardw
 date: 2026-08-27
 author: "Sina Barazandeh"
 categories: [lab-automation, agents, mhs, cmu]
-image: "../files/mhs-related-photo/instruments_1.png"
-description: "I led Carnegie Mellon's work using the Model Hardware Standard in the research preview, building drivers and an orchestration layer so an AI agent could operate a liquid handler, plate reader, and robotic arm for serial-dilution dose-response experiments."
+image: "../files/mhs-related-photo/instruments-1.webp"
+description: "I led Carnegie Mellon's work using the Model Hardware Standard in the research preview, building drivers and an orchestration layer so an AI agent could operate a liquid handler, plate reader, robotic arm, and cameras for serial-dilution dose-response experiments."
 format:
   html:
     toc: true
@@ -113,11 +113,11 @@ MHS is not Claude-only. We used Claude as one compatible agent in this work, not
 :::
 
 ::: {.mhs-photo}
-![CMU laboratory instruments: the CyBio FeliX liquid handler for automated pipetting and liquid-transfer workflows (left), and the Varioskan LUX multimode plate reader for microplate-based absorbance, fluorescence, and luminescence measurements (right).](../files/mhs-related-photo/instruments_1.png)
+![CMU laboratory instruments: the CyBio FeliX liquid handler for automated pipetting and liquid-transfer workflows (left), and the Varioskan LUX multimode plate reader for microplate-based absorbance, fluorescence, and luminescence measurements (right).](../files/mhs-related-photo/instruments-1.webp)
 :::
 
 ::: {.mhs-photo}
-![Spinnaker robotic arm for automated microplate handling and transport (left), with monitoring cameras used to observe plate movement and system operation (center and right).](../files/mhs-related-photo/instruments_2.png)
+![Spinnaker robotic arm for automated microplate handling and transport (left), with monitoring cameras used to observe plate movement and system operation (center and right).](../files/mhs-related-photo/instruments-2.webp)
 :::
 
 ## Hardware, setup, and workflow
@@ -135,7 +135,7 @@ The scientific workflow is the same as before. The difference is that it is now 
 We used a colorimetric dye as a stand-in for a drug candidate — safe, easy to see, and still requiring the same decisions a real dose-response run would need.
 
 ::: {.mhs-photo}
-![A 96-well plate arranged as a serial dilution, with the concentration decreasing step by step across the columns from 200 µg/mL to 0.20 µg/mL. This produces a broad, predictable concentration range that can be measured to build a dose-response curve.](../files/mhs-related-photo/serial dilution plate map.png)
+![A 96-well plate arranged as a serial dilution, with the concentration decreasing step by step across the columns from 200 µg/mL to 0.20 µg/mL. This produces a broad, predictable concentration range that can be measured to build a dose-response curve.](../files/mhs-related-photo/serial-dilution-plate-map.webp)
 :::
 
 Each interface had its own sharp edges. The arm's scheduler is a directory watcher that emits two different files per submitted XML job; MHS has to reconcile those into one clean result, usually within a second. The liquid handler exposes COM scripting with no modern SDK, so every usable method had to be worked out from vendor documentation or by exploring the interface until a driver actually ran. A single dispense cycle takes four to five minutes, and the volume error has to stay within about 5% or the curve is unusable. The plate reader is driven through its GUI the way a person would use it, with nothing to check against except what is on screen.
@@ -170,7 +170,7 @@ We will keep safety in the loop: more checks, continuous monitoring of whether d
 
 ## Team
 
-This was a team effort. I am grateful to **Arth Banka**, **Gün Kaynar**, **Jiayi Li**, and **Peneeta Wojcik** for their work, and to my advisor **Jose Lugo-Martinez**, **Carl Kingsford**, and **Josh Kangas** for their guidance.
+This was a team effort. I am grateful to **Arth Banka**, **Gün Kaynar**, **Jiayi Li**, and **Peneeta Wojcik** for their work, and to my advisor **Jose Lugo-Martinez**, **Carl Kingsford**, and **Joshua Kangas** for their guidance.
 
 **Further reading**
 

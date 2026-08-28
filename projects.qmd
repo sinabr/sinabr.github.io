@@ -8,4 +8,4 @@ listing:
   feed: true
 ---
 
-Below are research projects with code, methods, and results. Each includes problem motivation, technical approach, and outcomes. Repositories are linked when available.
+Selected research projects spanning methods, systems, experiments, and ongoing work.

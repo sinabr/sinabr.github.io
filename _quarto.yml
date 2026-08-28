@@ -7,6 +7,8 @@ website:
   title: "Sina Barazandeh"
   description: "CMU SCS PhD student building AI agents and machine-learning systems for autonomous laboratories and scientific discovery."
   site-url: "https://sinabr.github.io"
+  open-graph: true
+  twitter-card: true
   navbar:
     left:
       - text: "About"
@@ -28,6 +30,9 @@ website:
         href: https://github.com/sinabr
       - icon: linkedin
         href: https://www.linkedin.com/in/sina-barazandeh/
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=A9R7HFoAAAAJ
+        aria-label: Google Scholar
       - icon: envelope
         href: mailto:sbarazan@andrew.cmu.edu
   page-footer:

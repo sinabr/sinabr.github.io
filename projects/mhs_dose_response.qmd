@@ -2,7 +2,7 @@
 title: "Safe closed-loop agentic dose-response experiments using MHS"
 date: 2026-08-27
 categories: [agents, lab-automation, mhs]
-image: "../files/mhs-related-photo/instruments_1.png"
+image: "../files/mhs-related-photo/instruments-1.webp"
 ---
 
 During the limited [Model Hardware Standard (MHS)](https://www.anthropic.com/news/model-hardware-standard-research-preview) research preview (announced by Anthropic), I led Carnegie Mellon's work using MHS. The Model Hardware Standard is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. The specification shared in the preview is provisional. MHS is model-agnostic; we used Claude as one compatible agent in this work.
