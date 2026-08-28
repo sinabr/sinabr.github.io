@@ -16,7 +16,7 @@ I apply reinforcement learning to decision problems such as selecting informativ
 
 I build agentic systems for autonomous orchestration and fault recovery in programmable cloud laboratories, and develop CloudBench as an open-framework simulator and benchmark generator for studying these systems offline. Related work includes a contributed talk at the AI Scientist Summer Workshop (Microsoft Research, 2026).
 
-I also led Carnegie Mellon's work with the [Model Hardware Standard (MHS)](https://www.anthropic.com/news/model-hardware-standard-research-preview) in the research preview (announced by Anthropic). MHS is a new standard for AI agents to safely operate physical equipment; during the preview the specification remains provisional and is not Claude-only. I developed the MHS drivers and orchestration layer that let an AI agent — we used Claude in this deployment — operate a liquid handler, plate reader, robotic arm, and cameras for serial-dilution dose-response experiments. [Read the post.](posts/2026-08-27-mhs-preview.qmd)
+During the [Model Hardware Standard (MHS)](https://www.anthropic.com/news/model-hardware-standard-research-preview) research preview (announced by Anthropic), I led Carnegie Mellon's work using MHS so an AI agent could operate a liquid handler, plate reader, robotic arm, and cameras for serial-dilution dose-response experiments. MHS is a new standard for AI agents to safely operate physical equipment; in the preview the specification is still provisional, and it is not Claude-only — we used Claude in this deployment. I built the drivers and the orchestration layer. [Read the post.](posts/2026-08-27-mhs-preview.qmd)
 
 ## Representation Learning
 
