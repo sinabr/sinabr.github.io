@@ -20,23 +20,23 @@
 
 
 
-<p>We used the <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard (MHS)</a> research preview (announced by Anthropic) to let an AI agent operate a liquid handler, a plate reader, a robotic arm, and monitoring cameras. Serial-dilution dose-response experiments ran about three times faster than before. I led this work on the CMU side: the AI orchestration and software integration that brought disconnected device interfaces into one system an agent could coordinate.</p>
-<p>MHS is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. It is currently in a limited research preview. It is a provisional specification — not a general release — and is not Claude-only: MHS-compatible AI agents can use it. We used the preview to run a safe closed-loop agentic workflow on our instruments within device-declared safety bounds.</p>
+<p>We used the <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard (MHS)</a> in the research preview (announced by Anthropic) to let an AI agent operate a liquid handler, a plate reader, a robotic arm, and monitoring cameras. Serial-dilution dose-response experiments ran about three times faster than before. I led this work on the CMU side: the AI orchestration and software integration that brought disconnected device interfaces into one system an agent could coordinate.</p>
+<p>MHS is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. In this limited research preview the specification is still provisional — not a general release — and it is not Claude-only: any MHS-compatible AI agent can use it. On our bench we ran a safe closed-loop agentic workflow within the bounds, interlocks, and emergency stops the devices declare.</p>
 <p>The most rewarding part was watching that software leave the editor and come to life in a working physical laboratory.</p>
 <div class="mhs-video">
-<iframe src="https://drive.google.com/file/d/1GaC_-bp70Zbpq_7aom55OYunS8fB1SzE/preview" title="CMU MHS research preview video" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="">
+<iframe src="https://drive.google.com/file/d/1GaC_-bp70Zbpq_7aom55OYunS8fB1SzE/preview" title="CMU work with MHS during the research preview" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="">
 </iframe>
 </div>
 <p class="mhs-video-note">
-The lab run above is from our MHS research preview work at CMU. If the player does not start immediately, click it once — or <a href="https://drive.google.com/file/d/1GaC_-bp70Zbpq_7aom55OYunS8fB1SzE/view?usp=drive_link" target="_blank" rel="noopener">open the video on Google Drive</a>.
+The lab run above is from our work with MHS at CMU during the research preview. If the player does not start immediately, click it once — or <a href="https://drive.google.com/file/d/1GaC_-bp70Zbpq_7aom55OYunS8fB1SzE/view?usp=drive_link" target="_blank" rel="noopener">open the video on Google Drive</a>.
 </p>
-<section id="the-mhs-research-preview" class="level2">
-<h2 class="anchored" data-anchor-id="the-mhs-research-preview">The MHS research preview</h2>
-<p>Access during the preview is by application while the safety design is validated. CMU’s deployment is featured in the <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">MHS announcement</a> under <em>Carnegie Mellon University: Determining dose-response curves through rapid automation</em>. School of Computer Science coverage is also on <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7498829877215842304/?actorCompanyId=28172194">LinkedIn</a> and <a href="https://x.com/SCSatCMU/status/2093063825171853484">X</a>.</p>
+<section id="using-mhs-in-the-research-preview" class="level2">
+<h2 class="anchored" data-anchor-id="using-mhs-in-the-research-preview">Using MHS in the research preview</h2>
+<p>Access to the preview is by application while the safety design is validated. CMU’s work with MHS is featured in the <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">announcement</a> under <em>Carnegie Mellon University: Determining dose-response curves through rapid automation</em>. School of Computer Science coverage is also on <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7498829877215842304/?actorCompanyId=28172194">LinkedIn</a> and <a href="https://x.com/SCSatCMU/status/2093063825171853484">X</a>.</p>
 <div class="mhs-quote">
 <p>Researchers at Carnegie Mellon University used MHS to run serial dilution dose-response experiments about three times faster than before, with an AI agent orchestrating a liquid handler, a plate reader, a robotic arm, and monitoring cameras spread across three computers with fundamentally incompatible interfaces.</p>
 </div>
-<p>The CMU case study lists <strong>Sina Barazandeh</strong>, Arth Banka, Gün Kaynar, Jiayi Li, Peneeta Wojcik, Carl Kingsford, Jose Lugo-Martinez, and Joshua Kangas. I led the preview on the CMU side. I designed and implemented the MHS drivers for all three instruments and the orchestration layer on top of them — the coding, the interface work, and the conformance testing that made the stack speak one protocol.</p>
+<p>The CMU case study lists <strong>Sina Barazandeh</strong>, Arth Banka, Gün Kaynar, Jiayi Li, Peneeta Wojcik, Carl Kingsford, Jose Lugo-Martinez, and Joshua Kangas. I led CMU’s work in the preview. I designed and implemented the MHS drivers for all three instruments and the orchestration layer on top of them — the coding, the interface work, and the conformance testing that made the stack speak one protocol.</p>
 <p>During the preview I also drafted a proposed enhancement for client-supplied idempotency keys, so a mutating procedure can be retried with exactly-once semantics, and contributed a few bug fixes to the preview Python SDK.</p>
 </section>
 <section id="why-dose-response-is-a-hard-automation-target" class="level2">
