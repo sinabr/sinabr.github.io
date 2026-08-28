@@ -1,0 +1,14 @@
+---
+title: "MHS research preview at CMU: agent-operated dose-response experiments"
+date: 2026-08-27
+categories: [agents, lab-automation, mhs]
+image: "../files/mhs-related-photo/instruments_1.png"
+---
+
+I led Carnegie Mellon's participation in the [Model Hardware Standard (MHS) research preview](https://www.anthropic.com/news/model-hardware-standard-research-preview). MHS is a new standard, co-developed by Anthropic, Arm, and HHMI Janelia Research Campus, for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. It is currently in a limited research preview.
+
+We used MHS to let an AI agent operate a liquid handler, plate reader, robotic arm, and cameras across three computers with incompatible interfaces. Serial-dilution dose-response experiments ran about three times faster than before. This deployment is featured in the MHS announcement; CMU SCS also posted on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7498829877215842304/?actorCompanyId=28172194) and [X](https://x.com/SCSatCMU/status/2093063825171853484).
+
+My focus was the AI orchestration and software integration. I developed the MHS drivers for all three instruments and the layer that let an agent — we used Claude during the preview — execute the protocol, reject a saturated curve, and rerun with a compressed concentration range ($R^2 > 0.98$), within device-declared safety bounds. Integration took about eight hours rather than weeks of vendor engineering.
+
+Full write-up, photos, and video: [How we tested dose-response experiments with an AI agent using the Model Hardware Standard](../posts/2026-08-27-mhs-preview.qmd).

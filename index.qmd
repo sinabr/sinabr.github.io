@@ -28,6 +28,7 @@ I value **robust baselines**, **reproducible code**, and **clear methods** that 
 
 ## Research Highlights
 
+- **Lab Automation / MHS:** Led CMU's participation in the Model Hardware Standard research preview, building drivers and orchestration so an AI agent could operate a liquid handler, plate reader, and robotic arm
 - **Agentic Systems:** RL and LLM agents for autonomous orchestration and fault recovery
 - **Simulation & Benchmarking:** CloudBench — simulator and benchmark generator for programmable cloud laboratories
 - **ML Systems:** Extending FlashAttention and PagedAttention in MiniTorch (LLM Systems coursework)
@@ -37,6 +38,7 @@ I value **robust baselines**, **reproducible code**, and **clear methods** that 
 
 ## Recent News
 
+- **Aug 2026:** Carnegie Mellon is featured in the [Model Hardware Standard (MHS) research preview](https://www.anthropic.com/news/model-hardware-standard-research-preview). I led CMU's work using MHS to let an AI agent operate a liquid handler, plate reader, robotic arm, and cameras for serial-dilution dose-response experiments ~3× faster. [Read the post.](posts/2026-08-27-mhs-preview.qmd) Also covered by [CMU SCS on LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7498829877215842304/?actorCompanyId=28172194) and [X](https://x.com/SCSatCMU/status/2093063825171853484).
 - Attending [AI Scientist Summer Workshop](https://ai-scientist-workshop.github.io/#about) at Cambridge, MA — Microsoft Research (Aug 2026); contributed talk: *Agentic Fault Recovery for Autonomous Orchestration of Programmable Cloud Laboratories*
 - Attending SciFM (Chicago IL, 2026)
 - Two publications in 2025: PLOS Computational Biology and Bioinformatics Advances
