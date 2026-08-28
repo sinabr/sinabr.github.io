@@ -286,8 +286,8 @@ window.Quarto = {
 </header>
 
 
-<p>We used the <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard (MHS)</a> research preview to let an AI agent operate a liquid handler, a plate reader, a robotic arm, and monitoring cameras. Serial-dilution dose-response experiments ran about three times faster than before. I led this work on the CMU side: the AI orchestration and software integration that brought disconnected device interfaces into one system an agent could coordinate.</p>
-<p>MHS is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. It is currently in a limited research preview. It is a provisional specification — not a general release, and not an Anthropic or Claude product. We participated in the preview to test how MHS-compatible agents operate our instruments within device-declared safety bounds.</p>
+<p>We used the <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard (MHS)</a> research preview (announced by Anthropic) to let an AI agent operate a liquid handler, a plate reader, a robotic arm, and monitoring cameras. Serial-dilution dose-response experiments ran about three times faster than before. I led this work on the CMU side: the AI orchestration and software integration that brought disconnected device interfaces into one system an agent could coordinate.</p>
+<p>MHS is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. It is currently in a limited research preview. It is a provisional specification — not a general release — and is not Claude-only: MHS-compatible AI agents can use it. We participated in the preview to test how those agents operate our instruments within device-declared safety bounds.</p>
 <p>The most rewarding part was watching that software leave the editor and come to life in a working physical laboratory.</p>
 <div class="mhs-video">
 <iframe src="https://drive.google.com/file/d/1GaC_-bp70Zbpq_7aom55OYunS8fB1SzE/preview" title="CMU MHS research preview video" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="">
@@ -323,7 +323,7 @@ The lab run above is from our MHS research preview work at CMU. If the player do
 <li>an AI agent — we used Claude during the preview</li>
 </ul>
 <p>I built the drivers from scratch for each instrument, plus the orchestration layer that lets an agent run the full protocol within device-declared bounds. That work took about <strong>eight hours</strong>. A vendor-built automation job of this kind typically takes several weeks. The instruments keep running their native software; MHS sits on top. No extra automation stack required.</p>
-<p>MHS is model-agnostic. We used Claude as one MHS-compatible agent in this deployment, not as a requirement of the standard.</p>
+<p>MHS is model-agnostic and not Claude-only. We used Claude as one MHS-compatible agent in this deployment, not as a requirement of the standard.</p>
 <div class="quarto-layout-panel" data-layout-ncol="3">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
