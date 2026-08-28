@@ -286,7 +286,7 @@ window.Quarto = {
 </header>
 
 
-<p>We used the <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard (MHS)</a> in the research preview (announced by Anthropic) to let an AI agent operate a liquid handler, a plate reader, a robotic arm, and monitoring cameras. Serial-dilution dose-response experiments ran about three times faster than before. I led this work at CMU: the AI orchestration and software integration that turned disconnected device interfaces into one system an agent could coordinate.</p>
+<p>We used the <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard (MHS)</a> in the research preview (announced by Anthropic) to let an AI agent operate a liquid handler, a plate reader, a robotic arm, and monitoring cameras. Serial-dilution dose-response experiments ran about three times faster than our prior workflow. I led this work at CMU: the AI orchestration and software integration that turned disconnected device interfaces into one system an agent could coordinate.</p>
 <p>The Model Hardware Standard is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. In this limited research preview the specification is still provisional, not a general release, and it is not Claude-only. On our bench we ran a safe closed-loop agentic workflow. Devices declare bounds, interlocks, and emergency stops in the standard itself; AI agents inherit and operate within them by default.</p>
 <p>The most rewarding part was watching that software leave the editor and come to life in a working physical laboratory.</p>
 <div class="mhs-video">
@@ -322,7 +322,7 @@ The lab run above is from our work with MHS at CMU during the research preview. 
 <li>monitoring cameras</li>
 <li>an AI agent — we used Claude during the preview</li>
 </ul>
-<p>I built the drivers from scratch for each instrument, plus the orchestration layer that lets an agent run the full protocol within device-declared bounds. That work took about <strong>eight hours</strong>. A vendor-built automation job of this kind typically takes several weeks. The instruments keep running their native software; MHS sits on top. No extra automation stack required.</p>
+<p>I built the drivers from scratch for each instrument, plus the orchestration layer that lets an agent run the full protocol within device-declared bounds. That work took about <strong>eight hours</strong>, compared with the weeks of per-instrument integration that motivated this work. The instruments keep running their native software; MHS sits on top. No extra automation stack required.</p>
 <p>MHS is not Claude-only. We used Claude as one compatible agent in this work, not as a requirement of the standard.</p>
 <div class="quarto-layout-panel" data-layout-ncol="3">
 <div class="quarto-layout-row">
@@ -403,7 +403,7 @@ The lab run above is from our work with MHS at CMU during the research preview. 
 </figure>
 </div>
 </div>
-<p>Then we asked the agent to produce an acceptable dose-response curve. The first run used a top concentration of 200 µg/mL. The agent judged the fit too poor to accept (<span class="math inline">\(R^2 &lt; 0.90\)</span>), driven by saturation at the high end. It discarded the plate and reran on a fresh plate with a compressed range (200 µg/mL down to 100 µg/mL). The second run produced a strong fit (<span class="math inline">\(R^2 &gt; 0.98\)</span>, 3.4% variation across repeats). An operator was not in the loop for those curve-quality decisions; the run still stayed inside device-declared safety bounds.</p>
+<p>Then we asked the agent to produce an acceptable dose-response curve. The first run used a top concentration of 200 µg/mL. The agent judged the fit too poor to accept (<span class="math inline">\(R^2 &lt; 0.90\)</span>), driven by saturation at the high end. It discarded the plate and reran on a fresh plate with the maximum concentration reduced to 100 µg/mL. The second run produced a strong fit (<span class="math inline">\(R^2 &gt; 0.98\)</span>, 3.4% variation across repeats). An operator was not in the loop for those curve-quality decisions; the run still stayed inside device-declared safety bounds.</p>
 <div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">

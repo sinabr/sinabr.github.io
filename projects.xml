@@ -8,7 +8,7 @@
 <title>Sina Barazandeh</title>
 <link>https://sinabr.github.io/projects.html</link>
 <atom:link href="https://sinabr.github.io/projects.xml" rel="self" type="application/rss+xml"/>
-<description>PhD student, CMU SCS. Machine learning, agents, RL, and ML systems for science.</description>
+<description>CMU SCS PhD student building AI agents and machine-learning systems for autonomous laboratories and scientific discovery.</description>
 <generator>quarto-1.10.18</generator>
 <lastBuildDate>Thu, 27 Aug 2026 00:00:00 GMT</lastBuildDate>
 <item>
@@ -19,9 +19,9 @@
 
 
 
-<p>During the <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard (MHS)</a> research preview (announced by Anthropic), I led Carnegie Mellon’s work using MHS. The Model Hardware Standard is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. In the preview the specification is still provisional, and it is not Claude-only.</p>
-<p>We used MHS to let an AI agent operate a liquid handler, plate reader, robotic arm, and cameras across three computers with incompatible interfaces. Serial-dilution dose-response experiments ran about three times faster than before. This work is featured in the MHS announcement; CMU SCS also posted on <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7498829877215842304/?actorCompanyId=28172194">LinkedIn</a> and <a href="https://x.com/SCSatCMU/status/2093063825171853484">X</a>.</p>
-<p>My focus was the AI orchestration and software integration. I developed the MHS drivers for all three instruments and the layer that let an agent — we used Claude in this work — run the protocol, reject a saturated curve, and rerun with a compressed concentration range (<img src="https://latex.codecogs.com/png.latex?R%5E2%20%3E%200.98">), within device-declared safety bounds. Integration took about eight hours rather than weeks of vendor engineering.</p>
+<p>During the limited <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard (MHS)</a> research preview (announced by Anthropic), I led Carnegie Mellon’s work using MHS. The Model Hardware Standard is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. The specification shared in the preview is provisional. MHS is model-agnostic; we used Claude as one compatible agent in this work.</p>
+<p>We used MHS to let an AI agent operate a liquid handler, plate reader, robotic arm, and cameras across three computers with incompatible interfaces. Serial-dilution dose-response experiments ran about three times faster than our prior workflow. This work is featured in the MHS announcement; CMU SCS also posted on <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7498829877215842304/?actorCompanyId=28172194">LinkedIn</a> and <a href="https://x.com/SCSatCMU/status/2093063825171853484">X</a>.</p>
+<p>My focus was the AI orchestration and software integration. I developed the MHS drivers for all three instruments and the layer that let an agent — we used Claude as one compatible agent in this work — run the protocol, reject a saturated curve, and rerun with a lower maximum concentration (<img src="https://latex.codecogs.com/png.latex?R%5E2%20%3E%200.98">), within device-declared safety bounds. Integration took about eight hours, compared with the weeks of per-instrument integration that motivated the work.</p>
 <p>Full write-up, photos, and video: <a href="../posts/2026-08-27-mhs-preview.html">Safe closed-loop agentic dose-response experiments using the Model Hardware Standard</a>.</p>
 
 
@@ -48,11 +48,18 @@
 </section>
 <section id="approach" class="level2">
 <h2 class="anchored" data-anchor-id="approach">Approach</h2>
-<p>I am building <strong>simPCL</strong>, a simulator and benchmark generator for programmable cloud laboratories. The laboratory setting is the application domain; the research questions are about simulation, agent evaluation, and benchmarking for autonomous laboratory systems.</p>
+<p>I am building <strong>simPCL</strong>, an open-framework simulator and benchmark generator for programmable cloud laboratories. It supports controlled study of:</p>
+<ul>
+<li>long-horizon experimental planning;</li>
+<li>recovery from instrument and workflow failures;</li>
+<li>reliable execution across multi-step protocols; and</li>
+<li>closed-loop decisions in which measurements determine the next experiment.</li>
+</ul>
+<p>simPCL complements our work on <a href="../projects/mhs_dose_response.html">physical laboratory automation using MHS</a>: real equipment demonstrates what an agent can accomplish, while simulation makes it possible to evaluate many scenarios reproducibly before using scarce laboratory time.</p>
 </section>
 <section id="status" class="level2">
 <h2 class="anchored" data-anchor-id="status">Status</h2>
-<p>Manuscript in preparation. Code and benchmarks will be released with the paper.</p>
+<p>Manuscript in preparation. Related work was presented at the <a href="https://ai-scientist-workshop.github.io/#about">AI Scientist Summer Workshop</a> (Microsoft Research, 2026) in a contributed talk on agentic fault recovery. Code and benchmarks will be released with the paper.</p>
 
 
 </section>
@@ -110,6 +117,7 @@
 <section id="approach" class="level2">
 <h2 class="anchored" data-anchor-id="approach">Approach</h2>
 <p>I am developing agentic systems that combine reinforcement learning with large language models for autonomous orchestration and fault recovery. The motivating application is programmable cloud laboratories, but the core problems are agent decision-making, recovery under failure, and reliable execution of long-horizon workflows.</p>
+<p>This work asks how an agent should detect that a protocol has deviated from plan, choose a safe recovery action, and resume without repeating completed physical operations. It connects <a href="../projects/pcl_simulation.html">simPCL</a>, which enables controlled offline evaluation, with our <a href="../projects/mhs_dose_response.html">MHS physical-laboratory work</a>, which tests closed-loop operation on real equipment.</p>
 </section>
 <section id="status" class="level2">
 <h2 class="anchored" data-anchor-id="status">Status</h2>
@@ -135,7 +143,7 @@
 
 <section id="problem" class="level2">
 <h2 class="anchored" data-anchor-id="problem">Problem</h2>
-<p>Foundation models like ESM-2 provide powerful protein embeddings but do not include enough structural information and evolutionary signals that are critical for function prediction.</p>
+<p>Foundation models like ESM-2 provide powerful protein embeddings, while explicit structural and evolutionary features may add complementary information for function prediction.</p>
 </section>
 <section id="approach" class="level2">
 <h2 class="anchored" data-anchor-id="approach">Approach</h2>
@@ -143,7 +151,7 @@
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
-<p>Outperforms ESM-2 embeddings and GNN-based models on pathogenicity prediction tasks. Provides interpretable features that domain experts can analyze.</p>
+<p>Preliminary results show improvements over ESM-2 embeddings and GNN-based baselines on pathogenicity prediction tasks. The representation also provides interpretable features that domain experts can analyze.</p>
 </section>
 <section id="status" class="level2">
 <h2 class="anchored" data-anchor-id="status">Status</h2>
