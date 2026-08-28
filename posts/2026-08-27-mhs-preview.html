@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2026-08-27">
 <meta name="description" content="I led Carnegie Mellon’s participation in the Model Hardware Standard research preview, building drivers and an orchestration layer so an AI agent could operate a liquid handler, plate reader, and robotic arm for serial-dilution dose-response experiments.">
 
-<title>How we tested dose-response experiments with an AI agent using the Model Hardware Standard – Sina Barazandeh</title>
+<title>Safe closed-loop agentic dose-response experiments using the Model Hardware Standard – Sina Barazandeh</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -233,7 +233,7 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#the-mhs-research-preview" id="toc-the-mhs-research-preview" class="nav-link active" data-scroll-target="#the-mhs-research-preview">The MHS research preview</a></li>
   <li><a href="#why-dose-response-is-a-hard-automation-target" id="toc-why-dose-response-is-a-hard-automation-target" class="nav-link" data-scroll-target="#why-dose-response-is-a-hard-automation-target">Why dose-response is a hard automation target</a></li>
-  <li><a href="#what-we-tested" id="toc-what-we-tested" class="nav-link" data-scroll-target="#what-we-tested">What we tested</a></li>
+  <li><a href="#closed-loop-operation" id="toc-closed-loop-operation" class="nav-link" data-scroll-target="#closed-loop-operation">Closed-loop operation</a></li>
   <li><a href="#hardware-setup-and-workflow" id="toc-hardware-setup-and-workflow" class="nav-link" data-scroll-target="#hardware-setup-and-workflow">Hardware, setup, and workflow</a></li>
   <li><a href="#safety-and-what-the-agent-did" id="toc-safety-and-what-the-agent-did" class="nav-link" data-scroll-target="#safety-and-what-the-agent-did">Safety and what the agent did</a></li>
   <li><a href="#what-is-next" id="toc-what-is-next" class="nav-link" data-scroll-target="#what-is-next">What is next</a></li>
@@ -246,7 +246,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">How we tested dose-response experiments with an AI agent using the Model Hardware Standard</h1>
+<h1 class="title">Safe closed-loop agentic dose-response experiments using the Model Hardware Standard</h1>
   <div class="quarto-categories">
     <div class="quarto-category">lab-automation</div>
     <div class="quarto-category">agents</div>
@@ -287,7 +287,7 @@ window.Quarto = {
 
 
 <p>We used the <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard (MHS)</a> research preview (announced by Anthropic) to let an AI agent operate a liquid handler, a plate reader, a robotic arm, and monitoring cameras. Serial-dilution dose-response experiments ran about three times faster than before. I led this work on the CMU side: the AI orchestration and software integration that brought disconnected device interfaces into one system an agent could coordinate.</p>
-<p>MHS is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. It is currently in a limited research preview. It is a provisional specification — not a general release — and is not Claude-only: MHS-compatible AI agents can use it. We participated in the preview to test how those agents operate our instruments within device-declared safety bounds.</p>
+<p>MHS is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. It is currently in a limited research preview. It is a provisional specification — not a general release — and is not Claude-only: MHS-compatible AI agents can use it. We used the preview to run a safe closed-loop agentic workflow on our instruments within device-declared safety bounds.</p>
 <p>The most rewarding part was watching that software leave the editor and come to life in a working physical laboratory.</p>
 <div class="mhs-video">
 <iframe src="https://drive.google.com/file/d/1GaC_-bp70Zbpq_7aom55OYunS8fB1SzE/preview" title="CMU MHS research preview video" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="">
@@ -310,11 +310,11 @@ The lab run above is from our MHS research preview work at CMU. If the player do
 <p>A key step in drug development is figuring out how much of a candidate is enough. Too much can be costly or toxic; too little does nothing. Labs usually answer that with <strong>serial dilution</strong>: start with a strong solution and dilute it by a fixed ratio, again and again, until there is a predictable concentration range to measure.</p>
 <p>Done by hand, a usable curve can take weeks of iteration. The maximum concentration and the step size both have to be right. Too high, and the signal saturates — the top of the curve goes flat and those wells stop teaching you anything. Steps that are too small miss the full range; steps that are too large skip the transition entirely.</p>
 <p>High-throughput, AI-directed screening makes this worse: you want dosages for many candidates, not one. Automated laboratories help, but only after someone has spent weeks writing vendor-specific integrations so a liquid handler, a plate reader, and an arm can even talk to each other.</p>
-<p>That integration tax is what we were testing MHS against.</p>
+<p>That integration tax is what this MHS deployment was built to cut.</p>
 </section>
-<section id="what-we-tested" class="level2">
-<h2 class="anchored" data-anchor-id="what-we-tested">What we tested</h2>
-<p>In our own testing, MHS let us run these experiments about <strong>three times faster</strong> by giving an AI agent a single way to operate the bench. The CMU setup combines:</p>
+<section id="closed-loop-operation" class="level2">
+<h2 class="anchored" data-anchor-id="closed-loop-operation">Closed-loop operation</h2>
+<p>On our bench, MHS let us run these experiments about <strong>three times faster</strong> by giving an AI agent a single way to operate the instruments. The CMU setup combines:</p>
 <ul>
 <li>a CyBio FeliX liquid handler</li>
 <li>a Varioskan LUX plate reader</li>
