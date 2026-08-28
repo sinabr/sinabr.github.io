@@ -4,7 +4,7 @@ date: 2026-08-27
 author: "Sina Barazandeh"
 categories: [lab-automation, agents, mhs, cmu]
 image: "../files/mhs-related-photo/instruments_1.png"
-description: "I led Carnegie Mellon's participation in the Model Hardware Standard research preview, building drivers and an orchestration layer so an AI agent could operate a liquid handler, plate reader, and robotic arm for serial-dilution dose-response experiments."
+description: "I led Carnegie Mellon's work with the Model Hardware Standard in the research preview, building drivers and an orchestration layer so an AI agent could operate a liquid handler, plate reader, and robotic arm for serial-dilution dose-response experiments."
 format:
   html:
     toc: true
@@ -56,27 +56,27 @@ format:
           </style>
 ---
 
-We used the [Model Hardware Standard (MHS)](https://www.anthropic.com/news/model-hardware-standard-research-preview) research preview (announced by Anthropic) to let an AI agent operate a liquid handler, a plate reader, a robotic arm, and monitoring cameras. Serial-dilution dose-response experiments ran about three times faster than before. I led this work on the CMU side: the AI orchestration and software integration that brought disconnected device interfaces into one system an agent could coordinate.
+We used the [Model Hardware Standard (MHS)](https://www.anthropic.com/news/model-hardware-standard-research-preview) in the research preview (announced by Anthropic) to let an AI agent operate a liquid handler, a plate reader, a robotic arm, and monitoring cameras. Serial-dilution dose-response experiments ran about three times faster than before. I led this work on the CMU side: the AI orchestration and software integration that brought disconnected device interfaces into one system an agent could coordinate.
 
-MHS is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. It is currently in a limited research preview. It is a provisional specification — not a general release — and is not Claude-only: MHS-compatible AI agents can use it. We used the preview to run a safe closed-loop agentic workflow on our instruments within device-declared safety bounds.
+MHS is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. In this limited research preview the specification is still provisional — not a general release — and it is not Claude-only: any MHS-compatible AI agent can use it. On our bench we ran a safe closed-loop agentic workflow within the bounds, interlocks, and emergency stops the devices declare.
 
 The most rewarding part was watching that software leave the editor and come to life in a working physical laboratory.
 
 ::: {.mhs-video}
-<iframe src="https://drive.google.com/file/d/1GaC_-bp70Zbpq_7aom55OYunS8fB1SzE/preview" title="CMU MHS research preview video" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://drive.google.com/file/d/1GaC_-bp70Zbpq_7aom55OYunS8fB1SzE/preview" title="CMU work with MHS during the research preview" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 :::
 
-<p class="mhs-video-note">The lab run above is from our MHS research preview work at CMU. If the player does not start immediately, click it once — or <a href="https://drive.google.com/file/d/1GaC_-bp70Zbpq_7aom55OYunS8fB1SzE/view?usp=drive_link" target="_blank" rel="noopener">open the video on Google Drive</a>.</p>
+<p class="mhs-video-note">The lab run above is from our work with MHS at CMU during the research preview. If the player does not start immediately, click it once — or <a href="https://drive.google.com/file/d/1GaC_-bp70Zbpq_7aom55OYunS8fB1SzE/view?usp=drive_link" target="_blank" rel="noopener">open the video on Google Drive</a>.</p>
 
-## The MHS research preview
+## Using MHS in the research preview
 
-Access during the preview is by application while the safety design is validated. CMU's deployment is featured in the [MHS announcement](https://www.anthropic.com/news/model-hardware-standard-research-preview) under *Carnegie Mellon University: Determining dose-response curves through rapid automation*. School of Computer Science coverage is also on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7498829877215842304/?actorCompanyId=28172194) and [X](https://x.com/SCSatCMU/status/2093063825171853484).
+Access to the preview is by application while the safety design is validated. CMU's work with MHS is featured in the [announcement](https://www.anthropic.com/news/model-hardware-standard-research-preview) under *Carnegie Mellon University: Determining dose-response curves through rapid automation*. School of Computer Science coverage is also on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7498829877215842304/?actorCompanyId=28172194) and [X](https://x.com/SCSatCMU/status/2093063825171853484).
 
 ::: {.mhs-quote}
 Researchers at Carnegie Mellon University used MHS to run serial dilution dose-response experiments about three times faster than before, with an AI agent orchestrating a liquid handler, a plate reader, a robotic arm, and monitoring cameras spread across three computers with fundamentally incompatible interfaces.
 :::
 
-The CMU case study lists **Sina Barazandeh**, Arth Banka, Gün Kaynar, Jiayi Li, Peneeta Wojcik, Carl Kingsford, Jose Lugo-Martinez, and Joshua Kangas. I led the preview on the CMU side. I designed and implemented the MHS drivers for all three instruments and the orchestration layer on top of them — the coding, the interface work, and the conformance testing that made the stack speak one protocol.
+The CMU case study lists **Sina Barazandeh**, Arth Banka, Gün Kaynar, Jiayi Li, Peneeta Wojcik, Carl Kingsford, Jose Lugo-Martinez, and Joshua Kangas. I led CMU's work in the preview. I designed and implemented the MHS drivers for all three instruments and the orchestration layer on top of them — the coding, the interface work, and the conformance testing that made the stack speak one protocol.
 
 During the preview I also drafted a proposed enhancement for client-supplied idempotency keys, so a mutating procedure can be retried with exactly-once semantics, and contributed a few bug fixes to the preview Python SDK.
 
