@@ -20,8 +20,8 @@
 
 
 
-<p>We used the <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard (MHS)</a> in the research preview (announced by Anthropic) to let an AI agent operate a liquid handler, a plate reader, a robotic arm, and monitoring cameras. Serial-dilution dose-response experiments ran about three times faster than before. I led this work on the CMU side: the AI orchestration and software integration that brought disconnected device interfaces into one system an agent could coordinate.</p>
-<p>MHS is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. In this limited research preview the specification is still provisional — not a general release — and it is not Claude-only: any MHS-compatible AI agent can use it. On our bench we ran a safe closed-loop agentic workflow within the bounds, interlocks, and emergency stops the devices declare.</p>
+<p>We used the <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard (MHS)</a> in the research preview (announced by Anthropic) to let an AI agent operate a liquid handler, a plate reader, a robotic arm, and monitoring cameras. Serial-dilution dose-response experiments ran about three times faster than before. I led this work at CMU: the AI orchestration and software integration that turned disconnected device interfaces into one system an agent could coordinate.</p>
+<p>The Model Hardware Standard is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. In this limited research preview the specification is still provisional, not a general release, and it is not Claude-only. On our bench we ran a safe closed-loop agentic workflow. Devices declare bounds, interlocks, and emergency stops in the standard itself; AI agents inherit and operate within them by default.</p>
 <p>The most rewarding part was watching that software leave the editor and come to life in a working physical laboratory.</p>
 <div class="mhs-video">
 <iframe src="https://drive.google.com/file/d/1GaC_-bp70Zbpq_7aom55OYunS8fB1SzE/preview" title="CMU work with MHS during the research preview" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="">
@@ -32,23 +32,23 @@ The lab run above is from our work with MHS at CMU during the research preview. 
 </p>
 <section id="using-mhs-in-the-research-preview" class="level2">
 <h2 class="anchored" data-anchor-id="using-mhs-in-the-research-preview">Using MHS in the research preview</h2>
-<p>Access to the preview is by application while the safety design is validated. CMU’s work with MHS is featured in the <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">announcement</a> under <em>Carnegie Mellon University: Determining dose-response curves through rapid automation</em>. School of Computer Science coverage is also on <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7498829877215842304/?actorCompanyId=28172194">LinkedIn</a> and <a href="https://x.com/SCSatCMU/status/2093063825171853484">X</a>.</p>
+<p>Access to the preview is by application while the safety design is validated. CMU’s work with MHS is featured in the <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">announcement</a> as <em>Carnegie Mellon University: Determining dose-response curves through rapid automation</em>. School of Computer Science also wrote about it on <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7498829877215842304/?actorCompanyId=28172194">LinkedIn</a> and <a href="https://x.com/SCSatCMU/status/2093063825171853484">X</a>.</p>
 <div class="mhs-quote">
 <p>Researchers at Carnegie Mellon University used MHS to run serial dilution dose-response experiments about three times faster than before, with an AI agent orchestrating a liquid handler, a plate reader, a robotic arm, and monitoring cameras spread across three computers with fundamentally incompatible interfaces.</p>
 </div>
-<p>The CMU case study lists <strong>Sina Barazandeh</strong>, Arth Banka, Gün Kaynar, Jiayi Li, Peneeta Wojcik, Carl Kingsford, Jose Lugo-Martinez, and Joshua Kangas. I led CMU’s work in the preview. I designed and implemented the MHS drivers for all three instruments and the orchestration layer on top of them — the coding, the interface work, and the conformance testing that made the stack speak one protocol.</p>
-<p>During the preview I also drafted a proposed enhancement for client-supplied idempotency keys, so a mutating procedure can be retried with exactly-once semantics, and contributed a few bug fixes to the preview Python SDK.</p>
+<p>The case study lists <strong>Sina Barazandeh</strong>, Arth Banka, Gün Kaynar, Jiayi Li, Peneeta Wojcik, Carl Kingsford, Jose Lugo-Martinez, and Joshua Kangas. I designed and implemented the MHS drivers for all three instruments and the orchestration layer on top of them — the coding, the interface work, and the conformance checks that made the stack speak one protocol.</p>
+<p>During the preview I also drafted a proposed enhancement for client-supplied idempotency keys, so a mutating procedure can be retried with exactly-once semantics, and contributed a few bug fixes to the Python SDK used in the preview.</p>
 </section>
 <section id="why-dose-response-is-a-hard-automation-target" class="level2">
 <h2 class="anchored" data-anchor-id="why-dose-response-is-a-hard-automation-target">Why dose-response is a hard automation target</h2>
 <p>A key step in drug development is figuring out how much of a candidate is enough. Too much can be costly or toxic; too little does nothing. Labs usually answer that with <strong>serial dilution</strong>: start with a strong solution and dilute it by a fixed ratio, again and again, until there is a predictable concentration range to measure.</p>
 <p>Done by hand, a usable curve can take weeks of iteration. The maximum concentration and the step size both have to be right. Too high, and the signal saturates — the top of the curve goes flat and those wells stop teaching you anything. Steps that are too small miss the full range; steps that are too large skip the transition entirely.</p>
 <p>High-throughput, AI-directed screening makes this worse: you want dosages for many candidates, not one. Automated laboratories help, but only after someone has spent weeks writing vendor-specific integrations so a liquid handler, a plate reader, and an arm can even talk to each other.</p>
-<p>That integration tax is what this MHS deployment was built to cut.</p>
+<p>That wait — weeks of per-instrument engineering — is what we used MHS to shorten.</p>
 </section>
 <section id="closed-loop-operation" class="level2">
 <h2 class="anchored" data-anchor-id="closed-loop-operation">Closed-loop operation</h2>
-<p>On our bench, MHS let us run these experiments about <strong>three times faster</strong> by giving an AI agent a single way to operate the instruments. The CMU setup combines:</p>
+<p>On our bench, MHS let us run these experiments about <strong>three times faster</strong> by giving an AI agent one way to operate the instruments. The setup combines:</p>
 <ul>
 <li>a CyBio FeliX liquid handler</li>
 <li>a Varioskan LUX plate reader</li>
@@ -57,7 +57,7 @@ The lab run above is from our work with MHS at CMU during the research preview. 
 <li>an AI agent — we used Claude during the preview</li>
 </ul>
 <p>I built the drivers from scratch for each instrument, plus the orchestration layer that lets an agent run the full protocol within device-declared bounds. That work took about <strong>eight hours</strong>. A vendor-built automation job of this kind typically takes several weeks. The instruments keep running their native software; MHS sits on top. No extra automation stack required.</p>
-<p>MHS is model-agnostic and not Claude-only. We used Claude as one MHS-compatible agent in this deployment, not as a requirement of the standard.</p>
+<p>MHS is not Claude-only. We used Claude as one compatible agent in this work, not as a requirement of the standard.</p>
 <div class="quarto-layout-panel" data-layout-ncol="3">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
@@ -123,7 +123,7 @@ The lab run above is from our work with MHS at CMU during the research preview. 
 </div>
 </div>
 <p>Each interface had its own sharp edges. The arm’s scheduler is a directory watcher that emits two different files per submitted XML job; MHS has to reconcile those into one clean result, usually within a second. The liquid handler exposes COM scripting with no modern SDK, so every usable method had to be worked out from vendor documentation or by exploring the interface until a driver actually ran. A single dispense cycle takes four to five minutes, and the volume error has to stay within about 5% or the curve is unusable. The plate reader is driven through its GUI the way a person would use it, with nothing to check against except what is on screen.</p>
-<p>Before this, a person sat through those steps: watching the arm’s log, checking that the plate was seated, deciding whether a curve was informative enough to keep. During the preview, the agent handled those operating decisions within the bounds the devices declare.</p>
+<p>Before this, a person sat through those steps: watching the arm’s log, checking that the plate was seated, deciding whether a curve was informative enough to keep. With MHS, the agent handled those operating decisions within the bounds the devices declare.</p>
 </section>
 <section id="safety-and-what-the-agent-did" class="level2">
 <h2 class="anchored" data-anchor-id="safety-and-what-the-agent-did">Safety and what the agent did</h2>
@@ -158,12 +158,12 @@ The lab run above is from our work with MHS at CMU during the research preview. 
 </div>
 </div>
 </div>
-<p>The headline for me is still the integration speed. From raw, non-automated equipment to a completed dilution curve — including one agent-driven rerun — was <strong>eight hours</strong>. We plan to share the instrument drivers built during the preview so others can reuse that integration work rather than starting from scratch. That is our own plan for the drivers, not a general release of MHS.</p>
+<p>The result that still stands out to me is the integration speed. From raw, non-automated equipment to a completed dilution curve — including one agent-driven rerun — was <strong>eight hours</strong>. We plan to share the instrument drivers we built during the preview so others can reuse that integration work rather than starting from scratch. That is our plan for the drivers, not a general release of MHS.</p>
 </section>
 <section id="what-is-next" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-next">What is next</h2>
-<p>In our lab, we plan to validate the system with real drug candidates and replace the dye signal with readouts of actual biological effect. We also plan to build additional drivers for instruments such as qPCR and microscopes, connect MCP-based agents to our MHS fleet, and keep cutting the time it takes to bring up a new device.</p>
-<p>Safety stays in the loop: more checks, continuous device-responsiveness monitoring, and clearer rules for when a high-risk decision still needs a person.</p>
+<p>In our lab, the next step is validating the system with real drug candidates and replacing the dye signal with readouts of actual biological effect. We also plan to build additional drivers for instruments such as qPCR and microscopes, connect MCP-based agents to our MHS fleet, and keep cutting the time it takes to bring up a new device.</p>
+<p>We will keep safety in the loop: more checks, continuous monitoring of whether devices still respond, and clearer rules for when a high-risk decision still needs a person.</p>
 </section>
 <section id="team" class="level2">
 <h2 class="anchored" data-anchor-id="team">Team</h2>
