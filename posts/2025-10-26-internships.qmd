@@ -5,9 +5,7 @@ date-modified: 2026-08-28
 categories: [career]
 ---
 
-I am looking for Summer 2027 research and applied-science internships on technology and biotechnology teams building deployable ML systems. My primary interests are **agentic scientific discovery**, **autonomous laboratories**, laboratory automation, and AI for science. I am also interested in generative models, reinforcement learning, ML systems, biological sequence design, protein representation learning, and biomarker discovery.
-
-I am particularly interested in roles involving:
+I am looking for Summer 2027 research and applied-science internships on teams building ML systems. I am particularly interested in:
 
 - Agentic scientific discovery and closed-loop experimental systems
 - Autonomous laboratories and laboratory automation
@@ -15,11 +13,13 @@ I am particularly interested in roles involving:
 - ML for drug discovery and protein design
 - Foundation models and generative models for biological sequences
 - Computational methods for single-cell analysis
+- Sim-to-real transfer, reinforcement learning, and MuJoCo for laboratory simulation
+- 3D simulation and world models
 - ML systems
 
-Most recently, I led CMU's work using the [Model Hardware Standard (MHS)](2026-08-27-mhs-preview.qmd) in the limited research preview. I built drivers and orchestration so an AI agent could coordinate a liquid handler, plate reader, robotic arm, and cameras for closed-loop dose-response experiments within device-declared safety bounds.
+Most recently, I led CMU's work using the [Model Hardware Standard (MHS)](2026-08-27-mhs-preview.qmd) in the limited research preview. I built drivers and orchestration so an AI agent could coordinate a liquid handler, plate reader, robotic arm, and cameras for closed-loop dose-response experiments within device-declared safety bounds. [*Nature* covered the experiments](https://www.nature.com/articles/d41586-026-02990-8) on 24 September 2026.
 
-I have experience developing PyTorch research code, running large-scale experiments on HPC clusters, integrating physical lab instruments with AI agents, and publishing in ChemBioChem, PLOS Computational Biology, and Bioinformatics Advances. I value reproducible research, strong baselines, and clear communication.
+I have experience developing PyTorch research code, running large-scale experiments on HPC clusters, integrating physical lab instruments with AI agents, and publishing in ChemBioChem, PLOS Computational Biology, and Bioinformatics Advances.
 
 If your team works at the intersection of machine learning, autonomous labs, and scientific discovery, I would be happy to connect.
 

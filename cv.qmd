@@ -10,17 +10,22 @@ School of Computer Science, Computational Biology Department
 Advisor: Dr. Jose Lugo-Martinez
 
 ## Research Focus
-My primary research focus is **agentic scientific discovery**, **autonomous laboratories**, and laboratory automation. I develop AI agents, reinforcement-learning methods, generative models, and ML systems for reliable scientific decision-making.
+Agentic scientific discovery, autonomous laboratories, and laboratory automation.
 
 ## Selected Research Experience
-- **Model Hardware Standard research preview (2026):** Led CMU's work using MHS; built drivers and orchestration for an AI agent to coordinate a liquid handler, plate reader, robotic arm, and cameras in closed-loop dose-response experiments. [Case study](posts/2026-08-27-mhs-preview.qmd)
+- **Model Hardware Standard research preview (2026):** Led CMU's work using MHS; built drivers and orchestration for an AI agent to coordinate a liquid handler, plate reader, robotic arm, and cameras in closed-loop dose-response experiments. [Case study](posts/2026-08-27-mhs-preview.qmd). Covered in [*Nature* News](https://www.nature.com/articles/d41586-026-02990-8) (24 September 2026).
 - **simPCL:** Developing a simulator and benchmark generator for planning and fault recovery in programmable cloud laboratories.
 - **AI Scientist Summer Workshop (2026):** Contributed talk on agentic fault recovery for autonomous orchestration of programmable cloud laboratories.
+- **Predictive Phenomics (2026):** Poster, *Agentic Recovery for Orchestration of Programmable Cloud Laboratories*, Washington, DC. [Agenda](https://pnnl.cventevents.com/event/b1510a8f-c5a0-4ae7-bd74-23a2cc86873a/agenda).
 
 ## Education
 - **PhD, Computational Biology** — Carnegie Mellon University (2024–2029)
 - **MSc, Computer Engineering** — Bilkent University (2021–2024, GPA: 3.9/4.0)
 - **BSc, Computer Engineering** — Shiraz University (2016–2021, GPA: 3.5/4.0)
+
+## Selected news coverage
+
+Glickman, K. (24 September 2026). [AI system helps lab devices 'talk' with each other — streamlining research](https://doi.org/10.1038/d41586-026-02990-8). *Nature*. The article opens with our lab’s MHS experiments at CMU.
 
 ## Selected Publications
 - Ozden, F., **Barazandeh, S.**, et al. (2026). RNAGEN: A generative adversarial network-based model to generate synthetic RNA sequences to target proteins. *ChemBioChem*, 27(13): e202500445.
@@ -28,7 +33,7 @@ My primary research focus is **agentic scientific discovery**, **autonomous labo
 - Tabrizi, S.S., **Barazandeh, S.**, et al. (2025). RNAtranslator: Modeling protein-conditional RNA design as sequence-to-sequence natural language translation. *PLOS Computational Biology*, 21(10): e1013541.
 
 ## Seeking
-Summer 2027 research and applied-science internships on teams building and deploying ML systems, primarily for agentic scientific discovery, autonomous laboratories, lab automation, and AI for science, and also in generative AI, reinforcement learning, and ML systems.
+Summer 2027 research and applied-science internships in agentic scientific discovery, autonomous laboratories, generative AI, reinforcement learning, and ML systems.
 
 [Download full CV (PDF)](files/Sina_Barazandeh_CV.pdf)
 

@@ -28,6 +28,13 @@ Tabrizi, S.S., **Barazandeh, S.**, Aghdam, H.H., Cicek, A.E. (2025). RNAtranslat
 [[Paper]](https://doi.org/10.1371/journal.pcbi.1013541) [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2025.03.04.641375) [[Code]](https://github.com/ciceklab/RNAtranslator) [[Model]](https://huggingface.co/SobhanShukueian/rnatranslator)
 
 
+## Selected news coverage
+
+Glickman, K. (24 September 2026). AI system helps lab devices 'talk' with each other — streamlining research. *Nature*.  
+[[Article]](https://doi.org/10.1038/d41586-026-02990-8)
+
+The piece opens with the CMU team’s Model Hardware Standard experiments.
+
 ## Other Publications
 
 **2018**

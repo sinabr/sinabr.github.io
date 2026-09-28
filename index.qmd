@@ -12,11 +12,9 @@ image: "images/sina.jpg"
 ::: {.g-col-8}
 I am a PhD student in the **School of Computer Science** at **Carnegie Mellon University** (Computational Biology Department), advised by **Dr. Jose Lugo-Martinez**.
 
-I build machine-learning systems for **agentic scientific discovery** and **autonomous laboratories**. My work combines AI agents, reinforcement learning, generative models, and ML systems to plan experiments, operate physical equipment safely, recover from failures, and learn from experimental results.
+Most recently, I led CMU's work using the [Model Hardware Standard (MHS)](posts/2026-08-27-mhs-preview.qmd) in the limited research preview: I built instrument drivers and orchestration so an AI agent could coordinate a liquid handler, plate reader, robotic arm, and cameras for closed-loop dose-response experiments. [*Nature* covered the work](https://www.nature.com/articles/d41586-026-02990-8) on 24 September 2026.
 
-Most recently, I led CMU's work using the [Model Hardware Standard (MHS)](posts/2026-08-27-mhs-preview.qmd) in the limited research preview: I built instrument drivers and orchestration so an AI agent could coordinate a liquid handler, plate reader, robotic arm, and cameras for closed-loop dose-response experiments.
-
-I am seeking **Summer 2027 research and applied-science internships** on teams building and deploying ML systems, primarily for agentic scientific discovery, autonomous laboratories, lab automation, and AI for science, and also in generative AI, reinforcement learning, and ML systems.
+I am seeking **Summer 2027** research and applied-science internships in agentic scientific discovery, autonomous laboratories, generative AI, reinforcement learning, and ML systems.
 
 [[Resume (PDF)]](files/Sina_Barazandeh_Resume.pdf) · [[Academic CV (PDF)]](files/Sina_Barazandeh_CV.pdf)
 
@@ -30,20 +28,20 @@ I am seeking **Summer 2027 research and applied-science internships** on teams b
 
 ## Research Highlights
 
-- **Autonomous Laboratories / MHS:** Led CMU's work using MHS in the research preview; built drivers and orchestration for a liquid handler, plate reader, robotic arm, and cameras
-- **Agentic Scientific Discovery:** AI agents for closed-loop experiments, autonomous orchestration, and fault recovery
-- **Simulation & Benchmarking:** simPCL — simulator and benchmark generator for programmable cloud laboratories
-- **Generative Models:** Sequence design with GANs and seq2seq models (UTRGAN, RNAtranslator)
+- **Autonomous Laboratories / MHS:** Drivers and orchestration for a liquid handler, plate reader, robotic arm, and cameras. [Case study](posts/2026-08-27-mhs-preview.qmd)
+- **Simulation & Benchmarking:** simPCL, a simulator and benchmark generator for planning and fault recovery in programmable cloud laboratories. I am interested in sim-to-real transfer, reinforcement learning in MuJoCo, and 3D world models for laboratory simulation.
+- **Generative Models:** Sequence design with GANs and seq2seq models (UTRGAN, RNAtranslator, RNAGEN)
 - **Reinforcement Learning:** Policy optimization for biomarker discovery under structure-aware rewards
-- **Representation Learning:** Evolution-informed protein subgraph features for downstream prediction
 - **ML Systems:** FlashAttention and PagedAttention in MiniTorch (LLM Systems coursework)
 
 ## Recent News
 
-- **Aug 2026:** We used the [Model Hardware Standard (MHS)](https://www.anthropic.com/news/model-hardware-standard-research-preview) in the research preview (announced by Anthropic) so an AI agent could operate a liquid handler, plate reader, robotic arm, and cameras. Serial-dilution dose-response experiments ran ~3× faster. I led this work at CMU. [Read the post.](posts/2026-08-27-mhs-preview.qmd) Also covered by [CMU SCS on LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7498829877215842304/?actorCompanyId=28172194) and [X](https://x.com/SCSatCMU/status/2093063825171853484).
+- **Sep 2026:** *Nature* News covered the MHS work: [AI system helps lab devices 'talk' with each other — streamlining research](https://www.nature.com/articles/d41586-026-02990-8). The article opens in our lab and describes the team’s work with Jose Lugo-Martinez.
+- **Sep 2026:** Presented the poster *Agentic Recovery for Orchestration of Programmable Cloud Laboratories* at [2026 Predictive Phenomics](https://pnnl.cventevents.com/event/b1510a8f-c5a0-4ae7-bd74-23a2cc86873a/agenda), Washington, DC (September 22–24).
+- **Aug 2026:** Anthropic’s [MHS research preview](https://www.anthropic.com/news/model-hardware-standard-research-preview) included this deployment. Serial-dilution dose-response experiments ran ~3× faster. I led the work at CMU. [Read the post.](posts/2026-08-27-mhs-preview.qmd) Also covered by [CMU SCS on LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7498829877215842304/?actorCompanyId=28172194) and [X](https://x.com/SCSatCMU/status/2093063825171853484).
 - Contributed talk at the [AI Scientist Summer Workshop](https://ai-scientist-workshop.github.io/#about), Microsoft Research, Cambridge, MA (Aug 2026): *Agentic Fault Recovery for Autonomous Orchestration of Programmable Cloud Laboratories*
-- Attended SciFM 2026 (Chicago, IL)
-- Two publications in 2025 (PLOS Computational Biology, Bioinformatics Advances) and RNAGEN in ChemBioChem (2026)
+- Poster on simPCL at SciFM 2026 (Chicago, IL)
+- Publications in 2025 (*PLOS Computational Biology*, *Bioinformatics Advances*) and RNAGEN in *ChemBioChem* (2026)
 - Attended the SenNet Annual Meeting (Washington, DC, 2025) and PathVisions (San Diego, 2025)
 
 See my [projects](projects.qmd), [publications](publications.qmd), and [CV](cv.qmd) for more details.

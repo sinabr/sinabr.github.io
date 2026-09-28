@@ -11,6 +11,6 @@ My lab-automation work includes:
 - agent-driven evaluation of dose-response curves and reruns with an adjusted concentration range; and
 - **simPCL**, a simulator and benchmark generator for planning and fault recovery in programmable cloud laboratories.
 
-During the limited [Model Hardware Standard (MHS)](https://www.anthropic.com/news/model-hardware-standard-research-preview) research preview (announced by Anthropic), I led CMU's work using MHS and built the drivers and orchestration for those physical instruments. [Read the full case study.](posts/2026-08-27-mhs-preview.qmd)
+During the limited [Model Hardware Standard (MHS)](https://www.anthropic.com/news/model-hardware-standard-research-preview) research preview (announced by Anthropic), I led CMU's work using MHS and built the drivers and orchestration for those physical instruments. [Read the full case study.](posts/2026-08-27-mhs-preview.qmd) [*Nature* covered the experiments](https://www.nature.com/articles/d41586-026-02990-8) on 24 September 2026.
 
 Before CMU, I completed my Master's at Bilkent University under Dr. A. Ercument Cicek, where I developed generative models for biological sequence optimization. My work has been published in venues including ChemBioChem, PLOS Computational Biology, and Bioinformatics Advances.
