@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3c9c489b3365030a08823a85c71cd1a4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-7100700a5d4657facf49b32369185e6d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -170,7 +170,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#autonomous-laboratories-and-agentic-scientific-discovery" id="toc-autonomous-laboratories-and-agentic-scientific-discovery" class="nav-link active" data-scroll-target="#autonomous-laboratories-and-agentic-scientific-discovery">Autonomous Laboratories and Agentic Scientific Discovery</a></li>
   <li><a href="#generative-and-foundation-models" id="toc-generative-and-foundation-models" class="nav-link" data-scroll-target="#generative-and-foundation-models">Generative and Foundation Models</a></li>
   <li><a href="#reinforcement-learning-and-decision-making" id="toc-reinforcement-learning-and-decision-making" class="nav-link" data-scroll-target="#reinforcement-learning-and-decision-making">Reinforcement Learning and Decision-Making</a></li>
-  <li><a href="#representation-learning" id="toc-representation-learning" class="nav-link" data-scroll-target="#representation-learning">Representation Learning</a></li>
   <li><a href="#ml-systems" id="toc-ml-systems" class="nav-link" data-scroll-target="#ml-systems">ML Systems</a></li>
   </ul>
 </nav>
@@ -201,8 +200,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="autonomous-laboratories-and-agentic-scientific-discovery" class="level2">
 <h2 class="anchored" data-anchor-id="autonomous-laboratories-and-agentic-scientific-discovery">Autonomous Laboratories and Agentic Scientific Discovery</h2>
 <p>Autonomous laboratories need more than a scripted protocol. Instruments disagree on interfaces, runs fail in physical ways, and the next useful experiment often depends on the last curve or plate. I work on agentic systems that orchestrate multi-instrument workflows, monitor readiness and safety conditions, and decide whether to accept a result or intervene — for example compressing a concentration range after a saturated dose-response curve.</p>
-<p>During the limited <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard (MHS)</a> research preview (announced by Anthropic), I led Carnegie Mellon’s work using MHS so an AI agent could operate a liquid handler, plate reader, robotic arm, and cameras for serial-dilution dose-response experiments. MHS is a new standard for AI agents to safely operate physical equipment; the specification shared in the preview is provisional. MHS is model-agnostic, and we used Claude as one agent in this deployment. I built the drivers and orchestration layer. <a href="./posts/2026-08-27-mhs-preview.html">Read the post.</a></p>
-<p>The same questions show up in programmable cloud laboratories, where evaluating agents on real hardware is slow and expensive. I am building <a href="./projects/pcl_simulation.html"><strong>simPCL</strong></a>, a simulator and benchmark generator for studying planning, fault recovery, and closed-loop scientific discovery under controlled scenarios. Related work includes <a href="./projects/agentic_lab_automation.html">agentic orchestration and fault recovery</a> and a contributed talk at the AI Scientist Summer Workshop (Microsoft Research, 2026).</p>
+<p>During the limited <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard (MHS)</a> research preview (announced by Anthropic), I led Carnegie Mellon’s work using MHS so an AI agent could operate a liquid handler, plate reader, robotic arm, and cameras for serial-dilution dose-response experiments. The preview specification is provisional and model-agnostic; we used Claude as one agent. I built the drivers and orchestration layer. <a href="./posts/2026-08-27-mhs-preview.html">Read the post.</a> <a href="https://www.nature.com/articles/d41586-026-02990-8"><em>Nature</em> reported on the experiments</a> on 24 September 2026.</p>
+<p>The same questions show up in programmable cloud laboratories, where evaluating agents on real hardware is slow and expensive. I am building <a href="./projects/pcl_simulation.html"><strong>simPCL</strong></a>, a simulator and benchmark generator for studying planning, fault recovery, and closed-loop scientific discovery under controlled scenarios. Related work includes <a href="./projects/agentic_lab_automation.html">agentic orchestration and fault recovery</a> and a contributed talk at the AI Scientist Summer Workshop (Microsoft Research, 2026). I am interested in extending this line toward 3D laboratory simulation, sim-to-real transfer, and reinforcement learning in MuJoCo, including world models for those environments.</p>
 </section>
 <section id="generative-and-foundation-models" class="level2">
 <h2 class="anchored" data-anchor-id="generative-and-foundation-models">Generative and Foundation Models</h2>
@@ -210,16 +209,11 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="reinforcement-learning-and-decision-making" class="level2">
 <h2 class="anchored" data-anchor-id="reinforcement-learning-and-decision-making">Reinforcement Learning and Decision-Making</h2>
-<p>I apply reinforcement learning to decision problems such as selecting informative gene panels for senescence biomarker discovery. This involves policy optimization, structure-aware rewards, and evaluation under positive-unlabeled settings common in biological data. The same decision-making tools — when to stop, when to rerun, what to try next — carry into agentic laboratory workflows.</p>
-</section>
-<section id="representation-learning" class="level2">
-<h2 class="anchored" data-anchor-id="representation-learning">Representation Learning</h2>
-<p>I develop graph-based protein representations that combine structural subgraph features with evolutionary information, with the goal of representations that are accurate and interpretable on downstream tasks such as pathogenicity prediction.</p>
+<p>I apply reinforcement learning to decision problems such as selecting informative gene panels for senescence biomarker discovery. This involves policy optimization, structure-aware rewards, and evaluation under positive-unlabeled settings common in biological data.</p>
 </section>
 <section id="ml-systems" class="level2">
 <h2 class="anchored" data-anchor-id="ml-systems">ML Systems</h2>
 <p>I also work on LLM systems topics in coursework, including extending FlashAttention and PagedAttention to MiniTorch. See the <a href="./projects.html">projects</a> page for details.</p>
-<p>All projects emphasize reproducible code, strong baselines, and clear communication of methods and limitations.</p>
 
 
 </section>

@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3c9c489b3365030a08823a85c71cd1a4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-7100700a5d4657facf49b32369185e6d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -230,9 +230,9 @@ window.Quarto = {
 </header>
 
 
-<p>During the limited <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard (MHS)</a> research preview (announced by Anthropic), I led Carnegie Mellon’s work using MHS. The Model Hardware Standard is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. The specification shared in the preview is provisional. MHS is model-agnostic; we used Claude as one compatible agent in this work.</p>
-<p>We used MHS to let an AI agent operate a liquid handler, plate reader, robotic arm, and cameras across three computers with incompatible interfaces. Serial-dilution dose-response experiments ran about three times faster than our prior workflow. This work is featured in the MHS announcement; CMU SCS also posted on <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7498829877215842304/?actorCompanyId=28172194">LinkedIn</a> and <a href="https://x.com/SCSatCMU/status/2093063825171853484">X</a>.</p>
-<p>My focus was the AI orchestration and software integration. I developed the MHS drivers for all three instruments and the layer that let an agent — we used Claude as one compatible agent in this work — run the protocol, reject a saturated curve, and rerun with a lower maximum concentration (<span class="math inline">\(R^2 &gt; 0.98\)</span>), within device-declared safety bounds. Integration took about eight hours, compared with the weeks of per-instrument integration that motivated the work.</p>
+<p>During the limited <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard (MHS)</a> research preview (announced by Anthropic), I led Carnegie Mellon’s work using MHS. The preview specification is provisional and model-agnostic; we used Claude as one agent.</p>
+<p>An agent operated a liquid handler, plate reader, robotic arm, and cameras across three computers with incompatible interfaces. Serial-dilution dose-response experiments ran about three times faster than our prior workflow. The work is in the MHS announcement and in <a href="https://www.nature.com/articles/d41586-026-02990-8"><em>Nature</em> (24 September 2026)</a>; CMU SCS also posted on <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7498829877215842304/?actorCompanyId=28172194">LinkedIn</a> and <a href="https://x.com/SCSatCMU/status/2093063825171853484">X</a>.</p>
+<p>I wrote the MHS drivers for all three instruments and the orchestration layer. The agent ran the protocol, rejected a saturated curve, and reran with a lower maximum concentration (<span class="math inline">\(R^2 &gt; 0.98\)</span>), within device-declared safety bounds. Integration took about eight hours, compared with weeks of per-instrument integration.</p>
 <p>Full write-up, photos, and video: <a href="../posts/2026-08-27-mhs-preview.html">Safe closed-loop agentic dose-response experiments using the Model Hardware Standard</a>.</p>
 
 

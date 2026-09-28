@@ -19,9 +19,9 @@
 
 
 
-<p>During the limited <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard (MHS)</a> research preview (announced by Anthropic), I led Carnegie Mellon’s work using MHS. The Model Hardware Standard is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. The specification shared in the preview is provisional. MHS is model-agnostic; we used Claude as one compatible agent in this work.</p>
-<p>We used MHS to let an AI agent operate a liquid handler, plate reader, robotic arm, and cameras across three computers with incompatible interfaces. Serial-dilution dose-response experiments ran about three times faster than our prior workflow. This work is featured in the MHS announcement; CMU SCS also posted on <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7498829877215842304/?actorCompanyId=28172194">LinkedIn</a> and <a href="https://x.com/SCSatCMU/status/2093063825171853484">X</a>.</p>
-<p>My focus was the AI orchestration and software integration. I developed the MHS drivers for all three instruments and the layer that let an agent — we used Claude as one compatible agent in this work — run the protocol, reject a saturated curve, and rerun with a lower maximum concentration (<img src="https://latex.codecogs.com/png.latex?R%5E2%20%3E%200.98">), within device-declared safety bounds. Integration took about eight hours, compared with the weeks of per-instrument integration that motivated the work.</p>
+<p>During the limited <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Model Hardware Standard (MHS)</a> research preview (announced by Anthropic), I led Carnegie Mellon’s work using MHS. The preview specification is provisional and model-agnostic; we used Claude as one agent.</p>
+<p>An agent operated a liquid handler, plate reader, robotic arm, and cameras across three computers with incompatible interfaces. Serial-dilution dose-response experiments ran about three times faster than our prior workflow. The work is in the MHS announcement and in <a href="https://www.nature.com/articles/d41586-026-02990-8"><em>Nature</em> (24 September 2026)</a>; CMU SCS also posted on <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7498829877215842304/?actorCompanyId=28172194">LinkedIn</a> and <a href="https://x.com/SCSatCMU/status/2093063825171853484">X</a>.</p>
+<p>I wrote the MHS drivers for all three instruments and the orchestration layer. The agent ran the protocol, rejected a saturated curve, and reran with a lower maximum concentration (<img src="https://latex.codecogs.com/png.latex?R%5E2%20%3E%200.98">), within device-declared safety bounds. Integration took about eight hours, compared with weeks of per-instrument integration.</p>
 <p>Full write-up, photos, and video: <a href="../posts/2026-08-27-mhs-preview.html">Safe closed-loop agentic dose-response experiments using the Model Hardware Standard</a>.</p>
 
 
@@ -56,6 +56,7 @@
 <li>closed-loop decisions in which measurements determine the next experiment.</li>
 </ul>
 <p>simPCL complements our work on <a href="../projects/mhs_dose_response.html">physical laboratory automation using MHS</a>: real equipment demonstrates what an agent can accomplish, while simulation makes it possible to evaluate many scenarios reproducibly before using scarce laboratory time.</p>
+<p>I am interested in taking this further into 3D laboratory simulation: sim-to-real transfer, reinforcement learning in MuJoCo, and world models for those environments.</p>
 </section>
 <section id="status" class="level2">
 <h2 class="anchored" data-anchor-id="status">Status</h2>
@@ -116,7 +117,7 @@
 </section>
 <section id="approach" class="level2">
 <h2 class="anchored" data-anchor-id="approach">Approach</h2>
-<p>I am developing agentic systems that combine reinforcement learning with large language models for autonomous orchestration and fault recovery. The motivating application is programmable cloud laboratories, but the core problems are agent decision-making, recovery under failure, and reliable execution of long-horizon workflows.</p>
+<p>I am developing agentic systems that combine reinforcement learning with large language models for autonomous orchestration and fault recovery.</p>
 <p>This work asks how an agent should detect that a protocol has deviated from plan, choose a safe recovery action, and resume without repeating completed physical operations. It connects <a href="../projects/pcl_simulation.html">simPCL</a>, which enables controlled offline evaluation, with our <a href="../projects/mhs_dose_response.html">MHS physical-laboratory work</a>, which tests closed-loop operation on real equipment.</p>
 </section>
 <section id="status" class="level2">
@@ -132,40 +133,6 @@
   <category>decision-making</category>
   <guid>https://sinabr.github.io/projects/agentic_lab_automation.html</guid>
   <pubDate>Sat, 01 Mar 2025 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Evolution-Informed Structural Subgraph Protein Representations</title>
-  <link>https://sinabr.github.io/projects/protein_subgraph.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="problem" class="level2">
-<h2 class="anchored" data-anchor-id="problem">Problem</h2>
-<p>Foundation models like ESM-2 provide powerful protein embeddings, while explicit structural and evolutionary features may add complementary information for function prediction.</p>
-</section>
-<section id="approach" class="level2">
-<h2 class="anchored" data-anchor-id="approach">Approach</h2>
-<p>We developed graph-based protein representations using structural subgraph counts combined with evolutionary features. The method constructs protein graphs from structures and extracts interpretable features that capture local geometry and conservation patterns.</p>
-</section>
-<section id="evaluation" class="level2">
-<h2 class="anchored" data-anchor-id="evaluation">Evaluation</h2>
-<p>We are evaluating whether structural and evolutionary features improve pathogenicity prediction over ESM-2 and GNN baselines. The representation also provides interpretable features that domain experts can analyze.</p>
-</section>
-<section id="status" class="level2">
-<h2 class="anchored" data-anchor-id="status">Status</h2>
-<p>Manuscript in preparation. Code includes baseline comparisons and evaluation protocols. Code and data will be released.</p>
-
-
-</section>
-
- ]]></description>
-  <category>protein-engineering</category>
-  <category>graph-methods</category>
-  <category>foundation-models</category>
-  <guid>https://sinabr.github.io/projects/protein_subgraph.html</guid>
-  <pubDate>Sat, 01 Feb 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Reinforcement Learning for Senescence Biomarker Discovery</title>
